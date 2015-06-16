@@ -1,4 +1,136 @@
 # awesome-rnn
 Recurrent Neural Network - A curated list of resources dedicated to RNN
 
+## Table of Contents
+
+ - [Theory](#theory)
+   - [Lectures](#lectures)
+   - [Books / Thesis](#books--thesis)
+   - [Network Variants](#network-variants)
+ - [Applications](#applications)
+   - [Language Modeling](#language-modeling)
+   - [Speech Recognition](#speech-recognition)
+   - [Machine Translation](#machine-translation)
+   - [Image Captioning](#image-captioning)
+   - [Video Captioning](#video-captioning)
+   - [Question Answering](#question-answering)
+ - [Codes](#codes)
+ - [Datasets](#datasets)
+ 
+## Theory
+### Lectures
+* Stanford NLP ([CS224d](http://cs224d.stanford.edu/index.html)) by Richard Socher
+  * [Lecture Note 3](http://cs224d.stanford.edu/lecture_notes/LectureNotes3.pdf) : neural network basics
+  * [Lecture Note 4](http://cs224d.stanford.edu/lecture_notes/LectureNotes4.pdf) : RNN language models, bi-directional RNN, GRU, LSTM
+* Oxford [Machine Learning](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/) by Nando de Freitas
+  * [Lecture 12](https://www.youtube.com/watch?v=56TYLaQN4N8) : Recurrent neural networks and LSTMs
+  * [Lecture 13](https://www.youtube.com/watch?v=-yX1SYeDHbg) : (guest lecture) Alex Graves on Hallucination with RNNs
+
+### Books / Thesis
+* Alex Graves (2008)
+  * [Supervised Sequence Labelling with Recurrent Neural Networks](http://www.cs.toronto.edu/~graves/preprint.pdf)
+* Tomas Mikolov (2012)
+  * [Statistical Language Models based on Neural Networks](http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf)
+* Ilya Sutskever (2013)
+  * [Training Recurrent Neural Networks](http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf)
+* Richard Socher (2014)
+  * [Recursive Deep Learning for Natural Language Processing and Computer Vision](http://nlp.stanford.edu/~socherr/thesis.pdf)
+
+### Network Variants
+* Bi-directional RNN [[Paper](http://www.di.ufpe.br/~fnj/RNA/bibliografia/BRNN.pdf)]
+  * Mike Schuster and Kuldip K. Paliwal, *Bidirectional Recurrent Neural Networks*, Trans. on Signal Processing 1997
+* LSTM [[Paper](http://web.eecs.utk.edu/~itamar/courses/ECE-692/Bobby_paper1.pdf)]
+  * Sepp Hochreiter and Jurgen Schmidhuber, *Long Short-Term Memory*, Neural Computation 1997
+* GRU (Gated Recurrent Unit) [[Paper](http://arxiv.org/pdf/1406.1078v3.pdf)]
+  * Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation*, arXiv:1406.1078 / EMNLP 2014
+* GFRNN [[Paper-arXiv](http://arxiv.org/pdf/1502.02367v3.pdf)] [[Paper-ICML](http://jmlr.org/proceedings/papers/v37/chung15.pdf)] [[Supplementary](http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf)]
+  * Junyoung Chung, Caglar Gulcehre, Kyunghyun Cho, Yoshua Bengio, *Gated Feedback Recurrent Neural Networks*, arXiv:1502.02367 / ICML 2015
+
+
+## Applications
+
+### Language Modeling
+* Tomas Mikolov, Martin Karafiat, Lukas Burget, Jan "Honza" Cernocky, Sanjeev Khudanpur, *Recurrent Neural Network based Language Model*, Interspeech 2010 [[Paper](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)]
+* Tomas Mikolov, Stefan Kombrink, Lukas Burget, Jan "Honza" Cernocky, Sanjeev Khudanpur, *Extensions of Recurrent Neural Network Language Model*, ICASSP 2011 [[Paper](http://www.fit.vutbr.cz/research/groups/speech/publi/2011/mikolov_icassp2011_5528.pdf)]
+* Stefan Kombrink, Tomas Mikolov, Martin Karafiat, Lukas Burget, *Recurrent Neural Network based Language Modeling in Meeting Recognition*, Interspeech 2011 [[Paper](http://www.fit.vutbr.cz/~imikolov/rnnlm/ApplicationOfRNNinMeetingRecognition_IS2011.pdf)]
+
+### Speech Recognition
+* Geoffrey Hinton, Li Deng, Dong Yu, George E. Dahl, Abdel-rahman Mohamed, Navdeep Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara N. Sainath, and Brian Kingsbury, *Deep Neural Networks for Acoustic Modeling in Speech Recognition*, IEEE Signam Processing Magazine 2012 [[Paper](http://cs224d.stanford.edu/papers/maas_paper.pdf)]
+* Alex Graves, Abdel-rahman Mohamed, and Geoffrey Hinton, *Speech Recognition with Deep Recurrent Neural Networks*, arXiv:1303.5778 / ICASSP 2013 [[Paper](http://www.cs.toronto.edu/~fritz/absps/RNN13.pdf)]
+
+### Machine Translation
+* Univ. Montreal [[Paper](http://arxiv.org/pdf/1406.1078v3.pdf)]
+  * Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation*, arXiv:1406.1078 / EMNLP 2014
+* Google [[Paper](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)]
+  * Ilya Sutskever, Oriol Vinyals, and Quoc V. Le, *Sequence to Sequence Learning with Neural Networks*, arXiv:1409.3215 / NIPS 2014
+* Univ. Montreal [[Paper](http://arxiv.org/pdf/1409.0473v6.pdf)]
+  * Dzmitry Bahdanau, KyungHyun Cho, and Yoshua Bengio, *Neural Machine Translation by Jointly Learning to Align and Translate*, arXiv:1409.0473 / ICLR 2015
+
+### Image Captioning
+* Baidu + UCLA [[Web](http://www.stat.ucla.edu/~junhua.mao/m-RNN.html)] [[Paper-arxiv1](http://arxiv.org/pdf/1410.1090v1.pdf)], [[Paper-ICLR](http://arxiv.org/pdf/1412.6632v4.pdf)]
+  * Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, and Alan L. Yuille, *Explain Images with Multimodal Recurrent Neural Networks*, arXiv:1410.1090
+  * Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Zhiheng Huang, and Alan L. Yuille, *Deep Captioning with Multimodal Recurrent Neural Networks (m-RNN)*, arXiv:1412.6632 / ICLR 2015
+* Univ. Toronto [[Paper](http://arxiv.org/pdf/1411.2539v1.pdf)] [[Web demo](http://deeplearning.cs.toronto.edu/i2t)]
+  * Ryan Kiros, Ruslan Salakhutdinov, and Richard S. Zemel, *Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models*, arXiv:1411.2539 / TACL 2015
+* Berkeley [[Web](http://jeffdonahue.com/lrcn/)] [[Paper](http://arxiv.org/pdf/1411.4389v3.pdf)]
+  * Jeff Donahue, Lisa Anne Hendricks, Sergio Guadarrama, Marcus Rohrbach, Subhashini Venugopalan, Kate Saenko, and Trevor Darrell, *Long-term Recurrent Convolutional Networks for Visual Recognition and Description*, arXiv:1411.4389 / CVPR 2015
+* Google [[Paper](http://arxiv.org/pdf/1411.4555v2.pdf)]
+  * Oriol Vinyals, Alexander Toshev, Samy Bengio, and Dumitru Erhan, *Show and Tell: A Neural Image Caption Generator*, arXiv:1411.4555 / CVPR 2015
+* Microsoft [[Paper](http://arxiv.org/pdf/1411.4952v3.pdf)]
+  * Hao Fang, Saurabh Gupta, Forrest Iandola, Rupesh Srivastava, Li Deng, Piotr Dollar, Jianfeng Gao, Xiaodong He, Margaret Mitchell, John C. Platt, Lawrence Zitnick, and Geoffrey Zweig, *From Captions to Visual Concepts and Back*, arXiv:1411.4952 / CVPR 2015
+* Microsoft [[Paper-arxiv](http://arxiv.org/pdf/1411.5654v1.pdf)], [[Paper-CVPR](http://www.cs.cmu.edu/~xinleic/papers/cvpr15_rnn.pdf)]
+  * Xinlei Chen, and C. Lawrence Zitnick, *Learning a Recurrent Visual Representation for Image Caption Generation*
+  * Xinlei Chen, and C. Lawrence Zitnick, *Mind’s Eye: A Recurrent Visual Representation for Image Caption Generation*, CVPR 2015
+* Univ. Toronto + Univ. Montreal [[Web](http://kelvinxu.github.io/projects/capgen.html)] [[Paper](http://www.cs.toronto.edu/~zemel/documents/captionAttn.pdf)]
+  * Kelvin Xu, Jimmy Lei Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard S. Zemel, and Yoshua Bengio, *Show, Attend, and Tell: Neural Image Caption Generation with Visual Attention*, arXiv:1502.03044 / ICML 2015
+* Idiap + EPFL + Facebook [[Paper](http://arxiv.org/pdf/1502.03671v2.pdf)]
+  * Remi Lebret, Pedro O. Pinheiro, and Ronan Collobert, *Phrase-based Image Captioning*, arXiv:1502.03671 / ICML 2015
+
+### Video Captioning
+* Berkeley [[Web](http://jeffdonahue.com/lrcn/)] [[Paper](http://arxiv.org/pdf/1411.4389v3.pdf)]
+  * Jeff Donahue, Lisa Anne Hendricks, Sergio Guadarrama, Marcus Rohrbach, Subhashini Venugopalan, Kate Saenko, and Trevor Darrell, *Long-term Recurrent Convolutional Networks for Visual Recognition and Description*, arXiv:1411.4389 / CVPR 2015
+* UT Austin + UML + Berkeley [[Paper](http://arxiv.org/pdf/1412.4729v3.pdf)]
+  * Subhashini Venugopalan, Huijuan Xu, Jeff Donahue, Marcus Rohrbach, Raymond Mooney, and Kate Saenko, *Translating Videos to Natural Language Using Deep Recurrent Neural Networks*, arXiv:1412.4729
+* Microsoft [[Paper](http://arxiv.org/pdf/1505.01861v1.pdf)]
+  * Yingwei Pan, Tao Mei, Ting Yao, Houqiang Li, and Yong Rui, *Joint Modeling Embedding and Translation to Bridge Video and Language*, arXiv:1505.01861
+* UT Austin + Berkeley + UML [[Paper](http://arxiv.org/pdf/1505.00487v2.pdf)]
+  * Subhashini Venugopalan, Marcus Rohrbach, Jeff Donahue, Raymond Mooney, Trevor Darrell, and Kate Saenko, *Sequence to Sequence--Video to Text*, arXiv:1505.00487
+
+### Question Answering
+* MSR + Virginia Tech. [[Web](http://www.visualqa.org/)] [[Paper](http://arxiv.org/pdf/1505.00468v1.pdf)]
+  * Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C. Lawrence Zitnick, and Devi Parikh, *VQA: Visual Question Answering*, arXiv:1505.00468
+* Univ. Toronto [[Paper](http://arxiv.org/pdf/1505.02074v1.pdf)] [[Dataset](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/)]
+  * Mengye Ren, Ryan Kiros, and Richard Zemel, *Image Question Answering: A Visual Semantic Embedding Model and a New Dataset*, arXiv:1505.02074 / ICML 2015 deep learning workshop
+* Baidu + UCLA [[Paper](http://arxiv.org/pdf/1505.05612v1.pdf)] [[Dataset]()]
+  * Hauyuan Gao, Junhua Mao, Jie Zhou, Zhiheng Huang, Lei Wang, and Wei Xu, *Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question Answering*, arXiv:1505.05612
+
+## Codes
+* [Theano](http://deeplearning.net/software/theano/) - Python
+  * Simple IPython [tutorial on Theano](http://nbviewer.ipython.org/github/craffel/theano-tutorial/blob/master/Theano%20Tutorial.ipynb)
+  * [Deep Learning Tutorials](http://www.deeplearning.net/tutorial/)
+    * [RNN for semantic parsing of speech](http://www.deeplearning.net/tutorial/rnnslu.html#rnnslu)
+    * [LSTM network for sentiment analysis](http://www.deeplearning.net/tutorial/lstm.html#lstm)
+  * [Keras](https://github.com/fchollet/keras) : Theano-based Deep Learning Library
+  * [theano-rnn](https://github.com/gwtaylor/theano-rnn) by Graham Taylor
+  * [Passage](https://github.com/IndicoDataSolutions/Passage) : Library for text analysis with RNNs
+* [Caffe](https://github.com/BVLC/caffe) - C++ with MATLAB/Python wrappers
+  * [LRCN](http://jeffdonahue.com/lrcn/) by Jeff Donahue
+* [Torch](http://torch.ch/) - Lua
+  * [char-rnn](https://github.com/karpathy/char-rnn) by Andrej Karpathy : multi-layer RNN/LSTM/GRU for training/sampling from character-level language models
+* Etc.
+  * [RNNLIB](http://sourceforge.net/p/rnnl/wiki/Home/) by Alex Graves : C++ based LSTM library
+  * [RNNLM](http://rnnlm.org/) by Tomas Mikolov : C++ based simple code
+  * [neuraltalk](https://github.com/karpathy/neuraltalk) by Andrej Karpathy : numpy-based RNN/LSTM implementation
+  * [gist](https://gist.github.com/karpathy/587454dc0146a6ae21fc) by Andrej Karpathy : raw numpy code that implements an efficient batched LSTM
+
+## Datasets
+* Image Captioning
+  * [Flickr 8k](http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html)
+  * [Flickr 30k](http://shannon.cs.illinois.edu/DenotationGraph/)
+  * [Microsoft COCO](http://mscoco.org/home/)
+* Image Question Answering - all based on MS COCO images
+  * [VQA](http://www.visualqa.org/)
+  * [Image QA](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/)
+  * [Multilingual Image QA] : in Chinese, with English translation
+
 Maintainers - [Jiwon Kim](http://github.com/kjw0612), [Myungsub Choi](http://github.com/myungsub)
