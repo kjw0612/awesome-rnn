@@ -1,5 +1,8 @@
 # Awesome Recurrent Neural Networks
-Recurrent Neural Network - A curated list of resources dedicated to RNN
+A curated list of resources dedicated to recurrent neural networks (closely related to *deep learning*).
+
+## Contributing
+Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-vision/pulls) or email mschoi91@hanmail.net to add links.
 
 ## Table of Contents
 
