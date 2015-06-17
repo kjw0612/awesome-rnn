@@ -2,7 +2,7 @@
 A curated list of resources dedicated to recurrent neural networks (closely related to *deep learning*).
 
 ## Contributing
-Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-vision/pulls) or email mschoi91@hanmail.net to add links.
+Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-vision/pulls) or email myungsub91@gmail.com to add links.
 
 ## Table of Contents
 
@@ -101,7 +101,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 
 ### Question Answering
 * MSR + Virginia Tech. [[Web](http://www.visualqa.org/)] [[Paper](http://arxiv.org/pdf/1505.00468v1.pdf)]
-  * Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C. Lawrence Zitnick, and Devi Parikh, *VQA: Visual Question Answering*, arXiv:1505.00468
+  * Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C. Lawrence Zitnick, and Devi Parikh, *VQA: Visual Question Answering*, arXiv:1505.00468 / CVPR 2015 SUNw:Scene Understanding workshop
 * Univ. Toronto [[Paper](http://arxiv.org/pdf/1505.02074v1.pdf)] [[Dataset](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/)]
   * Mengye Ren, Ryan Kiros, and Richard Zemel, *Image Question Answering: A Visual Semantic Embedding Model and a New Dataset*, arXiv:1505.02074 / ICML 2015 deep learning workshop
 * Baidu + UCLA [[Paper](http://arxiv.org/pdf/1505.05612v1.pdf)] [[Dataset]()]
