@@ -1,4 +1,4 @@
-# awesome-rnn
+# Awesome Recurrent Neural Networks
 Recurrent Neural Network - A curated list of resources dedicated to RNN
 
 ## Table of Contents
