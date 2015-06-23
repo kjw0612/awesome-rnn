@@ -10,6 +10,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
    - [Lectures](#lectures)
    - [Books / Thesis](#books--thesis)
    - [Network Variants](#network-variants)
+   - [Surveys](#surveys)
  - [Applications](#applications)
    - [Language Modeling](#language-modeling)
    - [Speech Recognition](#speech-recognition)
@@ -49,6 +50,10 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * GFRNN [[Paper-arXiv](http://arxiv.org/pdf/1502.02367v3.pdf)] [[Paper-ICML](http://jmlr.org/proceedings/papers/v37/chung15.pdf)] [[Supplementary](http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf)]
   * Junyoung Chung, Caglar Gulcehre, Kyunghyun Cho, Yoshua Bengio, *Gated Feedback Recurrent Neural Networks*, arXiv:1502.02367 / ICML 2015
 
+### Surveys
+* Klaus Greff, Rupesh Kumar Srivastava, Jan Koutnik, Bas R. Steunebrink, Jurgen Schmidhuber, *LSTM: A Search Space Odyssey*, arXiv:1503.04069
+* Zachary C. Lipton, *A Critical Review of Recurrent Neural Networks for Sequence Learning*, arXiv:1506.00019
+* Andrej Karpathy, Justin Johnson, Li Fei-Fei, *Visualizing and Understanding Recurrent Networks*, arXiv:1506.02078
 
 ## Applications
 
