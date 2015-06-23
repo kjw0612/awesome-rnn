@@ -18,6 +18,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
    - [Image Captioning](#image-captioning)
    - [Video Captioning](#video-captioning)
    - [Question Answering](#question-answering)
+   - [Turing Machines](#turing-machines)
  - [Codes](#codes)
  - [Datasets](#datasets)
  
@@ -111,6 +112,12 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Mengye Ren, Ryan Kiros, and Richard Zemel, *Image Question Answering: A Visual Semantic Embedding Model and a New Dataset*, arXiv:1505.02074 / ICML 2015 deep learning workshop
 * Baidu + UCLA [[Paper](http://arxiv.org/pdf/1505.05612v1.pdf)] [[Dataset]()]
   * Hauyuan Gao, Junhua Mao, Jie Zhou, Zhiheng Huang, Lei Wang, and Wei Xu, *Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question Answering*, arXiv:1505.05612
+
+### Turing Machines
+*  A.Graves, G. Wayne, and I. Danihelka., Neural Turing Machines, arXiv preprint arXiv:1410.5401, 2014 [[Paper](http://arxiv.org/pdf/1410.5401v2.pdf)]
+* Jason Weston, Sumit Chopra, Antoine Bordes, Memory Networks, arXiv:1410.3916. [[Paper](http://arxiv.org/pdf/1410.3916v10)]
+* Wojciech Zaremba, Ilya Sutskever, Reinforcement Learning Neural Turing Machines, arXiv:1505.00521. [[Paper](http://arxiv.org/pdf/1505.00521v1)]
+
 
 ## Codes
 * [Theano](http://deeplearning.net/software/theano/) - Python
