@@ -51,9 +51,9 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Junyoung Chung, Caglar Gulcehre, Kyunghyun Cho, Yoshua Bengio, *Gated Feedback Recurrent Neural Networks*, arXiv:1502.02367 / ICML 2015
 
 ### Surveys
-* Klaus Greff, Rupesh Kumar Srivastava, Jan Koutnik, Bas R. Steunebrink, Jurgen Schmidhuber, *LSTM: A Search Space Odyssey*, arXiv:1503.04069
-* Zachary C. Lipton, *A Critical Review of Recurrent Neural Networks for Sequence Learning*, arXiv:1506.00019
-* Andrej Karpathy, Justin Johnson, Li Fei-Fei, *Visualizing and Understanding Recurrent Networks*, arXiv:1506.02078
+* Klaus Greff, Rupesh Kumar Srivastava, Jan Koutnik, Bas R. Steunebrink, Jurgen Schmidhuber, [LSTM: A Search Space Odyssey](http://arxiv.org/pdf/1503.04069v1.pdf), arXiv:1503.04069
+* Zachary C. Lipton, [A Critical Review of Recurrent Neural Networks for Sequence Learning](http://arxiv.org/pdf/1506.00019v1.pdf), arXiv:1506.00019
+* Andrej Karpathy, Justin Johnson, Li Fei-Fei, [Visualizing and Understanding Recurrent Networks](http://arxiv.org/pdf/1506.02078v1.pdf), arXiv:1506.02078
 
 ## Applications
 
