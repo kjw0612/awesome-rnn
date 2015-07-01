@@ -2,7 +2,7 @@
 A curated list of resources dedicated to recurrent neural networks (closely related to *deep learning*).
 
 ## Contributing
-Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-vision/pulls) or email myungsub91@gmail.com to add links.
+Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-vision/pulls) or email Myungsub Choi (myungsub91@gmail.com) to add links.
 
 ## Table of Contents
 
