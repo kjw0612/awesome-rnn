@@ -46,6 +46,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Mike Schuster and Kuldip K. Paliwal, *Bidirectional Recurrent Neural Networks*, Trans. on Signal Processing 1997
 * LSTM [[Paper](http://web.eecs.utk.edu/~itamar/courses/ECE-692/Bobby_paper1.pdf)]
   * Sepp Hochreiter and Jurgen Schmidhuber, *Long Short-Term Memory*, Neural Computation 1997
+* Multi-dimensional RNN [[Paper](http://arxiv.org/pdf/0705.2011v1.pdf)]
+  * Alex Graves, Santiago Fernandez, and Jurgen Schmidhuber, *Multi-Dimensional Recurrent Neural Networks*, ICANN 2007
 * GRU (Gated Recurrent Unit) [[Paper](http://arxiv.org/pdf/1406.1078v3.pdf)]
   * Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation*, arXiv:1406.1078 / EMNLP 2014
 * GFRNN [[Paper-arXiv](http://arxiv.org/pdf/1502.02367v3.pdf)] [[Paper-ICML](http://jmlr.org/proceedings/papers/v37/chung15.pdf)] [[Supplementary](http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf)]
