@@ -136,6 +136,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [LRCN](http://jeffdonahue.com/lrcn/) by Jeff Donahue
 * [Torch](http://torch.ch/) - Lua
   * [char-rnn](https://github.com/karpathy/char-rnn) by Andrej Karpathy : multi-layer RNN/LSTM/GRU for training/sampling from character-level language models
+  * [LSTM](https://github.com/wojzaremba/lstm) by Wojciech Zaremba : Long Short Term Memory Units to train a language model on word level Penn Tree Bank dataset
 * Etc.
   * [RNNLIB](http://sourceforge.net/p/rnnl/wiki/Home/) by Alex Graves : C++ based LSTM library
   * [RNNLM](http://rnnlm.org/) by Tomas Mikolov : C++ based simple code
