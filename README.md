@@ -6,6 +6,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 
 ## Table of Contents
 
+ - [Codes](#codes)
  - [Theory](#theory)
    - [Lectures](#lectures)
    - [Books / Thesis](#books--thesis)
@@ -19,8 +20,27 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
    - [Video Captioning](#video-captioning)
    - [Question Answering](#question-answering)
    - [Turing Machines](#turing-machines)
- - [Codes](#codes)
  - [Datasets](#datasets)
+
+## Codes
+* [Theano](http://deeplearning.net/software/theano/) - Python
+  * Simple IPython [tutorial on Theano](http://nbviewer.ipython.org/github/craffel/theano-tutorial/blob/master/Theano%20Tutorial.ipynb)
+  * [Deep Learning Tutorials](http://www.deeplearning.net/tutorial/)
+    * [RNN for semantic parsing of speech](http://www.deeplearning.net/tutorial/rnnslu.html#rnnslu)
+    * [LSTM network for sentiment analysis](http://www.deeplearning.net/tutorial/lstm.html#lstm)
+  * [Keras](https://github.com/fchollet/keras) : Theano-based Deep Learning Library
+  * [theano-rnn](https://github.com/gwtaylor/theano-rnn) by Graham Taylor
+  * [Passage](https://github.com/IndicoDataSolutions/Passage) : Library for text analysis with RNNs
+* [Caffe](https://github.com/BVLC/caffe) - C++ with MATLAB/Python wrappers
+  * [LRCN](http://jeffdonahue.com/lrcn/) by Jeff Donahue
+* [Torch](http://torch.ch/) - Lua
+  * [char-rnn](https://github.com/karpathy/char-rnn) by Andrej Karpathy : multi-layer RNN/LSTM/GRU for training/sampling from character-level language models
+  * [LSTM](https://github.com/wojzaremba/lstm) by Wojciech Zaremba : Long Short Term Memory Units to train a language model on word level Penn Tree Bank dataset
+* Etc.
+  * [RNNLIB](http://sourceforge.net/p/rnnl/wiki/Home/) by Alex Graves : C++ based LSTM library
+  * [RNNLM](http://rnnlm.org/) by Tomas Mikolov : C++ based simple code
+  * [neuraltalk](https://github.com/karpathy/neuraltalk) by Andrej Karpathy : numpy-based RNN/LSTM implementation
+  * [gist](https://gist.github.com/karpathy/587454dc0146a6ae21fc) by Andrej Karpathy : raw numpy code that implements an efficient batched LSTM
  
 ## Theory
 ### Lectures
@@ -121,27 +141,6 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 *  A.Graves, G. Wayne, and I. Danihelka., Neural Turing Machines, arXiv preprint arXiv:1410.5401, 2014 [[Paper](http://arxiv.org/pdf/1410.5401v2.pdf)]
 * Jason Weston, Sumit Chopra, Antoine Bordes, Memory Networks, arXiv:1410.3916. [[Paper](http://arxiv.org/pdf/1410.3916v10)]
 * Wojciech Zaremba, Ilya Sutskever, Reinforcement Learning Neural Turing Machines, arXiv:1505.00521. [[Paper](http://arxiv.org/pdf/1505.00521v1)]
-
-
-## Codes
-* [Theano](http://deeplearning.net/software/theano/) - Python
-  * Simple IPython [tutorial on Theano](http://nbviewer.ipython.org/github/craffel/theano-tutorial/blob/master/Theano%20Tutorial.ipynb)
-  * [Deep Learning Tutorials](http://www.deeplearning.net/tutorial/)
-    * [RNN for semantic parsing of speech](http://www.deeplearning.net/tutorial/rnnslu.html#rnnslu)
-    * [LSTM network for sentiment analysis](http://www.deeplearning.net/tutorial/lstm.html#lstm)
-  * [Keras](https://github.com/fchollet/keras) : Theano-based Deep Learning Library
-  * [theano-rnn](https://github.com/gwtaylor/theano-rnn) by Graham Taylor
-  * [Passage](https://github.com/IndicoDataSolutions/Passage) : Library for text analysis with RNNs
-* [Caffe](https://github.com/BVLC/caffe) - C++ with MATLAB/Python wrappers
-  * [LRCN](http://jeffdonahue.com/lrcn/) by Jeff Donahue
-* [Torch](http://torch.ch/) - Lua
-  * [char-rnn](https://github.com/karpathy/char-rnn) by Andrej Karpathy : multi-layer RNN/LSTM/GRU for training/sampling from character-level language models
-  * [LSTM](https://github.com/wojzaremba/lstm) by Wojciech Zaremba : Long Short Term Memory Units to train a language model on word level Penn Tree Bank dataset
-* Etc.
-  * [RNNLIB](http://sourceforge.net/p/rnnl/wiki/Home/) by Alex Graves : C++ based LSTM library
-  * [RNNLM](http://rnnlm.org/) by Tomas Mikolov : C++ based simple code
-  * [neuraltalk](https://github.com/karpathy/neuraltalk) by Andrej Karpathy : numpy-based RNN/LSTM implementation
-  * [gist](https://gist.github.com/karpathy/587454dc0146a6ae21fc) by Andrej Karpathy : raw numpy code that implements an efficient batched LSTM
 
 ## Datasets
 * Image Captioning
