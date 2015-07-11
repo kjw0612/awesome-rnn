@@ -4,6 +4,7 @@ A curated list of resources dedicated to recurrent neural networks (closely rela
 
 ## Contributing
 Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-vision/pulls), email Myungsub Choi (myungsub91@gmail.com) or join our chats to add links.
+
 [![Join the chat at https://gitter.im/kjw0612/awesome-rnn](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kjw0612/awesome-rnn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
