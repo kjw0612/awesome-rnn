@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Awesome-rnn by kjw0612</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Awesome-rnn</h1>
+      <h2 class="project-tagline">Recurrent Neural Network - A curated list of resources dedicated to RNN</h2>
+      <a href="https://github.com/kjw0612/awesome-rnn" class="btn">View on GitHub</a>
+      <a href="https://github.com/kjw0612/awesome-rnn/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/kjw0612/awesome-rnn/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="awesome-recurrent-neural-networks" class="anchor" href="#awesome-recurrent-neural-networks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Awesome Recurrent Neural Networks</h1>
+
+<p>A curated list of resources dedicated to recurrent neural networks (closely related to <em>deep learning</em>).</p>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>Please feel free to <a href="https://github.com/kjw0612/awesome-deep-vision/pulls">pull requests</a> or email Myungsub Choi (<a href="mailto:myungsub91@gmail.com">myungsub91@gmail.com</a>) to add links.</p>
+
+<h2>
+<a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Table of Contents</h2>
+
+<ul>
+<li><a href="#codes">Codes</a></li>
+<li>
+<a href="#theory">Theory</a>
+
+<ul>
+<li><a href="#lectures">Lectures</a></li>
+<li><a href="#books--thesis">Books / Thesis</a></li>
+<li><a href="#network-variants">Network Variants</a></li>
+<li><a href="#surveys">Surveys</a></li>
+</ul>
+</li>
+<li>
+<a href="#applications">Applications</a>
+
+<ul>
+<li><a href="#language-modeling">Language Modeling</a></li>
+<li><a href="#speech-recognition">Speech Recognition</a></li>
+<li><a href="#machine-translation">Machine Translation</a></li>
+<li><a href="#image-captioning">Image Captioning</a></li>
+<li><a href="#video-captioning">Video Captioning</a></li>
+<li><a href="#question-answering">Question Answering</a></li>
+<li><a href="#turing-machines">Turing Machines</a></li>
+</ul>
+</li>
+<li><a href="#datasets">Datasets</a></li>
+</ul>
+
+<h2>
+<a id="codes" class="anchor" href="#codes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Codes</h2>
+
+<ul>
+<li>
+<a href="http://deeplearning.net/software/theano/">Theano</a> - Python
+
+<ul>
+<li>Simple IPython <a href="http://nbviewer.ipython.org/github/craffel/theano-tutorial/blob/master/Theano%20Tutorial.ipynb">tutorial on Theano</a>
+</li>
+<li>
+<a href="http://www.deeplearning.net/tutorial/">Deep Learning Tutorials</a>
+
+<ul>
+<li><a href="http://www.deeplearning.net/tutorial/rnnslu.html#rnnslu">RNN for semantic parsing of speech</a></li>
+<li><a href="http://www.deeplearning.net/tutorial/lstm.html#lstm">LSTM network for sentiment analysis</a></li>
+</ul>
+</li>
+<li>
+<a href="https://github.com/fchollet/keras">Keras</a> : Theano-based Deep Learning Library</li>
+<li>
+<a href="https://github.com/gwtaylor/theano-rnn">theano-rnn</a> by Graham Taylor</li>
+<li>
+<a href="https://github.com/IndicoDataSolutions/Passage">Passage</a> : Library for text analysis with RNNs</li>
+</ul>
+</li>
+<li>
+<a href="https://github.com/BVLC/caffe">Caffe</a> - C++ with MATLAB/Python wrappers
+
+<ul>
+<li>
+<a href="http://jeffdonahue.com/lrcn/">LRCN</a> by Jeff Donahue</li>
+</ul>
+</li>
+<li>
+<a href="http://torch.ch/">Torch</a> - Lua
+
+<ul>
+<li>
+<a href="https://github.com/karpathy/char-rnn">char-rnn</a> by Andrej Karpathy : multi-layer RNN/LSTM/GRU for training/sampling from character-level language models</li>
+<li>
+<a href="https://github.com/wojzaremba/lstm">LSTM</a> by Wojciech Zaremba : Long Short Term Memory Units to train a language model on word level Penn Tree Bank dataset</li>
+</ul>
+</li>
+<li>Etc.
+
+<ul>
+<li>
+<a href="http://sourceforge.net/p/rnnl/wiki/Home/">RNNLIB</a> by Alex Graves : C++ based LSTM library</li>
+<li>
+<a href="http://rnnlm.org/">RNNLM</a> by Tomas Mikolov : C++ based simple code</li>
+<li>
+<a href="https://github.com/karpathy/neuraltalk">neuraltalk</a> by Andrej Karpathy : numpy-based RNN/LSTM implementation</li>
+<li>
+<a href="https://gist.github.com/karpathy/587454dc0146a6ae21fc">gist</a> by Andrej Karpathy : raw numpy code that implements an efficient batched LSTM</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="theory" class="anchor" href="#theory" aria-hidden="true"><span class="octicon octicon-link"></span></a>Theory</h2>
+
+<h3>
+<a id="lectures" class="anchor" href="#lectures" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lectures</h3>
+
+<ul>
+<li>Stanford NLP (<a href="http://cs224d.stanford.edu/index.html">CS224d</a>) by Richard Socher
+
+<ul>
+<li>
+<a href="http://cs224d.stanford.edu/lecture_notes/LectureNotes3.pdf">Lecture Note 3</a> : neural network basics</li>
+<li>
+<a href="http://cs224d.stanford.edu/lecture_notes/LectureNotes4.pdf">Lecture Note 4</a> : RNN language models, bi-directional RNN, GRU, LSTM</li>
+</ul>
+</li>
+<li>Oxford <a href="https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/">Machine Learning</a> by Nando de Freitas
+
+<ul>
+<li>
+<a href="https://www.youtube.com/watch?v=56TYLaQN4N8">Lecture 12</a> : Recurrent neural networks and LSTMs</li>
+<li>
+<a href="https://www.youtube.com/watch?v=-yX1SYeDHbg">Lecture 13</a> : (guest lecture) Alex Graves on Hallucination with RNNs</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="books--thesis" class="anchor" href="#books--thesis" aria-hidden="true"><span class="octicon octicon-link"></span></a>Books / Thesis</h3>
+
+<ul>
+<li>Alex Graves (2008)
+
+<ul>
+<li><a href="http://www.cs.toronto.edu/%7Egraves/preprint.pdf">Supervised Sequence Labelling with Recurrent Neural Networks</a></li>
+</ul>
+</li>
+<li>Tomas Mikolov (2012)
+
+<ul>
+<li><a href="http://www.fit.vutbr.cz/%7Eimikolov/rnnlm/thesis.pdf">Statistical Language Models based on Neural Networks</a></li>
+</ul>
+</li>
+<li>Ilya Sutskever (2013)
+
+<ul>
+<li><a href="http://www.cs.utoronto.ca/%7Eilya/pubs/ilya_sutskever_phd_thesis.pdf">Training Recurrent Neural Networks</a></li>
+</ul>
+</li>
+<li>Richard Socher (2014)
+
+<ul>
+<li><a href="http://nlp.stanford.edu/%7Esocherr/thesis.pdf">Recursive Deep Learning for Natural Language Processing and Computer Vision</a></li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="network-variants" class="anchor" href="#network-variants" aria-hidden="true"><span class="octicon octicon-link"></span></a>Network Variants</h3>
+
+<ul>
+<li>Bi-directional RNN [<a href="http://www.di.ufpe.br/%7Efnj/RNA/bibliografia/BRNN.pdf">Paper</a>]
+
+<ul>
+<li>Mike Schuster and Kuldip K. Paliwal, <em>Bidirectional Recurrent Neural Networks</em>, Trans. on Signal Processing 1997</li>
+</ul>
+</li>
+<li>LSTM [<a href="http://web.eecs.utk.edu/%7Eitamar/courses/ECE-692/Bobby_paper1.pdf">Paper</a>]
+
+<ul>
+<li>Sepp Hochreiter and Jurgen Schmidhuber, <em>Long Short-Term Memory</em>, Neural Computation 1997</li>
+</ul>
+</li>
+<li>Multi-dimensional RNN [<a href="http://arxiv.org/pdf/0705.2011v1.pdf">Paper</a>]
+
+<ul>
+<li>Alex Graves, Santiago Fernandez, and Jurgen Schmidhuber, <em>Multi-Dimensional Recurrent Neural Networks</em>, ICANN 2007</li>
+</ul>
+</li>
+<li>GRU (Gated Recurrent Unit) [<a href="http://arxiv.org/pdf/1406.1078v3.pdf">Paper</a>]
+
+<ul>
+<li>Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, <em>Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation</em>, arXiv:1406.1078 / EMNLP 2014</li>
+</ul>
+</li>
+<li>GFRNN [<a href="http://arxiv.org/pdf/1502.02367v3.pdf">Paper-arXiv</a>] [<a href="http://jmlr.org/proceedings/papers/v37/chung15.pdf">Paper-ICML</a>] [<a href="http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf">Supplementary</a>]
+
+<ul>
+<li>Junyoung Chung, Caglar Gulcehre, Kyunghyun Cho, Yoshua Bengio, <em>Gated Feedback Recurrent Neural Networks</em>, arXiv:1502.02367 / ICML 2015</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="surveys" class="anchor" href="#surveys" aria-hidden="true"><span class="octicon octicon-link"></span></a>Surveys</h3>
+
+<ul>
+<li>Klaus Greff, Rupesh Kumar Srivastava, Jan Koutnik, Bas R. Steunebrink, Jurgen Schmidhuber, <a href="http://arxiv.org/pdf/1503.04069v1.pdf">LSTM: A Search Space Odyssey</a>, arXiv:1503.04069</li>
+<li>Zachary C. Lipton, <a href="http://arxiv.org/pdf/1506.00019v1.pdf">A Critical Review of Recurrent Neural Networks for Sequence Learning</a>, arXiv:1506.00019</li>
+<li>Andrej Karpathy, Justin Johnson, Li Fei-Fei, <a href="http://arxiv.org/pdf/1506.02078v1.pdf">Visualizing and Understanding Recurrent Networks</a>, arXiv:1506.02078</li>
+</ul>
+
+<h2>
+<a id="applications" class="anchor" href="#applications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Applications</h2>
+
+<h3>
+<a id="language-modeling" class="anchor" href="#language-modeling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Language Modeling</h3>
+
+<ul>
+<li>Tomas Mikolov, Martin Karafiat, Lukas Burget, Jan "Honza" Cernocky, Sanjeev Khudanpur, <em>Recurrent Neural Network based Language Model</em>, Interspeech 2010 [<a href="http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf">Paper</a>]</li>
+<li>Tomas Mikolov, Stefan Kombrink, Lukas Burget, Jan "Honza" Cernocky, Sanjeev Khudanpur, <em>Extensions of Recurrent Neural Network Language Model</em>, ICASSP 2011 [<a href="http://www.fit.vutbr.cz/research/groups/speech/publi/2011/mikolov_icassp2011_5528.pdf">Paper</a>]</li>
+<li>Stefan Kombrink, Tomas Mikolov, Martin Karafiat, Lukas Burget, <em>Recurrent Neural Network based Language Modeling in Meeting Recognition</em>, Interspeech 2011 [<a href="http://www.fit.vutbr.cz/%7Eimikolov/rnnlm/ApplicationOfRNNinMeetingRecognition_IS2011.pdf">Paper</a>]</li>
+</ul>
+
+<h3>
+<a id="speech-recognition" class="anchor" href="#speech-recognition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Speech Recognition</h3>
+
+<ul>
+<li>Geoffrey Hinton, Li Deng, Dong Yu, George E. Dahl, Abdel-rahman Mohamed, Navdeep Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara N. Sainath, and Brian Kingsbury, <em>Deep Neural Networks for Acoustic Modeling in Speech Recognition</em>, IEEE Signam Processing Magazine 2012 [<a href="http://cs224d.stanford.edu/papers/maas_paper.pdf">Paper</a>]</li>
+<li>Alex Graves, Abdel-rahman Mohamed, and Geoffrey Hinton, <em>Speech Recognition with Deep Recurrent Neural Networks</em>, arXiv:1303.5778 / ICASSP 2013 [<a href="http://www.cs.toronto.edu/%7Efritz/absps/RNN13.pdf">Paper</a>]</li>
+</ul>
+
+<h3>
+<a id="machine-translation" class="anchor" href="#machine-translation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Machine Translation</h3>
+
+<ul>
+<li>Univ. Montreal [<a href="http://arxiv.org/pdf/1406.1078v3.pdf">Paper</a>]
+
+<ul>
+<li>Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, <em>Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation</em>, arXiv:1406.1078 / EMNLP 2014</li>
+</ul>
+</li>
+<li>Google [<a href="http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf">Paper</a>]
+
+<ul>
+<li>Ilya Sutskever, Oriol Vinyals, and Quoc V. Le, <em>Sequence to Sequence Learning with Neural Networks</em>, arXiv:1409.3215 / NIPS 2014</li>
+</ul>
+</li>
+<li>Univ. Montreal [<a href="http://arxiv.org/pdf/1409.0473v6.pdf">Paper</a>]
+
+<ul>
+<li>Dzmitry Bahdanau, KyungHyun Cho, and Yoshua Bengio, <em>Neural Machine Translation by Jointly Learning to Align and Translate</em>, arXiv:1409.0473 / ICLR 2015</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="image-captioning" class="anchor" href="#image-captioning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Image Captioning</h3>
+
+<ul>
+<li>Baidu + UCLA [<a href="http://www.stat.ucla.edu/%7Ejunhua.mao/m-RNN.html">Web</a>] [<a href="http://arxiv.org/pdf/1410.1090v1.pdf">Paper-arxiv1</a>], [<a href="http://arxiv.org/pdf/1412.6632v4.pdf">Paper-ICLR</a>]
+
+<ul>
+<li>Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, and Alan L. Yuille, <em>Explain Images with Multimodal Recurrent Neural Networks</em>, arXiv:1410.1090</li>
+<li>Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Zhiheng Huang, and Alan L. Yuille, <em>Deep Captioning with Multimodal Recurrent Neural Networks (m-RNN)</em>, arXiv:1412.6632 / ICLR 2015</li>
+</ul>
+</li>
+<li>Univ. Toronto [<a href="http://arxiv.org/pdf/1411.2539v1.pdf">Paper</a>] [<a href="http://deeplearning.cs.toronto.edu/i2t">Web demo</a>]
+
+<ul>
+<li>Ryan Kiros, Ruslan Salakhutdinov, and Richard S. Zemel, <em>Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models</em>, arXiv:1411.2539 / TACL 2015</li>
+</ul>
+</li>
+<li>Berkeley [<a href="http://jeffdonahue.com/lrcn/">Web</a>] [<a href="http://arxiv.org/pdf/1411.4389v3.pdf">Paper</a>]
+
+<ul>
+<li>Jeff Donahue, Lisa Anne Hendricks, Sergio Guadarrama, Marcus Rohrbach, Subhashini Venugopalan, Kate Saenko, and Trevor Darrell, <em>Long-term Recurrent Convolutional Networks for Visual Recognition and Description</em>, arXiv:1411.4389 / CVPR 2015</li>
+</ul>
+</li>
+<li>Google [<a href="http://arxiv.org/pdf/1411.4555v2.pdf">Paper</a>]
+
+<ul>
+<li>Oriol Vinyals, Alexander Toshev, Samy Bengio, and Dumitru Erhan, <em>Show and Tell: A Neural Image Caption Generator</em>, arXiv:1411.4555 / CVPR 2015</li>
+</ul>
+</li>
+<li>Microsoft [<a href="http://arxiv.org/pdf/1411.4952v3.pdf">Paper</a>]
+
+<ul>
+<li>Hao Fang, Saurabh Gupta, Forrest Iandola, Rupesh Srivastava, Li Deng, Piotr Dollar, Jianfeng Gao, Xiaodong He, Margaret Mitchell, John C. Platt, Lawrence Zitnick, and Geoffrey Zweig, <em>From Captions to Visual Concepts and Back</em>, arXiv:1411.4952 / CVPR 2015</li>
+</ul>
+</li>
+<li>Microsoft [<a href="http://arxiv.org/pdf/1411.5654v1.pdf">Paper-arxiv</a>], [<a href="http://www.cs.cmu.edu/%7Exinleic/papers/cvpr15_rnn.pdf">Paper-CVPR</a>]
+
+<ul>
+<li>Xinlei Chen, and C. Lawrence Zitnick, <em>Learning a Recurrent Visual Representation for Image Caption Generation</em>
+</li>
+<li>Xinlei Chen, and C. Lawrence Zitnick, <em>Mind’s Eye: A Recurrent Visual Representation for Image Caption Generation</em>, CVPR 2015</li>
+</ul>
+</li>
+<li>Univ. Toronto + Univ. Montreal [<a href="http://kelvinxu.github.io/projects/capgen.html">Web</a>] [<a href="http://www.cs.toronto.edu/%7Ezemel/documents/captionAttn.pdf">Paper</a>]
+
+<ul>
+<li>Kelvin Xu, Jimmy Lei Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard S. Zemel, and Yoshua Bengio, <em>Show, Attend, and Tell: Neural Image Caption Generation with Visual Attention</em>, arXiv:1502.03044 / ICML 2015</li>
+</ul>
+</li>
+<li>Idiap + EPFL + Facebook [<a href="http://arxiv.org/pdf/1502.03671v2.pdf">Paper</a>]
+
+<ul>
+<li>Remi Lebret, Pedro O. Pinheiro, and Ronan Collobert, <em>Phrase-based Image Captioning</em>, arXiv:1502.03671 / ICML 2015</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="video-captioning" class="anchor" href="#video-captioning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Video Captioning</h3>
+
+<ul>
+<li>Berkeley [<a href="http://jeffdonahue.com/lrcn/">Web</a>] [<a href="http://arxiv.org/pdf/1411.4389v3.pdf">Paper</a>]
+
+<ul>
+<li>Jeff Donahue, Lisa Anne Hendricks, Sergio Guadarrama, Marcus Rohrbach, Subhashini Venugopalan, Kate Saenko, and Trevor Darrell, <em>Long-term Recurrent Convolutional Networks for Visual Recognition and Description</em>, arXiv:1411.4389 / CVPR 2015</li>
+</ul>
+</li>
+<li>UT Austin + UML + Berkeley [<a href="http://arxiv.org/pdf/1412.4729v3.pdf">Paper</a>]
+
+<ul>
+<li>Subhashini Venugopalan, Huijuan Xu, Jeff Donahue, Marcus Rohrbach, Raymond Mooney, and Kate Saenko, <em>Translating Videos to Natural Language Using Deep Recurrent Neural Networks</em>, arXiv:1412.4729</li>
+</ul>
+</li>
+<li>Microsoft [<a href="http://arxiv.org/pdf/1505.01861v1.pdf">Paper</a>]
+
+<ul>
+<li>Yingwei Pan, Tao Mei, Ting Yao, Houqiang Li, and Yong Rui, <em>Joint Modeling Embedding and Translation to Bridge Video and Language</em>, arXiv:1505.01861</li>
+</ul>
+</li>
+<li>UT Austin + Berkeley + UML [<a href="http://arxiv.org/pdf/1505.00487v2.pdf">Paper</a>]
+
+<ul>
+<li>Subhashini Venugopalan, Marcus Rohrbach, Jeff Donahue, Raymond Mooney, Trevor Darrell, and Kate Saenko, <em>Sequence to Sequence--Video to Text</em>, arXiv:1505.00487</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="question-answering" class="anchor" href="#question-answering" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question Answering</h3>
+
+<ul>
+<li>MSR + Virginia Tech. [<a href="http://www.visualqa.org/">Web</a>] [<a href="http://arxiv.org/pdf/1505.00468v1.pdf">Paper</a>]
+
+<ul>
+<li>Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C. Lawrence Zitnick, and Devi Parikh, <em>VQA: Visual Question Answering</em>, arXiv:1505.00468 / CVPR 2015 SUNw:Scene Understanding workshop</li>
+</ul>
+</li>
+<li>MPI + Berkeley [<a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/">Web</a>] [<a href="http://arxiv.org/pdf/1505.01121v2.pdf">Paper</a>]
+
+<ul>
+<li>Mateusz Malinowski, Marcus Rohrbach, and Mario Fritz, <em>Ask Your Neurons: A Neural-based Approach to Answering Questions about Images</em>, arXiv:1505.01121</li>
+</ul>
+</li>
+<li>Univ. Toronto [<a href="http://arxiv.org/pdf/1505.02074v1.pdf">Paper</a>] [<a href="http://www.cs.toronto.edu/%7Emren/imageqa/data/cocoqa/">Dataset</a>]
+
+<ul>
+<li>Mengye Ren, Ryan Kiros, and Richard Zemel, <em>Image Question Answering: A Visual Semantic Embedding Model and a New Dataset</em>, arXiv:1505.02074 / ICML 2015 deep learning workshop</li>
+</ul>
+</li>
+<li>Baidu + UCLA [<a href="http://arxiv.org/pdf/1505.05612v1.pdf">Paper</a>] [<a href="">Dataset</a>]
+
+<ul>
+<li>Hauyuan Gao, Junhua Mao, Jie Zhou, Zhiheng Huang, Lei Wang, and Wei Xu, <em>Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question Answering</em>, arXiv:1505.05612</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="turing-machines" class="anchor" href="#turing-machines" aria-hidden="true"><span class="octicon octicon-link"></span></a>Turing Machines</h3>
+
+<ul>
+<li> A.Graves, G. Wayne, and I. Danihelka., Neural Turing Machines, arXiv preprint arXiv:1410.5401, 2014 [<a href="http://arxiv.org/pdf/1410.5401v2.pdf">Paper</a>]</li>
+<li>Jason Weston, Sumit Chopra, Antoine Bordes, Memory Networks, arXiv:1410.3916. [<a href="http://arxiv.org/pdf/1410.3916v10">Paper</a>]</li>
+<li>Wojciech Zaremba, Ilya Sutskever, Reinforcement Learning Neural Turing Machines, arXiv:1505.00521. [<a href="http://arxiv.org/pdf/1505.00521v1">Paper</a>]</li>
+</ul>
+
+<h2>
+<a id="datasets" class="anchor" href="#datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Datasets</h2>
+
+<ul>
+<li>Image Captioning
+
+<ul>
+<li><a href="http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html">Flickr 8k</a></li>
+<li><a href="http://shannon.cs.illinois.edu/DenotationGraph/">Flickr 30k</a></li>
+<li><a href="http://mscoco.org/home/">Microsoft COCO</a></li>
+</ul>
+</li>
+<li>Image Question Answering - all based on MS COCO images
+
+<ul>
+<li><a href="http://www.visualqa.org/">VQA</a></li>
+<li><a href="http://www.cs.toronto.edu/%7Emren/imageqa/data/cocoqa/">Image QA</a></li>
+<li>[Multilingual Image QA] : in Chinese, with English translation</li>
+</ul>
+</li>
+</ul>
+
+<p>Maintainers - <a href="http://github.com/kjw0612">Jiwon Kim</a>, <a href="http://github.com/myungsub">Myungsub Choi</a></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/kjw0612/awesome-rnn">Awesome-rnn</a> is maintained by <a href="https://github.com/kjw0612">kjw0612</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
+
