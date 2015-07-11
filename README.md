@@ -29,6 +29,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
    - [Video Captioning](#video-captioning)
    - [Question Answering](#question-answering)
    - [Turing Machines](#turing-machines)
+   - [Robotics](#robotics)
  - [Datasets](#datasets)
 
 ## Codes
@@ -150,6 +151,9 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 *  A.Graves, G. Wayne, and I. Danihelka., Neural Turing Machines, arXiv preprint arXiv:1410.5401, 2014 [[Paper](http://arxiv.org/pdf/1410.5401v2.pdf)]
 * Jason Weston, Sumit Chopra, Antoine Bordes, Memory Networks, arXiv:1410.3916. [[Paper](http://arxiv.org/pdf/1410.3916v10)]
 * Wojciech Zaremba, Ilya Sutskever, Reinforcement Learning Neural Turing Machines, arXiv:1505.00521. [[Paper](http://arxiv.org/pdf/1505.00521v1)]
+
+### Robotics
+* Marvin Zhang, Sergey Levine, Zoe McCarthy, Chelsea Finn, Pieter Abbeel, Policy Learning with Continuous Memory States for Partially Observed Robotic Control, arXiv:1507.01273. [[Paper]](http://arxiv.org/pdf/1507.01273v1)
 
 ## Datasets
 * Image Captioning
