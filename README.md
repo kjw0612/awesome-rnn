@@ -88,6 +88,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Klaus Greff, Rupesh Kumar Srivastava, Jan Koutnik, Bas R. Steunebrink, Jurgen Schmidhuber, [LSTM: A Search Space Odyssey](http://arxiv.org/pdf/1503.04069v1.pdf), arXiv:1503.04069
 * Zachary C. Lipton, [A Critical Review of Recurrent Neural Networks for Sequence Learning](http://arxiv.org/pdf/1506.00019v1.pdf), arXiv:1506.00019
 * Andrej Karpathy, Justin Johnson, Li Fei-Fei, [Visualizing and Understanding Recurrent Networks](http://arxiv.org/pdf/1506.02078v1.pdf), arXiv:1506.02078
+* Rafal Jozefowicz, [Wojciech Zaremba, Ilya Sutskever, An Empirical Exploration of Recurrent Network Architectures](http://jmlr.org/proceedings/papers/v37/jozefowicz15.pdf), ICML, 2015.
 
 ## Applications
 
