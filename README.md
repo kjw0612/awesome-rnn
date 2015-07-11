@@ -1,4 +1,6 @@
 # Awesome Recurrent Neural Networks
+
+[![Join the chat at https://gitter.im/kjw0612/awesome-rnn](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kjw0612/awesome-rnn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A curated list of resources dedicated to recurrent neural networks (closely related to *deep learning*).
 
 ## Contributing
