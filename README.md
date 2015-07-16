@@ -28,6 +28,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
    - [Image Captioning](#image-captioning)
    - [Video Captioning](#video-captioning)
    - [Question Answering](#question-answering)
+   - [Image Generation](#image-generation)
    - [Turing Machines](#turing-machines)
    - [Robotics](#robotics)
  - [Datasets](#datasets)
@@ -128,6 +129,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Kelvin Xu, Jimmy Lei Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard S. Zemel, and Yoshua Bengio, *Show, Attend, and Tell: Neural Image Caption Generation with Visual Attention*, arXiv:1502.03044 / ICML 2015
 * Idiap + EPFL + Facebook [[Paper](http://arxiv.org/pdf/1502.03671v2.pdf)]
   * Remi Lebret, Pedro O. Pinheiro, and Ronan Collobert, *Phrase-based Image Captioning*, arXiv:1502.03671 / ICML 2015
+* Baidu + UCLA [[Paper](http://arxiv.org/pdf/1504.06692v1.pdf)]
+  * Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Zhiheng Huang, and Alan L. Yuille, *Learning like a Child: Fast Novel Visual Concept Learning from Sentence Descriptions of Images*, arXiv:1504.06692
 
 ### Video Captioning
 * Berkeley [[Web](http://jeffdonahue.com/lrcn/)] [[Paper](http://arxiv.org/pdf/1411.4389v3.pdf)]
@@ -149,13 +152,19 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Baidu + UCLA [[Paper](http://arxiv.org/pdf/1505.05612v1.pdf)] [[Dataset]()]
   * Hauyuan Gao, Junhua Mao, Jie Zhou, Zhiheng Huang, Lei Wang, and Wei Xu, *Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question Answering*, arXiv:1505.05612
 
+### Image Generation
+* Karol Gregor, Ivo Danihelka, Alex Graves, Danilo J. Rezende, and Daan Wierstra, *DRAW: A Recurrent Neural Network for Image Generation,* ICML 2015 [[Paper](http://arxiv.org/pdf/1502.04623v2.pdf)]
+* Angeliki Lazaridou, Dat T. Nguyen, R. Bernardi, and M. Baroni, *Unveiling the Dreams of Word Embeddings: Towards Language-Driven Image Generation,* arXiv:1506.03500
+* Lucas Theis and Matthias Bethge, *Generative Image Modeling Using Spatial LSTMs,* arXiv:1506.03478
+
 ### Turing Machines
-*  A.Graves, G. Wayne, and I. Danihelka., Neural Turing Machines, arXiv preprint arXiv:1410.5401, 2014 [[Paper](http://arxiv.org/pdf/1410.5401v2.pdf)]
-* Jason Weston, Sumit Chopra, Antoine Bordes, Memory Networks, arXiv:1410.3916. [[Paper](http://arxiv.org/pdf/1410.3916v10)]
-* Wojciech Zaremba, Ilya Sutskever, Reinforcement Learning Neural Turing Machines, arXiv:1505.00521. [[Paper](http://arxiv.org/pdf/1505.00521v1)]
+*  A.Graves, G. Wayne, and I. Danihelka., *Neural Turing Machines,* arXiv preprint arXiv:1410.5401 [[Paper](http://arxiv.org/pdf/1410.5401v2.pdf)]
+* Jason Weston, Sumit Chopra, Antoine Bordes, *Memory Networks,* arXiv:1410.3916. [[Paper](http://arxiv.org/pdf/1410.3916v10)]
+* Wojciech Zaremba, Ilya Sutskever, *Reinforcement Learning Neural Turing Machines,* arXiv:1505.00521. [[Paper](http://arxiv.org/pdf/1505.00521v1)]
 
 ### Robotics
-* Marvin Zhang, Sergey Levine, Zoe McCarthy, Chelsea Finn, Pieter Abbeel, Policy Learning with Continuous Memory States for Partially Observed Robotic Control, arXiv:1507.01273. [[Paper]](http://arxiv.org/pdf/1507.01273v1)
+* Marvin Zhang, Sergey Levine, Zoe McCarthy, Chelsea Finn, Pieter Abbeel, *Policy Learning with Continuous Memory States for Partially Observed Robotic Control,* arXiv:1507.01273. [[Paper]](http://arxiv.org/pdf/1507.01273v1)
+
 
 ## Datasets
 * Image Captioning
