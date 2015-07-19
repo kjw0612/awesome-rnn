@@ -1,7 +1,9 @@
 # Awesome Recurrent Neural Networks
 
-A curated list of resources dedicated to recurrent neural networks (closely related to *deep learning*). 
+A curated list of resources dedicated to recurrent neural networks (closely related to *deep learning*).
+
 Maintainers - [Jiwon Kim](http://github.com/kjw0612), [Myungsub Choi](http://github.com/myungsub)
+
 We have pages for other topics: [awesome-deep-vision](http://jiwonkim.org/awesome-deep-vision/), [awesome-random-forest](http://jiwonkim.org/awesome-random-forest/)
 
 
