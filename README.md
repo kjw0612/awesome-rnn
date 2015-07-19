@@ -1,6 +1,9 @@
 # Awesome Recurrent Neural Networks
 
-A curated list of resources dedicated to recurrent neural networks (closely related to *deep learning*).
+A curated list of resources dedicated to recurrent neural networks (closely related to *deep learning*). 
+Maintainers - [Jiwon Kim](http://github.com/kjw0612), [Myungsub Choi](http://github.com/myungsub)
+We have pages for other topics: [awesome-deep-vision](http://jiwonkim.org/awesome-deep-vision/), [awesome-random-forest](http://jiwonkim.org/awesome-random-forest/)
+
 
 ## Contributing
 Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-vision/pulls), email Myungsub Choi (myungsub91@gmail.com) or join our chats to add links.
@@ -176,4 +179,3 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [Image QA](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/)
   * [Multilingual Image QA] : in Chinese, with English translation
 
-Maintainers - [Jiwon Kim](http://github.com/kjw0612), [Myungsub Choi](http://github.com/myungsub)
