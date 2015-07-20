@@ -89,6 +89,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation*, arXiv:1406.1078 / EMNLP 2014
 * GFRNN [[Paper-arXiv](http://arxiv.org/pdf/1502.02367v3.pdf)] [[Paper-ICML](http://jmlr.org/proceedings/papers/v37/chung15.pdf)] [[Supplementary](http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf)]
   * Junyoung Chung, Caglar Gulcehre, Kyunghyun Cho, Yoshua Bengio, *Gated Feedback Recurrent Neural Networks*, arXiv:1502.02367 / ICML 2015
+* Grid LSTM [[Paper](http://arxiv.org/pdf/1507.01526v1.pdf)]
+  * Nal Kalchbrenner, Ivo Danihelka, and Alex Graves, *Grid Long Short-Term Memory*, arXiv:1507.01526
 
 ### Surveys
 * Klaus Greff, Rupesh Kumar Srivastava, Jan Koutnik, Bas R. Steunebrink, Jurgen Schmidhuber, [LSTM: A Search Space Odyssey](http://arxiv.org/pdf/1503.04069v1.pdf), arXiv:1503.04069
@@ -106,6 +108,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 ### Speech Recognition
 * Geoffrey Hinton, Li Deng, Dong Yu, George E. Dahl, Abdel-rahman Mohamed, Navdeep Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara N. Sainath, and Brian Kingsbury, *Deep Neural Networks for Acoustic Modeling in Speech Recognition*, IEEE Signam Processing Magazine 2012 [[Paper](http://cs224d.stanford.edu/papers/maas_paper.pdf)]
 * Alex Graves, Abdel-rahman Mohamed, and Geoffrey Hinton, *Speech Recognition with Deep Recurrent Neural Networks*, arXiv:1303.5778 / ICASSP 2013 [[Paper](http://www.cs.toronto.edu/~fritz/absps/RNN13.pdf)]
+* Jan Chorowski, Dzmitry Bahdanau, Dmitriy Serdyuk, Kyunghyun Cho, and Yoshua Bengio, *Attention-Based Models for Speech Recognition*, arXiv:1506.07503 [[Paper](http://arxiv.org/pdf/1506.07503v1.pdf)]
 
 ### Machine Translation
 * Univ. Montreal [[Paper](http://arxiv.org/pdf/1406.1078v3.pdf)]
@@ -164,14 +167,19 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 
 ### Turing Machines
 *  A.Graves, G. Wayne, and I. Danihelka., *Neural Turing Machines,* arXiv preprint arXiv:1410.5401 [[Paper](http://arxiv.org/pdf/1410.5401v2.pdf)]
-* Jason Weston, Sumit Chopra, Antoine Bordes, *Memory Networks,* arXiv:1410.3916. [[Paper](http://arxiv.org/pdf/1410.3916v10)]
-* Wojciech Zaremba, Ilya Sutskever, *Reinforcement Learning Neural Turing Machines,* arXiv:1505.00521. [[Paper](http://arxiv.org/pdf/1505.00521v1)]
+* Jason Weston, Sumit Chopra, Antoine Bordes, *Memory Networks,* arXiv:1410.3916 [[Paper](http://arxiv.org/pdf/1410.3916v10)]
+* Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus, *End-To-End Memory Networks*, arXiv:1503.08895 [[Paper](http://arxiv.org/pdf/1503.08895v4.pdf)]
+* Wojciech Zaremba and Ilya Sutskever, *Reinforcement Learning Neural Turing Machines,* arXiv:1505.00521 [[Paper](http://arxiv.org/pdf/1505.00521v1)]
 
 ### Robotics
 * Marvin Zhang, Sergey Levine, Zoe McCarthy, Chelsea Finn, Pieter Abbeel, *Policy Learning with Continuous Memory States for Partially Observed Robotic Control,* arXiv:1507.01273. [[Paper]](http://arxiv.org/pdf/1507.01273v1)
 
 
 ## Datasets
+* Speech Recognition
+  * [OpenSLR](http://www.openslr.org/resources.php) (Open Speech and Language Resources)
+    * [LibriSpeech ASR corpus](http://www.openslr.org/12/)
+  * [VoxForge](http://voxforge.org/home)
 * Image Captioning
   * [Flickr 8k](http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html)
   * [Flickr 30k](http://shannon.cs.illinois.edu/DenotationGraph/)
