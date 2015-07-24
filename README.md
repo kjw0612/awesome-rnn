@@ -30,6 +30,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
    - [Language Modeling](#language-modeling)
    - [Speech Recognition](#speech-recognition)
    - [Machine Translation](#machine-translation)
+   - [Conversation Modeling](#conversation-modeling)
    - [Image Captioning](#image-captioning)
    - [Video Captioning](#video-captioning)
    - [Question Answering](#question-answering)
@@ -119,6 +120,11 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Univ. Montreal [[Paper](http://arxiv.org/pdf/1409.0473v6.pdf)]
   * Dzmitry Bahdanau, KyungHyun Cho, and Yoshua Bengio, *Neural Machine Translation by Jointly Learning to Align and Translate*, arXiv:1409.0473 / ICLR 2015
 
+### Conversation Modeling
+* Lifeng Shang, Zhengdong Lu, and Hang Li, *Neural Responding Machine for Short-Text Conversation*, arXiv:1503.02364 [[Paper](http://arxiv.org/pdf/1503.02364v2.pdf)]
+* Oriol Vinyals and Quoc V. Le, *A Neural Conversational Model*, arXiv:1506.05869 [[Paper](http://arxiv.org/pdf/1506.05869v3.pdf)]
+* Ryan Lowe, Nissan Pow, Iulian V. Serban, and Joelle Pineau, *The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems*, arXiv:1506.08909 [[Paper](http://arxiv.org/pdf/1506.08909v2.pdf)]
+
 ### Image Captioning
 * Baidu + UCLA [[Web](http://www.stat.ucla.edu/~junhua.mao/m-RNN.html)] [[Paper-arxiv1](http://arxiv.org/pdf/1410.1090v1.pdf)], [[Paper-ICLR](http://arxiv.org/pdf/1412.6632v4.pdf)]
   * Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, and Alan L. Yuille, *Explain Images with Multimodal Recurrent Neural Networks*, arXiv:1410.1090
@@ -157,14 +163,14 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * MPI + Berkeley [[Web](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/)] [[Paper](http://arxiv.org/pdf/1505.01121v2.pdf)]
   * Mateusz Malinowski, Marcus Rohrbach, and Mario Fritz, *Ask Your Neurons: A Neural-based Approach to Answering Questions about Images*, arXiv:1505.01121
 * Univ. Toronto [[Paper](http://arxiv.org/pdf/1505.02074v1.pdf)] [[Dataset](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/)]
-  * Mengye Ren, Ryan Kiros, and Richard Zemel, *Image Question Answering: A Visual Semantic Embedding Model and a New Dataset*, arXiv:1505.02074 / ICML 2015 deep learning workshop
+  * Mengye Ren, Ryan Kiros, and Richard Zemel, *Exploring Models and Data for Image Question Answering*, arXiv:1505.02074 / ICML 2015 deep learning workshop
 * Baidu + UCLA [[Paper](http://arxiv.org/pdf/1505.05612v1.pdf)] [[Dataset]()]
   * Hauyuan Gao, Junhua Mao, Jie Zhou, Zhiheng Huang, Lei Wang, and Wei Xu, *Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question Answering*, arXiv:1505.05612
 
 ### Image Generation
 * Karol Gregor, Ivo Danihelka, Alex Graves, Danilo J. Rezende, and Daan Wierstra, *DRAW: A Recurrent Neural Network for Image Generation,* ICML 2015 [[Paper](http://arxiv.org/pdf/1502.04623v2.pdf)]
-* Angeliki Lazaridou, Dat T. Nguyen, R. Bernardi, and M. Baroni, *Unveiling the Dreams of Word Embeddings: Towards Language-Driven Image Generation,* arXiv:1506.03500
-* Lucas Theis and Matthias Bethge, *Generative Image Modeling Using Spatial LSTMs,* arXiv:1506.03478
+* Angeliki Lazaridou, Dat T. Nguyen, R. Bernardi, and M. Baroni, *Unveiling the Dreams of Word Embeddings: Towards Language-Driven Image Generation,* arXiv:1506.03500 [[Paper](http://arxiv.org/pdf/1506.03500v1.pdf)]
+* Lucas Theis and Matthias Bethge, *Generative Image Modeling Using Spatial LSTMs,* arXiv:1506.03478 [[Paper](http://arxiv.org/pdf/1506.03478v1.pdf)]
 
 ### Turing Machines
 *  A.Graves, G. Wayne, and I. Danihelka., *Neural Turing Machines,* arXiv preprint arXiv:1410.5401 [[Paper](http://arxiv.org/pdf/1410.5401v2.pdf)]
