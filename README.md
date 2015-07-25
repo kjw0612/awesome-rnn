@@ -89,16 +89,16 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Alex Graves, Santiago Fernandez, and Jurgen Schmidhuber, *Multi-Dimensional Recurrent Neural Networks*, ICANN 2007
 * GRU (Gated Recurrent Unit) [[Paper](http://arxiv.org/pdf/1406.1078v3.pdf)]
   * Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation*, arXiv:1406.1078 / EMNLP 2014
-* GFRNN [[Paper-arXiv](http://arxiv.org/pdf/1502.02367v3.pdf)] [[Paper-ICML](http://jmlr.org/proceedings/papers/v37/chung15.pdf)] [[Supplementary](http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf)]
+* GFRNN [[Paper-arXiv](http://arxiv.org/abs/1502.02367)] [[Paper-ICML](http://jmlr.org/proceedings/papers/v37/chung15.pdf)] [[Supplementary](http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf)]
   * Junyoung Chung, Caglar Gulcehre, Kyunghyun Cho, Yoshua Bengio, *Gated Feedback Recurrent Neural Networks*, arXiv:1502.02367 / ICML 2015
-* Grid LSTM [[Paper](http://arxiv.org/pdf/1507.01526v1.pdf)]
+* Grid LSTM [[Paper](http://arxiv.org/abs/1507.01526)]
   * Nal Kalchbrenner, Ivo Danihelka, and Alex Graves, *Grid Long Short-Term Memory*, arXiv:1507.01526
 
 ### Surveys
-* Klaus Greff, Rupesh Kumar Srivastava, Jan Koutnik, Bas R. Steunebrink, Jurgen Schmidhuber, [LSTM: A Search Space Odyssey](http://arxiv.org/pdf/1503.04069v1.pdf), arXiv:1503.04069
-* Zachary C. Lipton, [A Critical Review of Recurrent Neural Networks for Sequence Learning](http://arxiv.org/pdf/1506.00019v1.pdf), arXiv:1506.00019
-* Andrej Karpathy, Justin Johnson, Li Fei-Fei, [Visualizing and Understanding Recurrent Networks](http://arxiv.org/pdf/1506.02078v1.pdf), arXiv:1506.02078
-* Rafal Jozefowicz, [Wojciech Zaremba, Ilya Sutskever, An Empirical Exploration of Recurrent Network Architectures](http://jmlr.org/proceedings/papers/v37/jozefowicz15.pdf), ICML, 2015.
+* Klaus Greff, Rupesh Kumar Srivastava, Jan Koutnik, Bas R. Steunebrink, Jurgen Schmidhuber, [LSTM: A Search Space Odyssey](http://arxiv.org/abs/1503.04069), arXiv:1503.04069
+* Zachary C. Lipton, [A Critical Review of Recurrent Neural Networks for Sequence Learning](http://arxiv.org/abs/1506.00019), arXiv:1506.00019
+* Andrej Karpathy, Justin Johnson, Li Fei-Fei, [Visualizing and Understanding Recurrent Networks](http://arxiv.org/abs/1506.02078), arXiv:1506.02078
+* Rafal Jozefowicz, Wojciech Zaremba, Ilya Sutskever, [An Empirical Exploration of Recurrent Network Architectures](http://jmlr.org/proceedings/papers/v37/jozefowicz15.pdf), ICML, 2015.
 
 ## Applications
 
@@ -110,76 +110,76 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 ### Speech Recognition
 * Geoffrey Hinton, Li Deng, Dong Yu, George E. Dahl, Abdel-rahman Mohamed, Navdeep Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara N. Sainath, and Brian Kingsbury, *Deep Neural Networks for Acoustic Modeling in Speech Recognition*, IEEE Signam Processing Magazine 2012 [[Paper](http://cs224d.stanford.edu/papers/maas_paper.pdf)]
 * Alex Graves, Abdel-rahman Mohamed, and Geoffrey Hinton, *Speech Recognition with Deep Recurrent Neural Networks*, arXiv:1303.5778 / ICASSP 2013 [[Paper](http://www.cs.toronto.edu/~fritz/absps/RNN13.pdf)]
-* Jan Chorowski, Dzmitry Bahdanau, Dmitriy Serdyuk, Kyunghyun Cho, and Yoshua Bengio, *Attention-Based Models for Speech Recognition*, arXiv:1506.07503 [[Paper](http://arxiv.org/pdf/1506.07503v1.pdf)]
+* Jan Chorowski, Dzmitry Bahdanau, Dmitriy Serdyuk, Kyunghyun Cho, and Yoshua Bengio, *Attention-Based Models for Speech Recognition*, arXiv:1506.07503 [[Paper](http://arxiv.org/abs/1506.07503)]
 
 ### Machine Translation
-* Univ. Montreal [[Paper](http://arxiv.org/pdf/1406.1078v3.pdf)]
+* Univ. Montreal [[Paper](http://arxiv.org/abs/1406.1078)]
   * Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation*, arXiv:1406.1078 / EMNLP 2014
 * Google [[Paper](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)]
   * Ilya Sutskever, Oriol Vinyals, and Quoc V. Le, *Sequence to Sequence Learning with Neural Networks*, arXiv:1409.3215 / NIPS 2014
-* Univ. Montreal [[Paper](http://arxiv.org/pdf/1409.0473v6.pdf)]
+* Univ. Montreal [[Paper](http://arxiv.org/abs/1409.0473)]
   * Dzmitry Bahdanau, KyungHyun Cho, and Yoshua Bengio, *Neural Machine Translation by Jointly Learning to Align and Translate*, arXiv:1409.0473 / ICLR 2015
 
 ### Conversation Modeling
-* Lifeng Shang, Zhengdong Lu, and Hang Li, *Neural Responding Machine for Short-Text Conversation*, arXiv:1503.02364 [[Paper](http://arxiv.org/pdf/1503.02364v2.pdf)]
-* Oriol Vinyals and Quoc V. Le, *A Neural Conversational Model*, arXiv:1506.05869 [[Paper](http://arxiv.org/pdf/1506.05869v3.pdf)]
-* Ryan Lowe, Nissan Pow, Iulian V. Serban, and Joelle Pineau, *The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems*, arXiv:1506.08909 [[Paper](http://arxiv.org/pdf/1506.08909v2.pdf)]
+* Lifeng Shang, Zhengdong Lu, and Hang Li, *Neural Responding Machine for Short-Text Conversation*, arXiv:1503.02364 [[Paper](http://arxiv.org/abs/1503.02364)]
+* Oriol Vinyals and Quoc V. Le, *A Neural Conversational Model*, arXiv:1506.05869 [[Paper](http://arxiv.org/abs/1506.05869)]
+* Ryan Lowe, Nissan Pow, Iulian V. Serban, and Joelle Pineau, *The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems*, arXiv:1506.08909 [[Paper](http://arxiv.org/abs/1506.08909)]
 
 ### Image Captioning
-* Baidu + UCLA [[Web](http://www.stat.ucla.edu/~junhua.mao/m-RNN.html)] [[Paper-arxiv1](http://arxiv.org/pdf/1410.1090v1.pdf)], [[Paper-ICLR](http://arxiv.org/pdf/1412.6632v4.pdf)]
+* UCLA + Baidu [[Web](http://www.stat.ucla.edu/~junhua.mao/m-RNN.html)] [[Paper-arXiv1](http://arxiv.org/abs/1410.1090)], [[Paper-arXiv2](http://arxiv.org/abs/1412.6632)]
   * Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, and Alan L. Yuille, *Explain Images with Multimodal Recurrent Neural Networks*, arXiv:1410.1090
   * Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Zhiheng Huang, and Alan L. Yuille, *Deep Captioning with Multimodal Recurrent Neural Networks (m-RNN)*, arXiv:1412.6632 / ICLR 2015
-* Univ. Toronto [[Paper](http://arxiv.org/pdf/1411.2539v1.pdf)] [[Web demo](http://deeplearning.cs.toronto.edu/i2t)]
+* Univ. Toronto [[Paper](http://arxiv.org/abs/1411.2539)] [[Web demo](http://deeplearning.cs.toronto.edu/i2t)]
   * Ryan Kiros, Ruslan Salakhutdinov, and Richard S. Zemel, *Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models*, arXiv:1411.2539 / TACL 2015
-* Berkeley [[Web](http://jeffdonahue.com/lrcn/)] [[Paper](http://arxiv.org/pdf/1411.4389v3.pdf)]
+* Berkeley [[Web](http://jeffdonahue.com/lrcn/)] [[Paper](http://arxiv.org/abs/1411.4389)]
   * Jeff Donahue, Lisa Anne Hendricks, Sergio Guadarrama, Marcus Rohrbach, Subhashini Venugopalan, Kate Saenko, and Trevor Darrell, *Long-term Recurrent Convolutional Networks for Visual Recognition and Description*, arXiv:1411.4389 / CVPR 2015
-* Google [[Paper](http://arxiv.org/pdf/1411.4555v2.pdf)]
+* Google [[Paper](http://arxiv.org/abs/1411.4555)]
   * Oriol Vinyals, Alexander Toshev, Samy Bengio, and Dumitru Erhan, *Show and Tell: A Neural Image Caption Generator*, arXiv:1411.4555 / CVPR 2015
-* Microsoft [[Paper](http://arxiv.org/pdf/1411.4952v3.pdf)]
+* Microsoft [[Paper](http://arxiv.org/abs/1411.4952)]
   * Hao Fang, Saurabh Gupta, Forrest Iandola, Rupesh Srivastava, Li Deng, Piotr Dollar, Jianfeng Gao, Xiaodong He, Margaret Mitchell, John C. Platt, Lawrence Zitnick, and Geoffrey Zweig, *From Captions to Visual Concepts and Back*, arXiv:1411.4952 / CVPR 2015
-* Microsoft [[Paper-arxiv](http://arxiv.org/pdf/1411.5654v1.pdf)], [[Paper-CVPR](http://www.cs.cmu.edu/~xinleic/papers/cvpr15_rnn.pdf)]
+* Microsoft [[Paper-arXiv](http://arxiv.org/abs/1411.5654)], [[Paper-CVPR](http://www.cs.cmu.edu/~xinleic/papers/cvpr15_rnn.pdf)]
   * Xinlei Chen, and C. Lawrence Zitnick, *Learning a Recurrent Visual Representation for Image Caption Generation*
   * Xinlei Chen, and C. Lawrence Zitnick, *Mind’s Eye: A Recurrent Visual Representation for Image Caption Generation*, CVPR 2015
-* Univ. Toronto + Univ. Montreal [[Web](http://kelvinxu.github.io/projects/capgen.html)] [[Paper](http://www.cs.toronto.edu/~zemel/documents/captionAttn.pdf)]
+* Univ. Montreal + Univ. Toronto [[Web](http://kelvinxu.github.io/projects/capgen.html)] [[Paper](http://www.cs.toronto.edu/~zemel/documents/captionAttn.pdf)]
   * Kelvin Xu, Jimmy Lei Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard S. Zemel, and Yoshua Bengio, *Show, Attend, and Tell: Neural Image Caption Generation with Visual Attention*, arXiv:1502.03044 / ICML 2015
-* Idiap + EPFL + Facebook [[Paper](http://arxiv.org/pdf/1502.03671v2.pdf)]
+* Idiap + EPFL + Facebook [[Paper](http://arxiv.org/abs/1502.03671)]
   * Remi Lebret, Pedro O. Pinheiro, and Ronan Collobert, *Phrase-based Image Captioning*, arXiv:1502.03671 / ICML 2015
-* Baidu + UCLA [[Paper](http://arxiv.org/pdf/1504.06692v1.pdf)]
+* UCLA + Baidu [[Paper](http://arxiv.org/abs/1504.06692)]
   * Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Zhiheng Huang, and Alan L. Yuille, *Learning like a Child: Fast Novel Visual Concept Learning from Sentence Descriptions of Images*, arXiv:1504.06692
 
 ### Video Captioning
-* Berkeley [[Web](http://jeffdonahue.com/lrcn/)] [[Paper](http://arxiv.org/pdf/1411.4389v3.pdf)]
+* Berkeley [[Web](http://jeffdonahue.com/lrcn/)] [[Paper](http://arxiv.org/abs/1411.4389)]
   * Jeff Donahue, Lisa Anne Hendricks, Sergio Guadarrama, Marcus Rohrbach, Subhashini Venugopalan, Kate Saenko, and Trevor Darrell, *Long-term Recurrent Convolutional Networks for Visual Recognition and Description*, arXiv:1411.4389 / CVPR 2015
-* UT Austin + UML + Berkeley [[Paper](http://arxiv.org/pdf/1412.4729v3.pdf)]
+* UT Austin + UML + Berkeley [[Paper](http://arxiv.org/abs/1412.4729)]
   * Subhashini Venugopalan, Huijuan Xu, Jeff Donahue, Marcus Rohrbach, Raymond Mooney, and Kate Saenko, *Translating Videos to Natural Language Using Deep Recurrent Neural Networks*, arXiv:1412.4729
-* Microsoft [[Paper](http://arxiv.org/pdf/1505.01861v1.pdf)]
+* Microsoft [[Paper](http://arxiv.org/abs/1505.01861)]
   * Yingwei Pan, Tao Mei, Ting Yao, Houqiang Li, and Yong Rui, *Joint Modeling Embedding and Translation to Bridge Video and Language*, arXiv:1505.01861
-* UT Austin + Berkeley + UML [[Paper](http://arxiv.org/pdf/1505.00487v2.pdf)]
+* UT Austin + Berkeley + UML [[Paper](http://arxiv.org/abs/1505.00487)]
   * Subhashini Venugopalan, Marcus Rohrbach, Jeff Donahue, Raymond Mooney, Trevor Darrell, and Kate Saenko, *Sequence to Sequence--Video to Text*, arXiv:1505.00487
 
 ### Question Answering
-* MSR + Virginia Tech. [[Web](http://www.visualqa.org/)] [[Paper](http://arxiv.org/pdf/1505.00468v1.pdf)]
+* Virginia Tech. + MSR [[Web](http://www.visualqa.org/)] [[Paper](http://arxiv.org/abs/1505.00468)]
   * Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C. Lawrence Zitnick, and Devi Parikh, *VQA: Visual Question Answering*, arXiv:1505.00468 / CVPR 2015 SUNw:Scene Understanding workshop
-* MPI + Berkeley [[Web](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/)] [[Paper](http://arxiv.org/pdf/1505.01121v2.pdf)]
+* MPI + Berkeley [[Web](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/)] [[Paper](http://arxiv.org/abs/1505.01121)]
   * Mateusz Malinowski, Marcus Rohrbach, and Mario Fritz, *Ask Your Neurons: A Neural-based Approach to Answering Questions about Images*, arXiv:1505.01121
-* Univ. Toronto [[Paper](http://arxiv.org/pdf/1505.02074v1.pdf)] [[Dataset](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/)]
+* Univ. Toronto [[Paper](http://arxiv.org/abs/1505.02074)] [[Dataset](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/)]
   * Mengye Ren, Ryan Kiros, and Richard Zemel, *Exploring Models and Data for Image Question Answering*, arXiv:1505.02074 / ICML 2015 deep learning workshop
-* Baidu + UCLA [[Paper](http://arxiv.org/pdf/1505.05612v1.pdf)] [[Dataset]()]
+* Baidu + UCLA [[Paper](http://arxiv.org/abs/1505.05612)] [[Dataset]()]
   * Hauyuan Gao, Junhua Mao, Jie Zhou, Zhiheng Huang, Lei Wang, and Wei Xu, *Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question Answering*, arXiv:1505.05612
 
 ### Image Generation
-* Karol Gregor, Ivo Danihelka, Alex Graves, Danilo J. Rezende, and Daan Wierstra, *DRAW: A Recurrent Neural Network for Image Generation,* ICML 2015 [[Paper](http://arxiv.org/pdf/1502.04623v2.pdf)]
-* Angeliki Lazaridou, Dat T. Nguyen, R. Bernardi, and M. Baroni, *Unveiling the Dreams of Word Embeddings: Towards Language-Driven Image Generation,* arXiv:1506.03500 [[Paper](http://arxiv.org/pdf/1506.03500v1.pdf)]
-* Lucas Theis and Matthias Bethge, *Generative Image Modeling Using Spatial LSTMs,* arXiv:1506.03478 [[Paper](http://arxiv.org/pdf/1506.03478v1.pdf)]
+* Karol Gregor, Ivo Danihelka, Alex Graves, Danilo J. Rezende, and Daan Wierstra, *DRAW: A Recurrent Neural Network for Image Generation,* ICML 2015 [[Paper](http://arxiv.org/abs/1502.04623)]
+* Angeliki Lazaridou, Dat T. Nguyen, R. Bernardi, and M. Baroni, *Unveiling the Dreams of Word Embeddings: Towards Language-Driven Image Generation,* arXiv:1506.03500 [[Paper](http://arxiv.org/abs/1506.03500)]
+* Lucas Theis and Matthias Bethge, *Generative Image Modeling Using Spatial LSTMs,* arXiv:1506.03478 [[Paper](http://arxiv.org/abs/1506.03478)]
 
 ### Turing Machines
-*  A.Graves, G. Wayne, and I. Danihelka., *Neural Turing Machines,* arXiv preprint arXiv:1410.5401 [[Paper](http://arxiv.org/pdf/1410.5401v2.pdf)]
-* Jason Weston, Sumit Chopra, Antoine Bordes, *Memory Networks,* arXiv:1410.3916 [[Paper](http://arxiv.org/pdf/1410.3916v10)]
-* Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus, *End-To-End Memory Networks*, arXiv:1503.08895 [[Paper](http://arxiv.org/pdf/1503.08895v4.pdf)]
-* Wojciech Zaremba and Ilya Sutskever, *Reinforcement Learning Neural Turing Machines,* arXiv:1505.00521 [[Paper](http://arxiv.org/pdf/1505.00521v1)]
+*  A.Graves, G. Wayne, and I. Danihelka., *Neural Turing Machines,* arXiv preprint arXiv:1410.5401 [[Paper](http://arxiv.org/abs/1410.5401)]
+* Jason Weston, Sumit Chopra, Antoine Bordes, *Memory Networks,* arXiv:1410.3916 [[Paper](http://arxiv.org/abs/1410.3916)]
+* Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus, *End-To-End Memory Networks*, arXiv:1503.08895 [[Paper](http://arxiv.org/abs/1503.08895)]
+* Wojciech Zaremba and Ilya Sutskever, *Reinforcement Learning Neural Turing Machines,* arXiv:1505.00521 [[Paper](http://arxiv.org/abs/1505.00521)]
 
 ### Robotics
-* Marvin Zhang, Sergey Levine, Zoe McCarthy, Chelsea Finn, Pieter Abbeel, *Policy Learning with Continuous Memory States for Partially Observed Robotic Control,* arXiv:1507.01273. [[Paper]](http://arxiv.org/pdf/1507.01273v1)
+* Marvin Zhang, Sergey Levine, Zoe McCarthy, Chelsea Finn, Pieter Abbeel, *Policy Learning with Continuous Memory States for Partially Observed Robotic Control,* arXiv:1507.01273. [[Paper]](http://arxiv.org/abs/1507.01273)
 
 
 ## Datasets
