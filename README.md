@@ -45,7 +45,10 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [Deep Learning Tutorials](http://www.deeplearning.net/tutorial/)
     * [RNN for semantic parsing of speech](http://www.deeplearning.net/tutorial/rnnslu.html#rnnslu)
     * [LSTM network for sentiment analysis](http://www.deeplearning.net/tutorial/lstm.html#lstm)
-  * [Keras](https://github.com/fchollet/keras) : Theano-based Deep Learning Library
+  * [Pylearn2](http://deeplearning.net/software/pylearn2/) : Library that wraps a lot of models and training algorithms in deep learning
+  * [Blocks](https://github.com/mila-udem/blocks) : modular framework that enables building neural network models
+  * [Keras](http://keras.io/) : Theano-based deep learning library similar to Torch, but in Python
+  * [Lasagne](https://github.com/Lasagne/Lasagne) : Lightweight library to build and train neural networks in Theano
   * [theano-rnn](https://github.com/gwtaylor/theano-rnn) by Graham Taylor
   * [Passage](https://github.com/IndicoDataSolutions/Passage) : Library for text analysis with RNNs
 * [Caffe](https://github.com/BVLC/caffe) - C++ with MATLAB/Python wrappers
@@ -56,6 +59,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [Oxford](https://github.com/oxford-cs-ml-2015) by Nando de Freitas : Oxford Computer Science - Machine Learning 2015 Practicals
   * [rnn](https://github.com/Element-Research/rnn) by Nicholas Leonard : general library for implementing RNN, LSTM, BRNN and BLSTM (highly unit tested).
 * Etc.
+  * [Chainer](http://chainer.org/) : new, flexible deep learning library in Python
   * [RNNLIB](http://sourceforge.net/p/rnnl/wiki/Home/) by Alex Graves : C++ based LSTM library
   * [RNNLM](http://rnnlm.org/) by Tomas Mikolov : C++ based simple code
   * [neuraltalk](https://github.com/karpathy/neuraltalk) by Andrej Karpathy : numpy-based RNN/LSTM implementation
@@ -83,7 +87,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 ### Network Variants
 * Bi-directional RNN [[Paper](http://www.di.ufpe.br/~fnj/RNA/bibliografia/BRNN.pdf)]
   * Mike Schuster and Kuldip K. Paliwal, *Bidirectional Recurrent Neural Networks*, Trans. on Signal Processing 1997
-* LSTM [[Paper](http://web.eecs.utk.edu/~itamar/courses/ECE-692/Bobby_paper1.pdf)]
+* LSTM [[Paper](http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf)]
   * Sepp Hochreiter and Jurgen Schmidhuber, *Long Short-Term Memory*, Neural Computation 1997
 * Multi-dimensional RNN [[Paper](http://arxiv.org/pdf/0705.2011v1.pdf)]
   * Alex Graves, Santiago Fernandez, and Jurgen Schmidhuber, *Multi-Dimensional Recurrent Neural Networks*, ICANN 2007
