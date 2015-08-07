@@ -65,6 +65,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [neuraltalk](https://github.com/karpathy/neuraltalk) by Andrej Karpathy : numpy-based RNN/LSTM implementation
   * [gist](https://gist.github.com/karpathy/587454dc0146a6ae21fc) by Andrej Karpathy : raw numpy code that implements an efficient batched LSTM
   * [Recurrentjs](https://github.com/karpathy/recurrentjs) by Andrej Karpathy : a beta javascript library for RNN
+  * [RNN](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy: a good brief introduction for RNN.
  
 ## Theory
 ### Lectures
