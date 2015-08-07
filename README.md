@@ -204,4 +204,6 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [VQA](http://www.visualqa.org/)
   * [Image QA](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/)
   * [Multilingual Image QA] : in Chinese, with English translation
-
+* Action Recognition
+  * [THUMOS](http://www.thumos.info/home.html) : Large-scale action recognition dataset
+  * [MultiTHUMOS](http://ai.stanford.edu/~syyeung/resources/multithumos.zip) : Extension of THUMOS '14 action detection dataset with dense multilabele annotation
