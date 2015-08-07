@@ -71,6 +71,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Stanford NLP ([CS224d](http://cs224d.stanford.edu/index.html)) by Richard Socher
   * [Lecture Note 3](http://cs224d.stanford.edu/lecture_notes/LectureNotes3.pdf) : neural network basics
   * [Lecture Note 4](http://cs224d.stanford.edu/lecture_notes/LectureNotes4.pdf) : RNN language models, bi-directional RNN, GRU, LSTM
+* Stanford vision ([CS231n](http://cs231n.github.io/) by Andrej Karpathy
+  * About NN basic, and CNN
 * Oxford [Machine Learning](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/) by Nando de Freitas
   * [Lecture 12](https://www.youtube.com/watch?v=56TYLaQN4N8) : Recurrent neural networks and LSTMs
   * [Lecture 13](https://www.youtube.com/watch?v=-yX1SYeDHbg) : (guest lecture) Alex Graves on Hallucination with RNNs
