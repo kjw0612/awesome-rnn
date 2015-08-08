@@ -64,12 +64,16 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [RNNLM](http://rnnlm.org/) by Tomas Mikolov : C++ based simple code
   * [neuraltalk](https://github.com/karpathy/neuraltalk) by Andrej Karpathy : numpy-based RNN/LSTM implementation
   * [gist](https://gist.github.com/karpathy/587454dc0146a6ae21fc) by Andrej Karpathy : raw numpy code that implements an efficient batched LSTM
+  * [Recurrentjs](https://github.com/karpathy/recurrentjs) by Andrej Karpathy : a beta javascript library for RNN
+  * [RNN](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy: a good brief introduction for RNN.
  
 ## Theory
 ### Lectures
 * Stanford NLP ([CS224d](http://cs224d.stanford.edu/index.html)) by Richard Socher
   * [Lecture Note 3](http://cs224d.stanford.edu/lecture_notes/LectureNotes3.pdf) : neural network basics
   * [Lecture Note 4](http://cs224d.stanford.edu/lecture_notes/LectureNotes4.pdf) : RNN language models, bi-directional RNN, GRU, LSTM
+* Stanford vision ([CS231n](http://cs231n.github.io/)) by Andrej Karpathy
+  * About NN basic, and CNN
 * Oxford [Machine Learning](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/) by Nando de Freitas
   * [Lecture 12](https://www.youtube.com/watch?v=56TYLaQN4N8) : Recurrent neural networks and LSTMs
   * [Lecture 13](https://www.youtube.com/watch?v=-yX1SYeDHbg) : (guest lecture) Alex Graves on Hallucination with RNNs
