@@ -213,4 +213,4 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [MultiTHUMOS](http://ai.stanford.edu/~syyeung/resources/multithumos.zip) : Extension of THUMOS '14 action detection dataset with dense multilabele annotation
 
 ## Online examples
-* Alex graves, hand-writing generation [[link](linkhttp://www.cs.toronto.edu/~graves/handwriting.html)]
+* Alex graves, hand-writing generation [[link](http://www.cs.toronto.edu/~graves/handwriting.html)]
