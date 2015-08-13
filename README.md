@@ -37,6 +37,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
    - [Image Generation](#image-generation)
    - [Turing Machines](#turing-machines)
    - [Robotics](#robotics)
+   - [Other](#other)
  - [Datasets](#datasets)
 
 ## Codes
