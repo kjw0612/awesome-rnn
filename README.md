@@ -194,6 +194,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 ### Robotics
 * Marvin Zhang, Sergey Levine, Zoe McCarthy, Chelsea Finn, Pieter Abbeel, *Policy Learning with Continuous Memory States for Partially Observed Robotic Control,* arXiv:1507.01273. [[Paper]](http://arxiv.org/pdf/1507.01273)
 
+### Other
+* Alex Graves, *Generating Sequences With Recurrent Neural Networks,* arXiv:1308.0850 [[Paper]](http://arxiv.org/abs/1308.0850)
 
 ## Datasets
 * Speech Recognition
