@@ -37,7 +37,9 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
    - [Image Generation](#image-generation)
    - [Turing Machines](#turing-machines)
    - [Robotics](#robotics)
+   - [Other](#other)
  - [Datasets](#datasets)
+ - [Online Demos](#online-demos)
 
 ## Codes
 * [Theano](http://deeplearning.net/software/theano/) - Python
@@ -213,3 +215,6 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Action Recognition
   * [THUMOS](http://www.thumos.info/home.html) : Large-scale action recognition dataset
   * [MultiTHUMOS](http://ai.stanford.edu/~syyeung/resources/multithumos.zip) : Extension of THUMOS '14 action detection dataset with dense multilabele annotation
+
+## Online Demos
+* Alex graves, hand-writing generation [[link](http://www.cs.toronto.edu/~graves/handwriting.html)]
