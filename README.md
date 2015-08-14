@@ -39,7 +39,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
    - [Robotics](#robotics)
    - [Other](#other)
  - [Datasets](#datasets)
- - [Online examples](#online-examples)
+ - [Online Demos](#online-demos)
 
 ## Codes
 * [Theano](http://deeplearning.net/software/theano/) - Python
