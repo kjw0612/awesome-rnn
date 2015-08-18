@@ -126,14 +126,18 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Jan Chorowski, Dzmitry Bahdanau, Dmitriy Serdyuk, Kyunghyun Cho, and Yoshua Bengio, *Attention-Based Models for Speech Recognition*, arXiv:1506.07503 [[Paper](http://arxiv.org/pdf/1506.07503)]
 
 ### Machine Translation
-* Univ. Montreal [[Paper](http://arxiv.org/pdf/1406.1078)]
-  * Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation*, arXiv:1406.1078 / EMNLP 2014
+* Oxford [[Paper](http://nal.co/papers/KalchbrennerBlunsom_EMNLP13)]
+  * Nal Kalchbrenner and Phil Blunsom, *Recurrent Continuous Translation Models*, EMNLP 2013
+* Univ. Montreal 
+  * Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation*, arXiv:1406.1078 / EMNLP 2014 [[Paper](http://arxiv.org/pdf/1406.1078)]
+  * Kyunghyun Cho, Bart van Merrienboer, Dzmitry Bahdanau, and Yoshua Bengio, *On the Properties of Neural Machine Translation: Encoder-Decoder Approaches*, SSST-8 2014 [[Paper](http://www.aclweb.org/anthology/W14-4012)]
+  * Jean Pouget-Abadie, Dzmitry Bahdanau, Bart van Merrienboer, Kyunghyun Cho, and Yoshua Bengio, *Overcoming the Curse of Sentence Length for Neural Machine Translation using Automatic Segmentation*, SSST-8 2014
+  * Dzmitry Bahdanau, KyungHyun Cho, and Yoshua Bengio, *Neural Machine Translation by Jointly Learning to Align and Translate*, arXiv:1409.0473 / ICLR 2015 [[Paper](http://arxiv.org/pdf/1409.0473)]
+  * Sebastian Jean, Kyunghyun Cho, Roland Memisevic, and Yoshua Bengio, *On using very large target vocabulary for neural machine translation*, arXiv:1412.2007 / ACL 2015 [[Paper](http://arxiv.org/pdf/1412.2007.pdf)]
 * Google [[Paper](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)]
   * Ilya Sutskever, Oriol Vinyals, and Quoc V. Le, *Sequence to Sequence Learning with Neural Networks*, arXiv:1409.3215 / NIPS 2014
-* Univ. Montreal [[Paper](http://arxiv.org/pdf/1409.0473)]
-  * Dzmitry Bahdanau, KyungHyun Cho, and Yoshua Bengio, *Neural Machine Translation by Jointly Learning to Align and Translate*, arXiv:1409.0473 / ICLR 2015
 * Google + NYU [[Paper](http://arxiv.org/pdf/1410.8206)]
-  * Minh-Thang Luong, Ilya Sutskever, Quoc V. Le, Oriol Vinyals, and Wojciech Zaremba, *Addressing the Rare Word Problem in Neural Machine Transltaion*, ACL 2015
+  * Minh-Thang Luong, Ilya Sutskever, Quoc V. Le, Oriol Vinyals, and Wojciech Zaremba, *Addressing the Rare Word Problem in Neural Machine Transltaion*, arXiv:1410.8206 / ACL 2015
 
 ### Conversation Modeling
 * Lifeng Shang, Zhengdong Lu, and Hang Li, *Neural Responding Machine for Short-Text Conversation*, arXiv:1503.02364 / ACL 2015 [[Paper](http://arxiv.org/pdf/1503.02364)]
@@ -171,6 +175,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Yingwei Pan, Tao Mei, Ting Yao, Houqiang Li, and Yong Rui, *Joint Modeling Embedding and Translation to Bridge Video and Language*, arXiv:1505.01861
 * UT Austin + Berkeley + UML [[Paper](http://arxiv.org/pdf/1505.00487)]
   * Subhashini Venugopalan, Marcus Rohrbach, Jeff Donahue, Raymond Mooney, Trevor Darrell, and Kate Saenko, *Sequence to Sequence--Video to Text*, arXiv:1505.00487
+* Univ. Montreal + Univ. Sherbrooke
+  * Li Yao, Atousa Torabi, Kyunghyun Cho, Nicolas Ballas, Christopher Pal, Hugo Larochelle, and Aaron Courville, *Describing Videos by Exploiting Temporal Structure*, arXiv:1502.08029
 
 ### Question Answering
 * Virginia Tech. + MSR [[Web](http://www.visualqa.org/)] [[Paper](http://arxiv.org/pdf/1505.00468)]
