@@ -119,6 +119,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Tomas Mikolov, Stefan Kombrink, Lukas Burget, Jan "Honza" Cernocky, Sanjeev Khudanpur, *Extensions of Recurrent Neural Network Language Model*, ICASSP 2011 [[Paper](http://www.fit.vutbr.cz/research/groups/speech/publi/2011/mikolov_icassp2011_5528.pdf)]
 * Stefan Kombrink, Tomas Mikolov, Martin Karafiat, Lukas Burget, *Recurrent Neural Network based Language Modeling in Meeting Recognition*, Interspeech 2011 [[Paper](http://www.fit.vutbr.cz/~imikolov/rnnlm/ApplicationOfRNNinMeetingRecognition_IS2011.pdf)]
 * Jiwei Li, Minh-Thang Luong, and Dan Jurafsky, *A Hierarchical Neural Autoencoder for Paragraphs and Documents*, ACL 2015 [[Paper](http://arxiv.org/pdf/1506.01057)], [[Code](https://github.com/jiweil/Hierarchical-Neural-Autoencoder)]
+* Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, and Richard S. Zemel, *Skip-Thought Vectors*, arXiv:1506.06726 [[Paper](http://arxiv.org/pdf/1506.06726.pdf)]
+ 
 
 ### Speech Recognition
 * Geoffrey Hinton, Li Deng, Dong Yu, George E. Dahl, Abdel-rahman Mohamed, Navdeep Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara N. Sainath, and Brian Kingsbury, *Deep Neural Networks for Acoustic Modeling in Speech Recognition*, IEEE Signam Processing Magazine 2012 [[Paper](http://cs224d.stanford.edu/papers/maas_paper.pdf)]
@@ -144,6 +146,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Oriol Vinyals and Quoc V. Le, *A Neural Conversational Model*, arXiv:1506.05869 [[Paper](http://arxiv.org/pdf/1506.05869)]
 * Ryan Lowe, Nissan Pow, Iulian V. Serban, and Joelle Pineau, *The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems*, arXiv:1506.08909 [[Paper](http://arxiv.org/pdf/1506.08909)]
 
+
 ### Image Captioning
 * UCLA + Baidu [[Web](http://www.stat.ucla.edu/~junhua.mao/m-RNN.html)] [[Paper-arXiv1](http://arxiv.org/pdf/1410.1090)], [[Paper-arXiv2](http://arxiv.org/pdf/1412.6632)]
   * Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, and Alan L. Yuille, *Explain Images with Multimodal Recurrent Neural Networks*, arXiv:1410.1090
@@ -165,6 +168,16 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Remi Lebret, Pedro O. Pinheiro, and Ronan Collobert, *Phrase-based Image Captioning*, arXiv:1502.03671 / ICML 2015
 * UCLA + Baidu [[Paper](http://arxiv.org/pdf/1504.06692)]
   * Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Zhiheng Huang, and Alan L. Yuille, *Learning like a Child: Fast Novel Visual Concept Learning from Sentence Descriptions of Images*, arXiv:1504.06692
+* MS + Berkeley
+  * Jacob Devlin, Saurabh Gupta, Ross Girshick, Margaret Mitchell, and C. Lawrence Zitnick, *Exploring Nearest Neighbor Approaches for Image Captioning*, arXiv:1505.04467 (Note: technically not RNN) [[Paper](http://arxiv.org/pdf/1505.04467.pdf)]
+  * Jacob Devlin, Hao Cheng, Hao Fang, Saurabh Gupta, Li Deng, Xiaodong He, Geoffrey Zweig, and Margaret Mitchell, *Language Models for Image Captioning: The Quirks and What Works*, arXiv:1505.01809 [[Paper](http://arxiv.org/pdf/1505.01809.pdf)]
+* Adelaide [[Paper](http://arxiv.org/pdf/1506.01144.pdf)]
+  * Qi Wu, Chunhua Shen, Anton van den Hengel, Lingqiao Liu, and Anthony Dick, *Image Captioning with an Intermediate Attributes Layer*, arXiv:1506.01144
+* Tilburg [[Paper](http://arxiv.org/pdf/1506.03694.pdf)]
+  * Grzegorz Chrupala, Akos Kadar, Afra Alishahi, *Learning language through pictures*, arXiv:1506.03694
+* Univ. Montreal [[Paper](http://arxiv.org/pdf/1507.01053.pdf)]
+  * Kyunghyun Cho, Aaron Courville, and Yoshua Bengio, *Describing Multimedia Content using Attention-based Encoder-Decoder Networks*, arXiv:1507.01053
+
 
 ### Video Captioning
 * Berkeley [[Web](http://jeffdonahue.com/lrcn/)] [[Paper](http://arxiv.org/pdf/1411.4389)]
@@ -175,8 +188,15 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Yingwei Pan, Tao Mei, Ting Yao, Houqiang Li, and Yong Rui, *Joint Modeling Embedding and Translation to Bridge Video and Language*, arXiv:1505.01861
 * UT Austin + Berkeley + UML [[Paper](http://arxiv.org/pdf/1505.00487)]
   * Subhashini Venugopalan, Marcus Rohrbach, Jeff Donahue, Raymond Mooney, Trevor Darrell, and Kate Saenko, *Sequence to Sequence--Video to Text*, arXiv:1505.00487
-* Univ. Montreal + Univ. Sherbrooke
+* Univ. Montreal + Univ. Sherbrooke [[Paper](http://arxiv.org/pdf/1502.08029.pdf)]
   * Li Yao, Atousa Torabi, Kyunghyun Cho, Nicolas Ballas, Christopher Pal, Hugo Larochelle, and Aaron Courville, *Describing Videos by Exploiting Temporal Structure*, arXiv:1502.08029
+* MPI + Berkeley [[Paper](http://arxiv.org/pdf/1506.01698.pdf)]
+  * Anna Rohrbach, Marcus Rohrbach, and Bernt Schiele, *The Long-Short Story of Movie Description*, arXiv:1506.01698
+* Univ. Toronto + MIT [[Paper](http://arxiv.org/pdf/1506.06724.pdf)]
+  * Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler, *Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books*, arXiv:1506.06724
+* Univ. Montreal [[Paper](http://arxiv.org/pdf/1507.01053.pdf)]
+  * Kyunghyun Cho, Aaron Courville, and Yoshua Bengio, *Describing Multimedia Content using Attention-based Encoder-Decoder Networks*, arXiv:1507.01053
+
 
 ### Question Answering
 * Virginia Tech. + MSR [[Web](http://www.visualqa.org/)] [[Paper](http://arxiv.org/pdf/1505.00468)]
