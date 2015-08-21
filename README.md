@@ -160,9 +160,11 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Jeff Donahue, Lisa Anne Hendricks, Sergio Guadarrama, Marcus Rohrbach, Subhashini Venugopalan, Kate Saenko, and Trevor Darrell, *Long-term Recurrent Convolutional Networks for Visual Recognition and Description*, arXiv:1411.4389 / CVPR 2015
 * Google [[Paper](http://arxiv.org/pdf/1411.4555)]
   * Oriol Vinyals, Alexander Toshev, Samy Bengio, and Dumitru Erhan, *Show and Tell: A Neural Image Caption Generator*, arXiv:1411.4555 / CVPR 2015
+* Stanford [[Web]](http://cs.stanford.edu/people/karpathy/deepimagesent/) [[Paper]](http://cs.stanford.edu/people/karpathy/cvpr2015.pdf)
+  * Andrej Karpathy and Li Fei-Fei, *Deep Visual-Semantic Alignments for Generating Image Description*, CVPR 2015
 * Microsoft [[Paper](http://arxiv.org/pdf/1411.4952)]
   * Hao Fang, Saurabh Gupta, Forrest Iandola, Rupesh Srivastava, Li Deng, Piotr Dollar, Jianfeng Gao, Xiaodong He, Margaret Mitchell, John C. Platt, Lawrence Zitnick, and Geoffrey Zweig, *From Captions to Visual Concepts and Back*, arXiv:1411.4952 / CVPR 2015
-* Microsoft [[Paper-arXiv](http://arxiv.org/pdf/1411.5654)], [[Paper-CVPR](http://www.cs.cmu.edu/~xinleic/papers/cvpr15_rnn.pdf)]
+* CMU + Microsoft [[Paper-arXiv](http://arxiv.org/pdf/1411.5654)], [[Paper-CVPR](http://www.cs.cmu.edu/~xinleic/papers/cvpr15_rnn.pdf)]
   * Xinlei Chen, and C. Lawrence Zitnick, *Learning a Recurrent Visual Representation for Image Caption Generation*
   * Xinlei Chen, and C. Lawrence Zitnick, *Mind’s Eye: A Recurrent Visual Representation for Image Caption Generation*, CVPR 2015
 * Univ. Montreal + Univ. Toronto [[Web](http://kelvinxu.github.io/projects/capgen.html)] [[Paper](http://www.cs.toronto.edu/~zemel/documents/captionAttn.pdf)]
@@ -177,7 +179,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Adelaide [[Paper](http://arxiv.org/pdf/1506.01144.pdf)]
   * Qi Wu, Chunhua Shen, Anton van den Hengel, Lingqiao Liu, and Anthony Dick, *Image Captioning with an Intermediate Attributes Layer*, arXiv:1506.01144
 * Tilburg [[Paper](http://arxiv.org/pdf/1506.03694.pdf)]
-  * Grzegorz Chrupala, Akos Kadar, Afra Alishahi, *Learning language through pictures*, arXiv:1506.03694
+  * Grzegorz Chrupala, Akos Kadar, and Afra Alishahi, *Learning language through pictures*, arXiv:1506.03694
 * Univ. Montreal [[Paper](http://arxiv.org/pdf/1507.01053.pdf)]
   * Kyunghyun Cho, Aaron Courville, and Yoshua Bengio, *Describing Multimedia Content using Attention-based Encoder-Decoder Networks*, arXiv:1507.01053
 * Cornell [[Paper](http://arxiv.org/pdf/1508.02091.pdf)]
