@@ -107,6 +107,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Nal Kalchbrenner, Ivo Danihelka, and Alex Graves, *Grid Long Short-Term Memory*, arXiv:1507.01526
 
 ### Surveys
+* Yann LeCun, Yoshua Bengio, and Geoffrey Hinton, [Deep Learning](http://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf), Nature 2015
 * Klaus Greff, Rupesh Kumar Srivastava, Jan Koutnik, Bas R. Steunebrink, Jurgen Schmidhuber, [LSTM: A Search Space Odyssey](http://arxiv.org/pdf/1503.04069), arXiv:1503.04069
 * Zachary C. Lipton, [A Critical Review of Recurrent Neural Networks for Sequence Learning](http://arxiv.org/pdf/1506.00019), arXiv:1506.00019
 * Andrej Karpathy, Justin Johnson, Li Fei-Fei, [Visualizing and Understanding Recurrent Networks](http://arxiv.org/pdf/1506.02078), arXiv:1506.02078
@@ -140,6 +141,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Ilya Sutskever, Oriol Vinyals, and Quoc V. Le, *Sequence to Sequence Learning with Neural Networks*, arXiv:1409.3215 / NIPS 2014
 * Google + NYU [[Paper](http://arxiv.org/pdf/1410.8206)]
   * Minh-Thang Luong, Ilya Sutskever, Quoc V. Le, Oriol Vinyals, and Wojciech Zaremba, *Addressing the Rare Word Problem in Neural Machine Transltaion*, arXiv:1410.8206 / ACL 2015
+* Stanford [[Paper](http://arxiv.org/pdf/1508.04025.pdf)]
+  * Minh-Thang Luong, Hieu Pham, and Christopher D. Manning, *Effective Approaches to Attention-based Neural Machine Translation*, arXiv:1508.04025
 
 ### Conversation Modeling
 * Lifeng Shang, Zhengdong Lu, and Hang Li, *Neural Responding Machine for Short-Text Conversation*, arXiv:1503.02364 / ACL 2015 [[Paper](http://arxiv.org/pdf/1503.02364)]
@@ -177,6 +180,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Grzegorz Chrupala, Akos Kadar, Afra Alishahi, *Learning language through pictures*, arXiv:1506.03694
 * Univ. Montreal [[Paper](http://arxiv.org/pdf/1507.01053.pdf)]
   * Kyunghyun Cho, Aaron Courville, and Yoshua Bengio, *Describing Multimedia Content using Attention-based Encoder-Decoder Networks*, arXiv:1507.01053
+* Cornell [[Paper](http://arxiv.org/pdf/1508.02091.pdf)]
+  * Jack Hessel, Nicolas Savva, and Michael J. Wilber, *Image Representations and New Domains in Neural Image Captioning*, arXiv:1508.02091
 
 
 ### Video Captioning
@@ -199,6 +204,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 
 
 ### Question Answering
+* FAIR [[Web](https://research.facebook.com/researchers/1543934539189348)] [[Paper](http://arxiv.org/pdf/1502.05698.pdf)]
+  * Jason Weston, Antoine Bordes, Sumit Chopra, Tomas Mikolov, and Alexander M. Rush, *Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks*, arXiv:1502.05698
 * Virginia Tech. + MSR [[Web](http://www.visualqa.org/)] [[Paper](http://arxiv.org/pdf/1505.00468)]
   * Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C. Lawrence Zitnick, and Devi Parikh, *VQA: Visual Question Answering*, arXiv:1505.00468 / CVPR 2015 SUNw:Scene Understanding workshop
 * MPI + Berkeley [[Web](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/)] [[Paper](http://arxiv.org/pdf/1505.01121)]
@@ -207,6 +214,11 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Mengye Ren, Ryan Kiros, and Richard Zemel, *Exploring Models and Data for Image Question Answering*, arXiv:1505.02074 / ICML 2015 deep learning workshop
 * Baidu + UCLA [[Paper](http://arxiv.org/pdf/1505.05612)] [[Dataset]()]
   * Hauyuan Gao, Junhua Mao, Jie Zhou, Zhiheng Huang, Lei Wang, and Wei Xu, *Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question Answering*, arXiv:1505.05612
+* DeepMind + Oxford [[Paper](http://arxiv.org/pdf/1506.03340.pdf)]
+  * Karl M. Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom, *Teaching Machines to Read and Comprehend*, arXiv:1506.03340
+* MetaMind [[Paper](http://arxiv.org/pdf/1506.07285.pdf)]
+  * Ankit Kumar, Ozan Irsoy, Jonathan Su, James Bradbury, Robert English, Brian Pierce, Peter Ondruska, Mohit Iyyer, Ishaan Gulrajani, and Richard Socher, *Ask Me Anything: Dynamic Memory Networks
+for Natural Language Processing*, arXiv:1506.07285
 
 ### Image Generation
 * Karol Gregor, Ivo Danihelka, Alex Graves, Danilo J. Rezende, and Daan Wierstra, *DRAW: A Recurrent Neural Network for Image Generation,* ICML 2015 [[Paper](http://arxiv.org/pdf/1502.04623)]
@@ -218,12 +230,15 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Jason Weston, Sumit Chopra, Antoine Bordes, *Memory Networks,* arXiv:1410.3916 [[Paper](http://arxiv.org/pdf/1410.3916)]
 * Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus, *End-To-End Memory Networks*, arXiv:1503.08895 [[Paper](http://arxiv.org/pdf/1503.08895)]
 * Wojciech Zaremba and Ilya Sutskever, *Reinforcement Learning Neural Turing Machines,* arXiv:1505.00521 [[Paper](http://arxiv.org/pdf/1505.00521)]
+* Baolin Peng and Kaisheng Yao, *Recurrent Neural Networks with External Memory for Language Understanding*, arXiv:1506.00195 [[Paper](http://arxiv.org/pdf/1506.00195.pdf)]
 
 ### Robotics
-* Marvin Zhang, Sergey Levine, Zoe McCarthy, Chelsea Finn, Pieter Abbeel, *Policy Learning with Continuous Memory States for Partially Observed Robotic Control,* arXiv:1507.01273. [[Paper]](http://arxiv.org/pdf/1507.01273)
+* Hongyuan Mei, Mohit Bansal, and Matthew R. Walter, *Listen, Attend, and Walk: Neural Mapping of Navigational Instructions to Action Sequences*, arXiv:1506.04089 [[Paper](http://arxiv.org/pdf/1506.04089.pdf)]
+* Marvin Zhang, Sergey Levine, Zoe McCarthy, Chelsea Finn, and Pieter Abbeel, *Policy Learning with Continuous Memory States for Partially Observed Robotic Control,* arXiv:1507.01273. [[Paper]](http://arxiv.org/pdf/1507.01273)
 
 ### Other
 * Alex Graves, *Generating Sequences With Recurrent Neural Networks,* arXiv:1308.0850 [[Paper]](http://arxiv.org/abs/1308.0850)
+* Volodymyr Mnih, Nicolas Heess, Alex Graves, and Koray Kavukcuoglu, *Recurrent Models of Visual Attention*, NIPS 2014 / arXiv:1406.6247 [[Paper](http://arxiv.org/pdf/1406.6247.pdf)]
 
 ## Datasets
 * Speech Recognition
@@ -234,10 +249,11 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [Flickr 8k](http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html)
   * [Flickr 30k](http://shannon.cs.illinois.edu/DenotationGraph/)
   * [Microsoft COCO](http://mscoco.org/home/)
-* Image Question Answering - all based on MS COCO images
-  * [VQA](http://www.visualqa.org/)
-  * [Image QA](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/)
-  * [Multilingual Image QA] : in Chinese, with English translation
+* Image Question Answering
+  * [DAQUAR](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/) - built upon [NYU Depth v2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) by N. Silberman et al.
+  * [VQA](http://www.visualqa.org/) - based on [MSCOCO](http://mscoco.org/) images
+  * [Image QA](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/) - based on MSCOCO images
+  * [Multilingual Image QA] - built from scratch by Baidu - in Chinese, with English translation
 * Action Recognition
   * [THUMOS](http://www.thumos.info/home.html) : Large-scale action recognition dataset
   * [MultiTHUMOS](http://ai.stanford.edu/~syyeung/resources/multithumos.zip) : Extension of THUMOS '14 action detection dataset with dense multilabele annotation
