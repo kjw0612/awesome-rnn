@@ -139,6 +139,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Jean Pouget-Abadie, Dzmitry Bahdanau, Bart van Merrienboer, Kyunghyun Cho, and Yoshua Bengio, *Overcoming the Curse of Sentence Length for Neural Machine Translation using Automatic Segmentation*, SSST-8 2014
   * Dzmitry Bahdanau, KyungHyun Cho, and Yoshua Bengio, *Neural Machine Translation by Jointly Learning to Align and Translate*, arXiv:1409.0473 / ICLR 2015 [[Paper](http://arxiv.org/pdf/1409.0473)]
   * Sebastian Jean, Kyunghyun Cho, Roland Memisevic, and Yoshua Bengio, *On using very large target vocabulary for neural machine translation*, arXiv:1412.2007 / ACL 2015 [[Paper](http://arxiv.org/pdf/1412.2007.pdf)]
+* Univ. Montreal + Middle East Tech. Univ. + Univ. Maine [[Paper](http://arxiv.org/pdf/1503.03535.pdf)]
+  * Caglar Gulcehre, Orhan Firat, Kelvin Xu, Kyunghyun Cho, Loic Barrault, Huei-Chi Lin, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *On Using Monolingual Corpora in Neural Machine Translation*, arXiv:1503.03535
 * Google [[Paper](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)]
   * Ilya Sutskever, Oriol Vinyals, and Quoc V. Le, *Sequence to Sequence Learning with Neural Networks*, arXiv:1409.3215 / NIPS 2014
 * Google + NYU [[Paper](http://arxiv.org/pdf/1410.8206)]
