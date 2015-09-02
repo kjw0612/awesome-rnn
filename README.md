@@ -266,3 +266,4 @@ for Natural Language Processing*, arXiv:1506.07285
 
 ## Online Demos
 * Alex graves, hand-writing generation [[link](http://www.cs.toronto.edu/~graves/handwriting.html)]
+* Ink Poster: Handwritten post-it notes [[link](http://www.inkposter.com/?)]
