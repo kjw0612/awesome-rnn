@@ -107,6 +107,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Kai Sheng Tai, Richard Socher, and Christopher D. Manning, arXiv:1503.00075 / ACL 2015
 * Grid LSTM [[Paper](http://arxiv.org/pdf/1507.01526)]
   * Nal Kalchbrenner, Ivo Danihelka, and Alex Graves, *Grid Long Short-Term Memory*, arXiv:1507.01526
+* Pointer Network [[Paper](http://arxiv.org/pdf/1506.03134)]
+  * Oriol Vinyals, Meire Fortunato, and Navdeep Jaitly, *Pointer Networks*, arXiv:1506.03134 / NIPS 2015
 
 ### Surveys
 * Yann LeCun, Yoshua Bengio, and Geoffrey Hinton, [Deep Learning](http://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf), Nature 2015
@@ -233,6 +235,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 ### Turing Machines
 *  A.Graves, G. Wayne, and I. Danihelka., *Neural Turing Machines,* arXiv preprint arXiv:1410.5401 [[Paper](http://arxiv.org/pdf/1410.5401)]
 * Jason Weston, Sumit Chopra, Antoine Bordes, *Memory Networks,* arXiv:1410.3916 [[Paper](http://arxiv.org/pdf/1410.3916)]
+* Armand Joulin and Tomas Mikolov, *Inferring Algorithmic Patterns with Stack-Augmented Recurrent Nets*, arXiv:1503.01007 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1503.01007)]
 * Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus, *End-To-End Memory Networks*, arXiv:1503.08895 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1503.08895)]
 * Wojciech Zaremba and Ilya Sutskever, *Reinforcement Learning Neural Turing Machines,* arXiv:1505.00521 [[Paper](http://arxiv.org/pdf/1505.00521)]
 * Baolin Peng and Kaisheng Yao, *Recurrent Neural Networks with External Memory for Language Understanding*, arXiv:1506.00195 [[Paper](http://arxiv.org/pdf/1506.00195.pdf)]
@@ -244,6 +247,9 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 ### Other
 * Alex Graves, *Generating Sequences With Recurrent Neural Networks,* arXiv:1308.0850 [[Paper]](http://arxiv.org/abs/1308.0850)
 * Volodymyr Mnih, Nicolas Heess, Alex Graves, and Koray Kavukcuoglu, *Recurrent Models of Visual Attention*, NIPS 2014 / arXiv:1406.6247 [[Paper](http://arxiv.org/pdf/1406.6247.pdf)]
+* Samy Bengio, Oriol Vinyals, Navdeep Jaitly, and Noam Shazeer, *Scheduled Sampling for Sequence Prediction with
+Recurrent Neural Networks*, arXiv:1506.03099 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1506.03099)]
+* Bing Shuai, Zhen Zuo, Gang Wang, and Bing Wang, *DAG-Recurrent Neural Networks For Scene Labeling*, arXiv:1509.00552 [[Paper](http://arxiv.org/pdf/1509.00552)]
 
 ## Datasets
 * Speech Recognition
