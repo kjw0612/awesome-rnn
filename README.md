@@ -66,6 +66,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [CGT](http://joschu.github.io/)(Computational Graph Toolkit) : replicates Theano's API, but with very short compilation time and multithreading
   * [RNNLIB](http://sourceforge.net/p/rnnl/wiki/Home/) by Alex Graves : C++ based LSTM library
   * [RNNLM](http://rnnlm.org/) by Tomas Mikolov : C++ based simple code
+  * [faster-RNNLM](https://github.com/yandex/faster-rnnlm) of Yandex : C++ based rnnlm implementation aimed to handle huge datasets
   * [neuraltalk](https://github.com/karpathy/neuraltalk) by Andrej Karpathy : numpy-based RNN/LSTM implementation
   * [gist](https://gist.github.com/karpathy/587454dc0146a6ae21fc) by Andrej Karpathy : raw numpy code that implements an efficient batched LSTM
   * [Recurrentjs](https://github.com/karpathy/recurrentjs) by Andrej Karpathy : a beta javascript library for RNN
