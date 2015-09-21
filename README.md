@@ -251,6 +251,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Samy Bengio, Oriol Vinyals, Navdeep Jaitly, and Noam Shazeer, *Scheduled Sampling for Sequence Prediction with
 Recurrent Neural Networks*, arXiv:1506.03099 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1506.03099)]
 * Bing Shuai, Zhen Zuo, Gang Wang, and Bing Wang, *DAG-Recurrent Neural Networks For Scene Labeling*, arXiv:1509.00552 [[Paper](http://arxiv.org/pdf/1509.00552)]
+* Soren Kaae Sonderby, Casper Kaae Sonderby, Lars Maaloe, and Ole Winther, *Recurrent Spatial Transformer Networks*, arXiv:1509.05329 [[Paper](http://arxiv.org/pdf/1509.05329)]
 
 ## Datasets
 * Speech Recognition
