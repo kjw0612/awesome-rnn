@@ -132,6 +132,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Geoffrey Hinton, Li Deng, Dong Yu, George E. Dahl, Abdel-rahman Mohamed, Navdeep Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara N. Sainath, and Brian Kingsbury, *Deep Neural Networks for Acoustic Modeling in Speech Recognition*, IEEE Signam Processing Magazine 2012 [[Paper](http://cs224d.stanford.edu/papers/maas_paper.pdf)]
 * Alex Graves, Abdel-rahman Mohamed, and Geoffrey Hinton, *Speech Recognition with Deep Recurrent Neural Networks*, arXiv:1303.5778 / ICASSP 2013 [[Paper](http://www.cs.toronto.edu/~fritz/absps/RNN13.pdf)]
 * Jan Chorowski, Dzmitry Bahdanau, Dmitriy Serdyuk, Kyunghyun Cho, and Yoshua Bengio, *Attention-Based Models for Speech Recognition*, arXiv:1506.07503 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1506.07503)]
+* Haşim Sak, Andrew Senior, Kanishka Rao, and Françoise Beaufays. *Fast and Accurate Recurrent Neural Network Acoustic Models for Speech Recognition*, arXiv:1507.06947 2015 [[Paper](http://arxiv.org/pdf/1507.06947v1.pdf)].
 
 ### Machine Translation
 * Oxford [[Paper](http://nal.co/papers/KalchbrennerBlunsom_EMNLP13)]
