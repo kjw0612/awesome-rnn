@@ -39,6 +39,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
    - [Robotics](#robotics)
    - [Other](#other)
  - [Datasets](#datasets)
+ - [Blogs](#blogs)
  - [Online Demos](#online-demos)
 
 ## Codes
@@ -70,7 +71,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [neuraltalk](https://github.com/karpathy/neuraltalk) by Andrej Karpathy : numpy-based RNN/LSTM implementation
   * [gist](https://gist.github.com/karpathy/587454dc0146a6ae21fc) by Andrej Karpathy : raw numpy code that implements an efficient batched LSTM
   * [Recurrentjs](https://github.com/karpathy/recurrentjs) by Andrej Karpathy : a beta javascript library for RNN
-  * [RNN](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy: a good brief introduction for RNN.
+
  
 ## Theory
 ### Lectures
@@ -271,6 +272,11 @@ Recurrent Neural Networks*, arXiv:1506.03099 / NIPS 2015 [[Paper](http://arxiv.o
 * Action Recognition
   * [THUMOS](http://www.thumos.info/home.html) : Large-scale action recognition dataset
   * [MultiTHUMOS](http://ai.stanford.edu/~syyeung/resources/multithumos.zip) : Extension of THUMOS '14 action detection dataset with dense multilabele annotation
+
+## Blogs
+* [The Unreasonable Effectiveness of RNNs](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by [Andrej Karpathy](http://cs.stanford.edu/people/karpathy/)
+* [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) in [Colah's blog](http://colah.github.io/)
+* [WildML](http://www.wildml.com/) blog's RNN tutorial [[Part1](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/)], [[Part2](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/)]
 
 ## Online Demos
 * Alex graves, hand-writing generation [[link](http://www.cs.toronto.edu/~graves/handwriting.html)]
