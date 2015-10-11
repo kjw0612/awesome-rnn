@@ -127,6 +127,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Stefan Kombrink, Tomas Mikolov, Martin Karafiat, Lukas Burget, *Recurrent Neural Network based Language Modeling in Meeting Recognition*, Interspeech 2011 [[Paper](http://www.fit.vutbr.cz/~imikolov/rnnlm/ApplicationOfRNNinMeetingRecognition_IS2011.pdf)]
 * Jiwei Li, Minh-Thang Luong, and Dan Jurafsky, *A Hierarchical Neural Autoencoder for Paragraphs and Documents*, ACL 2015 [[Paper](http://arxiv.org/pdf/1506.01057)], [[Code](https://github.com/jiweil/Hierarchical-Neural-Autoencoder)]
 * Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, and Richard S. Zemel, *Skip-Thought Vectors*, arXiv:1506.06726 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1506.06726.pdf)]
+* Yoon Kim, Yacine Jernite, David Sontag, and Alexander M. Rush, *Character-Aware Neural Language Models*, arXiv:1508.06615 [[Paper](http://arxiv.org/pdf/1508.06615)]
  
 
 ### Speech Recognition
