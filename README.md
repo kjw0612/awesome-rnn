@@ -64,6 +64,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [rnn](https://github.com/Element-Research/rnn) by Nicholas Leonard : general library for implementing RNN, LSTM, BRNN and BLSTM (highly unit tested).
 * Etc.
   * [Neon](http://neon.nervanasys.com/docs/latest/index.html): new deep learning library in Python, with support for RNN/LSTM, and a fast image captioning model
+  * [Brainstorm](https://github.com/IDSIA/brainstorm): deep learning library in Python, developed by IDSIA, thereby including various recurrent structures
   * [Chainer](http://chainer.org/) : new, flexible deep learning library in Python
   * [CGT](http://joschu.github.io/)(Computational Graph Toolkit) : replicates Theano's API, but with very short compilation time and multithreading
   * [RNNLIB](http://sourceforge.net/p/rnnl/wiki/Home/) by Alex Graves : C++ based LSTM library
