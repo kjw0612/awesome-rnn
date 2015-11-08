@@ -131,6 +131,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Jiwei Li, Minh-Thang Luong, and Dan Jurafsky, *A Hierarchical Neural Autoencoder for Paragraphs and Documents*, ACL 2015 [[Paper](http://arxiv.org/pdf/1506.01057)], [[Code](https://github.com/jiweil/Hierarchical-Neural-Autoencoder)]
 * Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, and Richard S. Zemel, *Skip-Thought Vectors*, arXiv:1506.06726 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1506.06726.pdf)]
 * Yoon Kim, Yacine Jernite, David Sontag, and Alexander M. Rush, *Character-Aware Neural Language Models*, arXiv:1508.06615 [[Paper](http://arxiv.org/pdf/1508.06615)]
+* Xingxing Zhang, Liang Lu, and Mirella Lapata, *Tree Recurrent Neural Networks with Application to Language Modeling*, arXiv:1511.00060 [[Paper](http://arxiv.org/pdf/1511.00060.pdf)]
  
 
 ### Speech Recognition
