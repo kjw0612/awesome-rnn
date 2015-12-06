@@ -43,6 +43,14 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
  - [Online Demos](#online-demos)
 
 ## Codes
+* [Tensorflow](https://www.tensorflow.org/) - Python, C++
+  * [Get started](https://www.tensorflow.org/versions/master/get_started/index.html), [Tutorials](https://www.tensorflow.org/versions/master/tutorials/index.html)
+    * [Recurrent Neural Network Tutorial](https://www.tensorflow.org/versions/master/tutorials/recurrent/index.html)
+    * [Sequence-to-Sequence Model Tutorial](https://www.tensorflow.org/versions/master/tutorials/seq2seq/index.html)
+  * [Tutorials](https://github.com/nlintz/TensorFlow-Tutorials) by nlintz
+  * [Notebook examples](https://github.com/aymericdamien/TensorFlow-Examples) by aymericdamien
+  * [Keras](http://keras.io/) : (Tensorflow / Theano)-based modular deep learning library similar to Torch
+  * [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorflow) by sherjilozair: char-rnn in tensorflow
 * [Theano](http://deeplearning.net/software/theano/) - Python
   * Simple IPython [tutorial on Theano](http://nbviewer.ipython.org/github/craffel/theano-tutorial/blob/master/Theano%20Tutorial.ipynb)
   * [Deep Learning Tutorials](http://www.deeplearning.net/tutorial/)
@@ -50,7 +58,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
     * [LSTM network for sentiment analysis](http://www.deeplearning.net/tutorial/lstm.html#lstm)
   * [Pylearn2](http://deeplearning.net/software/pylearn2/) : Library that wraps a lot of models and training algorithms in deep learning
   * [Blocks](https://github.com/mila-udem/blocks) : modular framework that enables building neural network models
-  * [Keras](http://keras.io/) : Theano-based deep learning library similar to Torch, but in Python
+  * [Keras](http://keras.io/) : (Tensorflow / Theano)-based modular deep learning library similar to Torch
   * [Lasagne](https://github.com/Lasagne/Lasagne) : Lightweight library to build and train neural networks in Theano
   * [theano-rnn](https://github.com/gwtaylor/theano-rnn) by Graham Taylor
   * [Passage](https://github.com/IndicoDataSolutions/Passage) : Library for text analysis with RNNs
@@ -59,6 +67,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [LRCN](http://jeffdonahue.com/lrcn/) by Jeff Donahue
 * [Torch](http://torch.ch/) - Lua
   * [char-rnn](https://github.com/karpathy/char-rnn) by Andrej Karpathy : multi-layer RNN/LSTM/GRU for training/sampling from character-level language models
+  * [neuraltalk2](https://github.com/karpathy/neuraltalk2) by Andrej Karpathy : Recurrent Neural Network captions image, much faster and better version of the original [neuraltalk](https://github.com/karpathy/neuraltalk)
   * [LSTM](https://github.com/wojzaremba/lstm) by Wojciech Zaremba : Long Short Term Memory Units to train a language model on word level Penn Tree Bank dataset
   * [Oxford](https://github.com/oxford-cs-ml-2015) by Nando de Freitas : Oxford Computer Science - Machine Learning 2015 Practicals
   * [rnn](https://github.com/Element-Research/rnn) by Nicholas Leonard : general library for implementing RNN, LSTM, BRNN and BLSTM (highly unit tested).
