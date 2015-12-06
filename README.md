@@ -105,6 +105,10 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Alex Graves, Santiago Fernandez, and Jurgen Schmidhuber, *Multi-Dimensional Recurrent Neural Networks*, ICANN 2007
 * GRU (Gated Recurrent Unit) [[Paper](http://arxiv.org/pdf/1406.1078.pdf)]
   * Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation*, arXiv:1406.1078 / EMNLP 2014
+* NTM [[Paper](http://arxiv.org/pdf/1410.5401)]
+  * A.Graves, G. Wayne, and I. Danihelka., *Neural Turing Machines,* arXiv preprint arXiv:1410.5401 
+* Memory Network [[Paper](http://arxiv.org/pdf/1410.3916)]
+  * Jason Weston, Sumit Chopra, Antoine Bordes, *Memory Networks,* arXiv:1410.3916 
 * GFRNN [[Paper-arXiv](http://arxiv.org/pdf/1502.02367)] [[Paper-ICML](http://jmlr.org/proceedings/papers/v37/chung15.pdf)] [[Supplementary](http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf)]
   * Junyoung Chung, Caglar Gulcehre, Kyunghyun Cho, Yoshua Bengio, *Gated Feedback Recurrent Neural Networks*, arXiv:1502.02367 / ICML 2015
 * Tree-Structured RNNs
@@ -132,6 +136,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, and Richard S. Zemel, *Skip-Thought Vectors*, arXiv:1506.06726 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1506.06726.pdf)]
 * Yoon Kim, Yacine Jernite, David Sontag, and Alexander M. Rush, *Character-Aware Neural Language Models*, arXiv:1508.06615 [[Paper](http://arxiv.org/pdf/1508.06615)]
 * Xingxing Zhang, Liang Lu, and Mirella Lapata, *Tree Recurrent Neural Networks with Application to Language Modeling*, arXiv:1511.00060 [[Paper](http://arxiv.org/pdf/1511.00060.pdf)]
+* Felix Hill, Antoine Bordes, Sumit Chopra, and Jason Weston, *The Goldilocks Principle: Reading children's books with explicit memory representations*, arXiv:1511.0230 [[Paper](http://arxiv.org/pdf/1511.02301.pdf)] 
  
 
 ### Speech Recognition
@@ -155,8 +160,11 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Ilya Sutskever, Oriol Vinyals, and Quoc V. Le, *Sequence to Sequence Learning with Neural Networks*, arXiv:1409.3215 / NIPS 2014
 * Google + NYU [[Paper](http://arxiv.org/pdf/1410.8206)]
   * Minh-Thang Luong, Ilya Sutskever, Quoc V. Le, Oriol Vinyals, and Wojciech Zaremba, *Addressing the Rare Word Problem in Neural Machine Transltaion*, arXiv:1410.8206 / ACL 2015
+* ICT + Huawei [[Paper](http://arxiv.org/pdf/1506.06442.pdf)]
+  * Fandong Meng, Zhengdong Lu, Zhaopeng Tu, Hang Li, and Qun Liu, *A Deep Memory-based Architecture for Sequence-to-Sequence Learning*, arXiv:1506.06442 
 * Stanford [[Paper](http://arxiv.org/pdf/1508.04025.pdf)]
   * Minh-Thang Luong, Hieu Pham, and Christopher D. Manning, *Effective Approaches to Attention-based Neural Machine Translation*, arXiv:1508.04025
+
 
 ### Conversation Modeling
 * Lifeng Shang, Zhengdong Lu, and Hang Li, *Neural Responding Machine for Short-Text Conversation*, arXiv:1503.02364 / ACL 2015 [[Paper](http://arxiv.org/pdf/1503.02364)]
@@ -247,6 +255,13 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus, *End-To-End Memory Networks*, arXiv:1503.08895 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1503.08895)]
 * Wojciech Zaremba and Ilya Sutskever, *Reinforcement Learning Neural Turing Machines,* arXiv:1505.00521 [[Paper](http://arxiv.org/pdf/1505.00521)]
 * Baolin Peng and Kaisheng Yao, *Recurrent Neural Networks with External Memory for Language Understanding*, arXiv:1506.00195 [[Paper](http://arxiv.org/pdf/1506.00195.pdf)]
+* Fandong Meng, Zhengdong Lu, Zhaopeng Tu, Hang Li, and Qun Liu, *A Deep Memory-based Architecture for Sequence-to-Sequence Learning*, arXiv:1506.06442 [[Paper](http://arxiv.org/pdf/1506.06442.pdf)]
+* Arvind Neelakantan, Quoc V. Le, and Ilya Sutskever, *Neural Programmer: Inducing Latent Programs with Gradient Descent*, arXiv:1511.04834 [[Paper](http://arxiv.org/pdf/1511.04834.pdf)]
+* Scott Reed and Nando de Freitas, *Neural Programmer-Interpreters*, arXiv:1511.06279 [[Paper](http://arxiv.org/pdf/1511.06279.pdf)]
+* Karol Kurach, Marcin Andrychowicz, and Ilya Sutskever, *Neural Random-Access Machines*, arXiv:1511.06392 [[Paper](http://arxiv.org/pdf/1511.06392.pdf)]
+* Łukasz Kaiser and Ilya Sutskever, *Neural GPUs Learn Algorithms*, arXiv:1511.08228 [[Paper](http://arxiv.org/pdf/1511.08228.pdf)]
+* Ethan Caballero, *Skip-Thought Memory Networks*, arXiv:1511.6420 [[Paper](arxiv.org/pdf/1511.06420.pdf)]
+* Wojciech Zaremba, Tomas Mikolov, Armand Joulin, and Rob Fergus, *Learning Simple Algorithms from Examples*, arXiv:1511.07275 [[Paper](http://arxiv.org/pdf/1511.07275.pdf)]
 
 ### Robotics
 * Hongyuan Mei, Mohit Bansal, and Matthew R. Walter, *Listen, Attend, and Walk: Neural Mapping of Navigational Instructions to Action Sequences*, arXiv:1506.04089 [[Paper](http://arxiv.org/pdf/1506.04089.pdf)]
@@ -255,6 +270,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 ### Other
 * Alex Graves, *Generating Sequences With Recurrent Neural Networks,* arXiv:1308.0850 [[Paper]](http://arxiv.org/abs/1308.0850)
 * Volodymyr Mnih, Nicolas Heess, Alex Graves, and Koray Kavukcuoglu, *Recurrent Models of Visual Attention*, NIPS 2014 / arXiv:1406.6247 [[Paper](http://arxiv.org/pdf/1406.6247.pdf)]
+* Wojciech Zaremba and Ilya Sutskever, *Learning to Execute*, arXiv:1410.4615 [[Paper](http://arxiv.org/pdf/1410.4615.pdf)] [[Code](https://github.com/wojciechz/learning_to_execute)]
 * Samy Bengio, Oriol Vinyals, Navdeep Jaitly, and Noam Shazeer, *Scheduled Sampling for Sequence Prediction with
 Recurrent Neural Networks*, arXiv:1506.03099 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1506.03099)]
 * Bing Shuai, Zhen Zuo, Gang Wang, and Bing Wang, *DAG-Recurrent Neural Networks For Scene Labeling*, arXiv:1509.00552 [[Paper](http://arxiv.org/pdf/1509.00552)]
