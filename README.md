@@ -234,6 +234,14 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler, *Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books*, arXiv:1506.06724
 * Univ. Montreal [[Paper](http://arxiv.org/pdf/1507.01053.pdf)]
   * Kyunghyun Cho, Aaron Courville, and Yoshua Bengio, *Describing Multimedia Content using Attention-based Encoder-Decoder Networks*, arXiv:1507.01053
+* Zhejiang Univ. + UTS [[paper](http://arxiv.org/abs/1511.03476)]
+  * Pingbo Pan, Zhongwen Xu, Yi Yang, Fei Wu, Yueting Zhuang, Hierarchical Recurrent Neural Encoder for Video Representation with Application to Captioning, arXiv:1511.03476
+
+### Video Modeling
+* Univ. Toronto [[paper](http://arxiv.org/abs/1502.04681)]
+  * Nitish Srivastava, Elman Mansimov, Ruslan Salakhutdinov, Unsupervised Learning of Video Representations using LSTMs, arXiv:1502.04681 / ICML 2015
+* Univ. Cambridge [[paper](http://arxiv.org/abs/1511.06309)]
+  * Viorica Patraucean, Ankur Handa, Roberto Cipolla, Spatio-temporal video autoencoder with differentiable memory, arXiv:1511.06309
 
 
 ### Question Answering
@@ -251,6 +259,11 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Karl M. Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom, *Teaching Machines to Read and Comprehend*, arXiv:1506.03340 / NIPS 2015
 * MetaMind [[Paper](http://arxiv.org/pdf/1506.07285.pdf)]
   * Ankit Kumar, Ozan Irsoy, Jonathan Su, James Bradbury, Robert English, Brian Pierce, Peter Ondruska, Mohit Iyyer, Ishaan Gulrajani, and Richard Socher, *Ask Me Anything: Dynamic Memory Networks for Natural Language Processing*, arXiv:1506.07285
+* Video QA
+  * CMU + UTS [[paper](http://arxiv.org/abs/1511.04670)]
+    * Linchao Zhu, Zhongwen Xu, Yi Yang, Alexander G. Hauptmann, Uncovering Temporal Context for Video Question and Answering, arXiv:1511.04670
+  * KIT + MIT + Univ. Toronto [[Paper](http://arxiv.org/abs/1512.02902)] [[Dataset](http://movieqa.cs.toronto.edu/home/)]
+    * Makarand Tapaswi, Yukun Zhu, Rainer Stiefelhagen, Antonio Torralba, Raquel Urtasun, Sanja Fidler, MovieQA: Understanding Stories in Movies through Question-Answering, arXiv:1512.02902
 
 ### Image Generation
 * Karol Gregor, Ivo Danihelka, Alex Graves, Danilo J. Rezende, and Daan Wierstra, *DRAW: A Recurrent Neural Network for Image Generation,* ICML 2015 [[Paper](http://arxiv.org/pdf/1502.04623)]
