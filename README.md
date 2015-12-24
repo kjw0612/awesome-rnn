@@ -82,7 +82,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [neuraltalk](https://github.com/karpathy/neuraltalk) by Andrej Karpathy : numpy-based RNN/LSTM implementation
   * [gist](https://gist.github.com/karpathy/587454dc0146a6ae21fc) by Andrej Karpathy : raw numpy code that implements an efficient batched LSTM
   * [Recurrentjs](https://github.com/karpathy/recurrentjs) by Andrej Karpathy : a beta javascript library for RNN
-
+  * [DARQN](https://github.com/5vision/DARQN) by 5vision : Deep Attention Recurrent Q-Network
  
 ## Theory
 ### Lectures
@@ -129,6 +129,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Nal Kalchbrenner, Ivo Danihelka, and Alex Graves, *Grid Long Short-Term Memory*, arXiv:1507.01526
 * Pointer Network [[Paper](http://arxiv.org/pdf/1506.03134)]
   * Oriol Vinyals, Meire Fortunato, and Navdeep Jaitly, *Pointer Networks*, arXiv:1506.03134 / NIPS 2015
+* Deep Attention Recurrent Q-Network [[Paper](http://arxiv.org/abs/1512.01693)]
+  * Ivan Sorokin, Alexey Seleznev, Mikhail Pavlov, Aleksandr Fedorov, Anastasiia Ignateva, *Deep Attention Recurrent Q-Network* , arXiv:1512.01693 
 
 ### Surveys
 * Yann LeCun, Yoshua Bengio, and Geoffrey Hinton, [Deep Learning](http://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf), Nature 2015
