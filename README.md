@@ -177,6 +177,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Fandong Meng, Zhengdong Lu, Zhaopeng Tu, Hang Li, and Qun Liu, *A Deep Memory-based Architecture for Sequence-to-Sequence Learning*, arXiv:1506.06442 
 * Stanford [[Paper](http://arxiv.org/pdf/1508.04025.pdf)]
   * Minh-Thang Luong, Hieu Pham, and Christopher D. Manning, *Effective Approaches to Attention-based Neural Machine Translation*, arXiv:1508.04025
+* Middle East Tech. Univ. + NYU + Univ. Montreal [[Paper](http://arxiv.org/pdf/1601.01073.pdf)]
+  * Orhan Firat, Kyunghyun Cho, and Yoshua Bengio, *Multi-Way, Multilingual Neural Machine Translation with a Shared Attention Mechanism*, arXiv:1601.01073
 
 
 ### Conversation Modeling
@@ -238,8 +240,10 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler, *Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books*, arXiv:1506.06724
 * Univ. Montreal [[Paper](http://arxiv.org/pdf/1507.01053.pdf)]
   * Kyunghyun Cho, Aaron Courville, and Yoshua Bengio, *Describing Multimedia Content using Attention-based Encoder-Decoder Networks*, arXiv:1507.01053
-* Zhejiang Univ. + UTS [[paper](http://arxiv.org/abs/1511.03476)]
-  * Pingbo Pan, Zhongwen Xu, Yi Yang, Fei Wu, Yueting Zhuang, Hierarchical Recurrent Neural Encoder for Video Representation with Application to Captioning, arXiv:1511.03476
+* Zhejiang Univ. + UTS [[Paper](http://arxiv.org/abs/1511.03476)]
+  * Pingbo Pan, Zhongwen Xu, Yi Yang, Fei Wu, Yueting Zhuang, *Hierarchical Recurrent Neural Encoder for Video Representation with Application to Captioning*, arXiv:1511.03476
+* Univ. Montreal + NYU + IBM [[Paper](http://arxiv.org/pdf/1511.04590.pdf)]
+  * Li Yao, Nicolas Ballas, Kyunghyun Cho, John R. Smith, and Yoshua Bengio, *Empirical performance upper bounds for image and video captioning*, arXiv:1511.04590
 
 ### Video Modeling
 * Univ. Toronto [[paper](http://arxiv.org/abs/1502.04681)]
@@ -303,7 +307,10 @@ Recurrent Neural Networks*, arXiv:1506.03099 / NIPS 2015 [[Paper](http://arxiv.o
 * Bing Shuai, Zhen Zuo, Gang Wang, and Bing Wang, *DAG-Recurrent Neural Networks For Scene Labeling*, arXiv:1509.00552 [[Paper](http://arxiv.org/pdf/1509.00552)]
 * Soren Kaae Sonderby, Casper Kaae Sonderby, Lars Maaloe, and Ole Winther, *Recurrent Spatial Transformer Networks*, arXiv:1509.05329 [[Paper](http://arxiv.org/pdf/1509.05329)]
 * Cesar Laurent, Gabriel Pereyra, Philemon Brakel, Ying Zhang, and Yoshua Bengio, *Batch Normalized Recurrent Neural Networks*, arXiv:1510.01378 [[Paper](http://arxiv.org/pdf/1510.01378)]
-* Jiwon Kim, Jung Kwon Lee, Kyoung Mu Lee, *Deeply-Recursive Convolutional Network for Image Super-Resolution*, arXiv:1511.04491, 2015. [[Paper]](http://arxiv.org/abs/1511.04491)
+* Jiwon Kim, Jung Kwon Lee, Kyoung Mu Lee, *Deeply-Recursive Convolutional Network for Image Super-Resolution*, arXiv:1511.04491 [[Paper]](http://arxiv.org/abs/1511.04491)
+* Quan Gan, Qipeng Guo, Zheng Zhang, and Kyunghyun Cho, *First Step toward Model-Free, Anonymous Object Tracking with Recurrent Neural Networks*, arXiv:1511.06425 [[Paper](http://arxiv.org/pdf/1511.06425.pdf)]
+* Francesco Visin, Kyle Kastner, Aaron Courville, Yoshua Bengio, Matteo Matteucci, and Kyunghyun Cho, *ReSeg: A Recurrent Neural Network for Object Segmentation*, arXiv:1511.07053 [[Paper](http://arxiv.org/pdf/1511.07053.pdf)]
+* Juergen Schmidhuber, *On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models*, arXiv:1511.09249 [[Paper]](http://arxiv.org/pdf/1511.09249)
 
 ## Datasets
 * Speech Recognition
