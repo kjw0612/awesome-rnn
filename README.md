@@ -49,6 +49,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
     * [Sequence-to-Sequence Model Tutorial](https://www.tensorflow.org/versions/master/tutorials/seq2seq/index.html)
   * [Tutorials](https://github.com/nlintz/TensorFlow-Tutorials) by nlintz
   * [Notebook examples](https://github.com/aymericdamien/TensorFlow-Examples) by aymericdamien
+  * [Scikit Flow (skflow)](https://github.com/tensorflow/skflow) - Simiplied Scikit-learn like Interface for TensorFlow
   * [Keras](http://keras.io/) : (Tensorflow / Theano)-based modular deep learning library similar to Torch
   * [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorflow) by sherjilozair: char-rnn in tensorflow
 * [Theano](http://deeplearning.net/software/theano/) - Python
