@@ -68,6 +68,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [LRCN](http://jeffdonahue.com/lrcn/) by Jeff Donahue
 * [Torch](http://torch.ch/) - Lua
   * [char-rnn](https://github.com/karpathy/char-rnn) by Andrej Karpathy : multi-layer RNN/LSTM/GRU for training/sampling from character-level language models
+  * [torch-rnn](https://github.com/jcjohnson/torch-rnn) by Justin Johnson : reusable RNN/LSTM modules for torch7 - much faster and memory efficient reimplementation of char-rnn
   * [neuraltalk2](https://github.com/karpathy/neuraltalk2) by Andrej Karpathy : Recurrent Neural Network captions image, much faster and better version of the original [neuraltalk](https://github.com/karpathy/neuraltalk)
   * [LSTM](https://github.com/wojzaremba/lstm) by Wojciech Zaremba : Long Short Term Memory Units to train a language model on word level Penn Tree Bank dataset
   * [Oxford](https://github.com/oxford-cs-ml-2015) by Nando de Freitas : Oxford Computer Science - Machine Learning 2015 Practicals
@@ -129,7 +130,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Tree-Structured RNNs
   * Kai Sheng Tai, Richard Socher, and Christopher D. Manning, *Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks*, arXiv:1503.00075 / ACL 2015 [[Paper](http://arxiv.org/pdf/1503.00075)]
   * Samuel R. Bowman, Christopher D. Manning, and Christopher Potts, *Tree-structured composition in neural networks without tree-structured architectures*, arXiv:1506.04834 [[Paper](http://arxiv.org/pdf/1506.04834)]
-* Grid LSTM [[Paper](http://arxiv.org/pdf/1507.01526)]
+* Grid LSTM [[Paper](http://arxiv.org/pdf/1507.01526)] [[Code](https://github.com/coreylynch/grid-lstm)]
   * Nal Kalchbrenner, Ivo Danihelka, and Alex Graves, *Grid Long Short-Term Memory*, arXiv:1507.01526
 * Pointer Network [[Paper](http://arxiv.org/pdf/1506.03134)]
   * Oriol Vinyals, Meire Fortunato, and Navdeep Jaitly, *Pointer Networks*, arXiv:1506.03134 / NIPS 2015
