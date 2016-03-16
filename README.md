@@ -20,27 +20,34 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 
 ## Table of Contents
 
- - [Codes](#codes)
- - [Theory](#theory)
-   - [Lectures](#lectures)
-   - [Books / Thesis](#books--thesis)
-   - [Network Variants](#network-variants)
-   - [Surveys](#surveys)
- - [Applications](#applications)
-   - [Language Modeling](#language-modeling)
-   - [Speech Recognition](#speech-recognition)
-   - [Machine Translation](#machine-translation)
-   - [Conversation Modeling](#conversation-modeling)
-   - [Image Captioning](#image-captioning)
-   - [Video Captioning](#video-captioning)
-   - [Question Answering](#question-answering)
-   - [Image Generation](#image-generation)
-   - [Turing Machines](#turing-machines)
-   - [Robotics](#robotics)
-   - [Other](#other)
- - [Datasets](#datasets)
- - [Blogs](#blogs)
- - [Online Demos](#online-demos)
+- [Codes](#codes)
+- [Theory](#theory)
+  - [Lectures](#lectures)
+  - [Books / Thesis](#books--thesis)
+  - [Architecture Variants](#architecture-variants)
+    - [Structure](#structure)
+    - [Memory](#memory)
+  - [Surveys](#surveys)
+- [Applications](#applications)
+  - [Natural Language Processing](#natural-language-processing)
+    - [Language Modeling](#language-modeling)
+    - [Speech Recognition](#speech-recognition)
+    - [Machine Translation](#machine-translation)
+    - [Conversation Modeling](#conversation-modeling)
+    - [Question Answering](#question-answering)
+  - [Computer Vision](#computer-vision)
+    - [Object Recognition](#object-recognition)
+    - [Image Generation](#image-generation)
+    - [Video Analysis](#video-analysis)
+  - [Image Captioning](#image-captioning)
+  - [Video Captioning](#video-captioning)
+  - [Visual Question Answering](#visual-question-answering)
+  - [Turing Machines](#turing-machines)
+  - [Robotics](#robotics)
+  - [Other](#other)
+- [Datasets](#datasets)
+- [Blogs](#blogs)
+- [Online Demos](#online-demos)
 
 ## Codes
 * [Tensorflow](https://www.tensorflow.org/) - Python, C++
@@ -49,7 +56,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
     * [Sequence-to-Sequence Model Tutorial](https://www.tensorflow.org/versions/master/tutorials/seq2seq/index.html)
   * [Tutorials](https://github.com/nlintz/TensorFlow-Tutorials) by nlintz
   * [Notebook examples](https://github.com/aymericdamien/TensorFlow-Examples) by aymericdamien
-  * [Scikit Flow (skflow)](https://github.com/tensorflow/skflow) - Simiplied Scikit-learn like Interface for TensorFlow
+  * [Scikit Flow (skflow)](https://github.com/tensorflow/skflow) - Simplified Scikit-learn like Interface for TensorFlow
   * [Keras](http://keras.io/) : (Tensorflow / Theano)-based modular deep learning library similar to Torch
   * [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorflow) by sherjilozair: char-rnn in tensorflow
 * [Theano](http://deeplearning.net/software/theano/) - Python
@@ -88,7 +95,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [gist](https://gist.github.com/karpathy/587454dc0146a6ae21fc) by Andrej Karpathy : raw numpy code that implements an efficient batched LSTM
   * [Recurrentjs](https://github.com/karpathy/recurrentjs) by Andrej Karpathy : a beta javascript library for RNN
   * [DARQN](https://github.com/5vision/DARQN) by 5vision : Deep Attention Recurrent Q-Network
- 
+
 ## Theory
 ### Lectures
 * Stanford NLP ([CS224d](http://cs224d.stanford.edu/index.html)) by Richard Socher
@@ -110,21 +117,14 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Richard Socher (2014)
   * [Recursive Deep Learning for Natural Language Processing and Computer Vision](http://nlp.stanford.edu/~socherr/thesis.pdf)
 
-### Network Variants
+### Architecture Variants
+
+#### Structure
+
 * Bi-directional RNN [[Paper](http://www.di.ufpe.br/~fnj/RNA/bibliografia/BRNN.pdf)]
   * Mike Schuster and Kuldip K. Paliwal, *Bidirectional Recurrent Neural Networks*, Trans. on Signal Processing 1997
-* LSTM [[Paper](http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf)]
-  * Sepp Hochreiter and Jurgen Schmidhuber, *Long Short-Term Memory*, Neural Computation 1997
 * Multi-dimensional RNN [[Paper](http://arxiv.org/pdf/0705.2011.pdf)]
   * Alex Graves, Santiago Fernandez, and Jurgen Schmidhuber, *Multi-Dimensional Recurrent Neural Networks*, ICANN 2007
-* GRU (Gated Recurrent Unit) [[Paper](http://arxiv.org/pdf/1406.1078.pdf)]
-  * Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation*, arXiv:1406.1078 / EMNLP 2014
-* NTM [[Paper](http://arxiv.org/pdf/1410.5401)]
-  * A.Graves, G. Wayne, and I. Danihelka., *Neural Turing Machines,* arXiv preprint arXiv:1410.5401 
-* Neural GPU [[Paper](http://arxiv.org/pdf/1511.08228.pdf)]
-  * Łukasz Kaiser, Ilya Sutskever, arXiv:1511.08228 / ICML 2016 (under review)
-* Memory Network [[Paper](http://arxiv.org/pdf/1410.3916)]
-  * Jason Weston, Sumit Chopra, Antoine Bordes, *Memory Networks,* arXiv:1410.3916 
 * GFRNN [[Paper-arXiv](http://arxiv.org/pdf/1502.02367)] [[Paper-ICML](http://jmlr.org/proceedings/papers/v37/chung15.pdf)] [[Supplementary](http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf)]
   * Junyoung Chung, Caglar Gulcehre, Kyunghyun Cho, Yoshua Bengio, *Gated Feedback Recurrent Neural Networks*, arXiv:1502.02367 / ICML 2015
 * Tree-Structured RNNs
@@ -132,10 +132,23 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Samuel R. Bowman, Christopher D. Manning, and Christopher Potts, *Tree-structured composition in neural networks without tree-structured architectures*, arXiv:1506.04834 [[Paper](http://arxiv.org/pdf/1506.04834)]
 * Grid LSTM [[Paper](http://arxiv.org/pdf/1507.01526)] [[Code](https://github.com/coreylynch/grid-lstm)]
   * Nal Kalchbrenner, Ivo Danihelka, and Alex Graves, *Grid Long Short-Term Memory*, arXiv:1507.01526
+
+#### Memory
+
+* LSTM [[Paper](http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf)]
+  * Sepp Hochreiter and Jurgen Schmidhuber, *Long Short-Term Memory*, Neural Computation 1997
+* GRU (Gated Recurrent Unit) [[Paper](http://arxiv.org/pdf/1406.1078.pdf)]
+  * Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation*, arXiv:1406.1078 / EMNLP 2014
+* NTM [[Paper](http://arxiv.org/pdf/1410.5401)]
+  * A.Graves, G. Wayne, and I. Danihelka., *Neural Turing Machines,* arXiv preprint arXiv:1410.5401
+* Neural GPU [[Paper](http://arxiv.org/pdf/1511.08228.pdf)]
+  * Łukasz Kaiser, Ilya Sutskever, arXiv:1511.08228 / ICML 2016 (under review)
+* Memory Network [[Paper](http://arxiv.org/pdf/1410.3916)]
+  * Jason Weston, Sumit Chopra, Antoine Bordes, *Memory Networks,* arXiv:1410.3916
 * Pointer Network [[Paper](http://arxiv.org/pdf/1506.03134)]
   * Oriol Vinyals, Meire Fortunato, and Navdeep Jaitly, *Pointer Networks*, arXiv:1506.03134 / NIPS 2015
 * Deep Attention Recurrent Q-Network [[Paper](http://arxiv.org/abs/1512.01693)]
-  * Ivan Sorokin, Alexey Seleznev, Mikhail Pavlov, Aleksandr Fedorov, Anastasiia Ignateva, *Deep Attention Recurrent Q-Network* , arXiv:1512.01693 
+  * Ivan Sorokin, Alexey Seleznev, Mikhail Pavlov, Aleksandr Fedorov, Anastasiia Ignateva, *Deep Attention Recurrent Q-Network* , arXiv:1512.01693
 
 ### Surveys
 * Yann LeCun, Yoshua Bengio, and Geoffrey Hinton, [Deep Learning](http://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf), Nature 2015
@@ -146,7 +159,9 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 
 ## Applications
 
-### Language Modeling
+### Natural Language Processing
+
+#### Language Modeling
 * Tomas Mikolov, Martin Karafiat, Lukas Burget, Jan "Honza" Cernocky, Sanjeev Khudanpur, *Recurrent Neural Network based Language Model*, Interspeech 2010 [[Paper](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)]
 * Tomas Mikolov, Stefan Kombrink, Lukas Burget, Jan "Honza" Cernocky, Sanjeev Khudanpur, *Extensions of Recurrent Neural Network Language Model*, ICASSP 2011 [[Paper](http://www.fit.vutbr.cz/research/groups/speech/publi/2011/mikolov_icassp2011_5528.pdf)]
 * Stefan Kombrink, Tomas Mikolov, Martin Karafiat, Lukas Burget, *Recurrent Neural Network based Language Modeling in Meeting Recognition*, Interspeech 2011 [[Paper](http://www.fit.vutbr.cz/~imikolov/rnnlm/ApplicationOfRNNinMeetingRecognition_IS2011.pdf)]
@@ -154,19 +169,19 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, and Richard S. Zemel, *Skip-Thought Vectors*, arXiv:1506.06726 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1506.06726.pdf)]
 * Yoon Kim, Yacine Jernite, David Sontag, and Alexander M. Rush, *Character-Aware Neural Language Models*, arXiv:1508.06615 [[Paper](http://arxiv.org/pdf/1508.06615)]
 * Xingxing Zhang, Liang Lu, and Mirella Lapata, *Tree Recurrent Neural Networks with Application to Language Modeling*, arXiv:1511.00060 [[Paper](http://arxiv.org/pdf/1511.00060.pdf)]
-* Felix Hill, Antoine Bordes, Sumit Chopra, and Jason Weston, *The Goldilocks Principle: Reading children's books with explicit memory representations*, arXiv:1511.0230 [[Paper](http://arxiv.org/pdf/1511.02301.pdf)] 
- 
+* Felix Hill, Antoine Bordes, Sumit Chopra, and Jason Weston, *The Goldilocks Principle: Reading children's books with explicit memory representations*, arXiv:1511.0230 [[Paper](http://arxiv.org/pdf/1511.02301.pdf)]
 
-### Speech Recognition
+
+#### Speech Recognition
 * Geoffrey Hinton, Li Deng, Dong Yu, George E. Dahl, Abdel-rahman Mohamed, Navdeep Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara N. Sainath, and Brian Kingsbury, *Deep Neural Networks for Acoustic Modeling in Speech Recognition*, IEEE Signam Processing Magazine 2012 [[Paper](http://cs224d.stanford.edu/papers/maas_paper.pdf)]
 * Alex Graves, Abdel-rahman Mohamed, and Geoffrey Hinton, *Speech Recognition with Deep Recurrent Neural Networks*, arXiv:1303.5778 / ICASSP 2013 [[Paper](http://www.cs.toronto.edu/~fritz/absps/RNN13.pdf)]
 * Jan Chorowski, Dzmitry Bahdanau, Dmitriy Serdyuk, Kyunghyun Cho, and Yoshua Bengio, *Attention-Based Models for Speech Recognition*, arXiv:1506.07503 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1506.07503)]
 * Haşim Sak, Andrew Senior, Kanishka Rao, and Françoise Beaufays. *Fast and Accurate Recurrent Neural Network Acoustic Models for Speech Recognition*, arXiv:1507.06947 2015 [[Paper](http://arxiv.org/pdf/1507.06947v1.pdf)].
 
-### Machine Translation
+#### Machine Translation
 * Oxford [[Paper](http://nal.co/papers/KalchbrennerBlunsom_EMNLP13)]
   * Nal Kalchbrenner and Phil Blunsom, *Recurrent Continuous Translation Models*, EMNLP 2013
-* Univ. Montreal 
+* Univ. Montreal
   * Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation*, arXiv:1406.1078 / EMNLP 2014 [[Paper](http://arxiv.org/pdf/1406.1078)]
   * Kyunghyun Cho, Bart van Merrienboer, Dzmitry Bahdanau, and Yoshua Bengio, *On the Properties of Neural Machine Translation: Encoder-Decoder Approaches*, SSST-8 2014 [[Paper](http://www.aclweb.org/anthology/W14-4012)]
   * Jean Pouget-Abadie, Dzmitry Bahdanau, Bart van Merrienboer, Kyunghyun Cho, and Yoshua Bengio, *Overcoming the Curse of Sentence Length for Neural Machine Translation using Automatic Segmentation*, SSST-8 2014
@@ -179,20 +194,45 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Google + NYU [[Paper](http://arxiv.org/pdf/1410.8206)]
   * Minh-Thang Luong, Ilya Sutskever, Quoc V. Le, Oriol Vinyals, and Wojciech Zaremba, *Addressing the Rare Word Problem in Neural Machine Transltaion*, arXiv:1410.8206 / ACL 2015
 * ICT + Huawei [[Paper](http://arxiv.org/pdf/1506.06442.pdf)]
-  * Fandong Meng, Zhengdong Lu, Zhaopeng Tu, Hang Li, and Qun Liu, *A Deep Memory-based Architecture for Sequence-to-Sequence Learning*, arXiv:1506.06442 
+  * Fandong Meng, Zhengdong Lu, Zhaopeng Tu, Hang Li, and Qun Liu, *A Deep Memory-based Architecture for Sequence-to-Sequence Learning*, arXiv:1506.06442
 * Stanford [[Paper](http://arxiv.org/pdf/1508.04025.pdf)]
   * Minh-Thang Luong, Hieu Pham, and Christopher D. Manning, *Effective Approaches to Attention-based Neural Machine Translation*, arXiv:1508.04025
 * Middle East Tech. Univ. + NYU + Univ. Montreal [[Paper](http://arxiv.org/pdf/1601.01073.pdf)]
   * Orhan Firat, Kyunghyun Cho, and Yoshua Bengio, *Multi-Way, Multilingual Neural Machine Translation with a Shared Attention Mechanism*, arXiv:1601.01073
 
-
-### Conversation Modeling
+#### Conversation Modeling
 * Lifeng Shang, Zhengdong Lu, and Hang Li, *Neural Responding Machine for Short-Text Conversation*, arXiv:1503.02364 / ACL 2015 [[Paper](http://arxiv.org/pdf/1503.02364)]
 * Oriol Vinyals and Quoc V. Le, *A Neural Conversational Model*, arXiv:1506.05869 [[Paper](http://arxiv.org/pdf/1506.05869)]
 * Ryan Lowe, Nissan Pow, Iulian V. Serban, and Joelle Pineau, *The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems*, arXiv:1506.08909 [[Paper](http://arxiv.org/pdf/1506.08909)]
 
+#### Question Answering
+* FAIR [[Web](https://research.facebook.com/researchers/1543934539189348)] [[Paper](http://arxiv.org/pdf/1502.05698.pdf)]
+  * Jason Weston, Antoine Bordes, Sumit Chopra, Tomas Mikolov, and Alexander M. Rush, *Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks*, arXiv:1502.05698
 
-### Image Captioning
+
+### Computer Vision
+
+#### Object Recognition
+* ION (Inside-Outside Network)
+
+#### Image Generation
+* Karol Gregor, Ivo Danihelka, Alex Graves, Danilo J. Rezende, and Daan Wierstra, *DRAW: A Recurrent Neural Network for Image Generation,* ICML 2015 [[Paper](http://arxiv.org/pdf/1502.04623)]
+* Angeliki Lazaridou, Dat T. Nguyen, R. Bernardi, and M. Baroni, *Unveiling the Dreams of Word Embeddings: Towards Language-Driven Image Generation,* arXiv:1506.03500 [[Paper](http://arxiv.org/pdf/1506.03500)]
+* Lucas Theis and Matthias Bethge, *Generative Image Modeling Using Spatial LSTMs,* arXiv:1506.03478 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1506.03478)]
+* Aaron van den Oord, Nal Kalchbrenner, and Koray Kavukcuoglu, *Pixel Recurrent Neural Networks,* arXiv:1601.06759 [[Paper](http://arxiv.org/abs/1601.06759)]
+
+#### Video Analysis
+
+* Univ. Toronto [[paper](http://arxiv.org/abs/1502.04681)]
+  * Nitish Srivastava, Elman Mansimov, Ruslan Salakhutdinov, *Unsupervised Learning of Video Representations using LSTMs*, arXiv:1502.04681 / ICML 2015
+* Univ. Cambridge [[paper](http://arxiv.org/abs/1511.06309)]
+  * Viorica Patraucean, Ankur Handa, Roberto Cipolla, *Spatio-temporal video autoencoder with differentiable memory*, arXiv:1511.06309
+
+
+
+### Multimodal (CV + NLP)
+
+#### Image Captioning
 * UCLA + Baidu [[Web](http://www.stat.ucla.edu/~junhua.mao/m-RNN.html)] [[Paper-arXiv1](http://arxiv.org/pdf/1410.1090)], [[Paper-arXiv2](http://arxiv.org/pdf/1412.6632)]
   * Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, and Alan L. Yuille, *Explain Images with Multimodal Recurrent Neural Networks*, arXiv:1410.1090
   * Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Zhiheng Huang, and Alan L. Yuille, *Deep Captioning with Multimodal Recurrent Neural Networks (m-RNN)*, arXiv:1412.6632 / ICLR 2015
@@ -228,7 +268,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Jack Hessel, Nicolas Savva, and Michael J. Wilber, *Image Representations and New Domains in Neural Image Captioning*, arXiv:1508.02091
 
 
-### Video Captioning
+#### Video Captioning
 * Berkeley [[Web](http://jeffdonahue.com/lrcn/)] [[Paper](http://arxiv.org/pdf/1411.4389)]
   * Jeff Donahue, Lisa Anne Hendricks, Sergio Guadarrama, Marcus Rohrbach, Subhashini Venugopalan, Kate Saenko, and Trevor Darrell, *Long-term Recurrent Convolutional Networks for Visual Recognition and Description*, arXiv:1411.4389 / CVPR 2015
 * UT Austin + UML + Berkeley [[Paper](http://arxiv.org/pdf/1412.4729)]
@@ -250,16 +290,9 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Univ. Montreal + NYU + IBM [[Paper](http://arxiv.org/pdf/1511.04590.pdf)]
   * Li Yao, Nicolas Ballas, Kyunghyun Cho, John R. Smith, and Yoshua Bengio, *Empirical performance upper bounds for image and video captioning*, arXiv:1511.04590
 
-### Video Modeling
-* Univ. Toronto [[paper](http://arxiv.org/abs/1502.04681)]
-  * Nitish Srivastava, Elman Mansimov, Ruslan Salakhutdinov, Unsupervised Learning of Video Representations using LSTMs, arXiv:1502.04681 / ICML 2015
-* Univ. Cambridge [[paper](http://arxiv.org/abs/1511.06309)]
-  * Viorica Patraucean, Ankur Handa, Roberto Cipolla, Spatio-temporal video autoencoder with differentiable memory, arXiv:1511.06309
 
+#### Visual Question Answering
 
-### Question Answering
-* FAIR [[Web](https://research.facebook.com/researchers/1543934539189348)] [[Paper](http://arxiv.org/pdf/1502.05698.pdf)]
-  * Jason Weston, Antoine Bordes, Sumit Chopra, Tomas Mikolov, and Alexander M. Rush, *Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks*, arXiv:1502.05698
 * Virginia Tech. + MSR [[Web](http://www.visualqa.org/)] [[Paper](http://arxiv.org/pdf/1505.00468)]
   * Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C. Lawrence Zitnick, and Devi Parikh, *VQA: Visual Question Answering*, arXiv:1505.00468 / CVPR 2015 SUNw:Scene Understanding workshop
 * MPI + Berkeley [[Web](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/)] [[Paper](http://arxiv.org/pdf/1505.01121)]
@@ -278,13 +311,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * KIT + MIT + Univ. Toronto [[Paper](http://arxiv.org/abs/1512.02902)] [[Dataset](http://movieqa.cs.toronto.edu/home/)]
     * Makarand Tapaswi, Yukun Zhu, Rainer Stiefelhagen, Antonio Torralba, Raquel Urtasun, Sanja Fidler, MovieQA: Understanding Stories in Movies through Question-Answering, arXiv:1512.02902
 
-### Image Generation
-* Karol Gregor, Ivo Danihelka, Alex Graves, Danilo J. Rezende, and Daan Wierstra, *DRAW: A Recurrent Neural Network for Image Generation,* ICML 2015 [[Paper](http://arxiv.org/pdf/1502.04623)]
-* Angeliki Lazaridou, Dat T. Nguyen, R. Bernardi, and M. Baroni, *Unveiling the Dreams of Word Embeddings: Towards Language-Driven Image Generation,* arXiv:1506.03500 [[Paper](http://arxiv.org/pdf/1506.03500)]
-* Lucas Theis and Matthias Bethge, *Generative Image Modeling Using Spatial LSTMs,* arXiv:1506.03478 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1506.03478)]
-* Aaron van den Oord, Nal Kalchbrenner, and Koray Kavukcuoglu, *Pixel Recurrent Neural Networks,* arXiv:1601.06759 [[Paper](http://arxiv.org/abs/1601.06759)]
 
-### Turing Machines
+#### Turing Machines
 *  A.Graves, G. Wayne, and I. Danihelka., *Neural Turing Machines,* arXiv preprint arXiv:1410.5401 [[Paper](http://arxiv.org/pdf/1410.5401)]
 * Jason Weston, Sumit Chopra, Antoine Bordes, *Memory Networks,* arXiv:1410.3916 [[Paper](http://arxiv.org/pdf/1410.3916)]
 * Armand Joulin and Tomas Mikolov, *Inferring Algorithmic Patterns with Stack-Augmented Recurrent Nets*, arXiv:1503.01007 / NIPS 2015 [[Paper](http://arxiv.org/pdf/1503.01007)]
@@ -300,6 +328,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Wojciech Zaremba, Tomas Mikolov, Armand Joulin, and Rob Fergus, *Learning Simple Algorithms from Examples*, arXiv:1511.07275 [[Paper](http://arxiv.org/pdf/1511.07275.pdf)]
 
 ### Robotics
+
 * Hongyuan Mei, Mohit Bansal, and Matthew R. Walter, *Listen, Attend, and Walk: Neural Mapping of Navigational Instructions to Action Sequences*, arXiv:1506.04089 [[Paper](http://arxiv.org/pdf/1506.04089.pdf)]
 * Marvin Zhang, Sergey Levine, Zoe McCarthy, Chelsea Finn, and Pieter Abbeel, *Policy Learning with Continuous Memory States for Partially Observed Robotic Control,* arXiv:1507.01273. [[Paper]](http://arxiv.org/pdf/1507.01273)
 
@@ -341,7 +370,7 @@ Recurrent Neural Networks*, arXiv:1506.03099 / NIPS 2015 [[Paper](http://arxiv.o
 * [WildML](http://www.wildml.com/) blog's RNN tutorial [[Part1](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/)], [[Part2](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/)], [[Part3](http://www.wildml.com/2015/10/recurrent-neural-networks-tutorial-part-3-backpropagation-through-time-and-vanishing-gradients/)], [[Part4](http://www.wildml.com/2015/10/recurrent-neural-network-tutorial-part-4-implementing-a-grulstm-rnn-with-python-and-theano/)]
 * [Optimizing RNN Performance](https://svail.github.io/) from Baidu's Silicon Valley AI Lab.
 * [Character Level Language modelling using RNN](http://nbviewer.ipython.org/gist/yoavg/d76121dfde2618422139) by Yoav Goldberg
-* [Implement an RNN in Python](http://peterroelants.github.io/posts/rnn_implementation_part01/). 
+* [Implement an RNN in Python](http://peterroelants.github.io/posts/rnn_implementation_part01/).
 * [LSTM Backpropogation](http://arunmallya.github.io/writeups/nn/lstm/index.html#/)
 
 ## Online Demos
