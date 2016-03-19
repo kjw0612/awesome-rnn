@@ -2,7 +2,7 @@
 
 A curated list of resources dedicated to recurrent neural networks (closely related to *deep learning*).
 
-Maintainers - [Myungsub Choi](http://github.com/myungsub), [Jiwon Kim](http://github.com/kjw0612)
+Maintainers - [Myungsub Choi](https://github.com/myungsub), [Jiwon Kim](https://github.com/kjw0612)
 
 We have pages for other topics: [awesome-deep-vision](http://jiwonkim.org/awesome-deep-vision/), [awesome-random-forest](http://jiwonkim.org/awesome-random-forest/)
 
@@ -61,7 +61,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [Keras](http://keras.io/) : (Tensorflow / Theano)-based modular deep learning library similar to Torch
   * [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorflow) by sherjilozair: char-rnn in tensorflow
 * [Theano](http://deeplearning.net/software/theano/) - Python
-  * Simple IPython [tutorial on Theano](http://nbviewer.ipython.org/github/craffel/theano-tutorial/blob/master/Theano%20Tutorial.ipynb)
+  * Simple IPython [tutorial on Theano](http://nbviewer.jupyter.org/github/craffel/theano-tutorial/blob/master/Theano%20Tutorial.ipynb)
   * [Deep Learning Tutorials](http://www.deeplearning.net/tutorial/)
     * [RNN for semantic parsing of speech](http://www.deeplearning.net/tutorial/rnnslu.html#rnnslu)
     * [LSTM network for sentiment analysis](http://www.deeplearning.net/tutorial/lstm.html#lstm)
@@ -89,7 +89,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [Brainstorm](https://github.com/IDSIA/brainstorm): deep learning library in Python, developed by IDSIA, thereby including various recurrent structures
   * [Chainer](http://chainer.org/) : new, flexible deep learning library in Python
   * [CGT](http://joschu.github.io/)(Computational Graph Toolkit) : replicates Theano's API, but with very short compilation time and multithreading
-  * [RNNLIB](http://sourceforge.net/p/rnnl/wiki/Home/) by Alex Graves : C++ based LSTM library
+  * [RNNLIB](https://sourceforge.net/p/rnnl/wiki/Home/) by Alex Graves : C++ based LSTM library
   * [RNNLM](http://rnnlm.org/) by Tomas Mikolov : C++ based simple code
   * [faster-RNNLM](https://github.com/yandex/faster-rnnlm) of Yandex : C++ based rnnlm implementation aimed to handle huge datasets
   * [neuraltalk](https://github.com/karpathy/neuraltalk) by Andrej Karpathy : numpy-based RNN/LSTM implementation
@@ -180,7 +180,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Haşim Sak, Andrew Senior, Kanishka Rao, and Françoise Beaufays. *Fast and Accurate Recurrent Neural Network Acoustic Models for Speech Recognition*, arXiv:1507.06947 2015 [[Paper](http://arxiv.org/pdf/1507.06947v1.pdf)].
 
 #### Machine Translation
-* Oxford [[Paper](http://nal.co/papers/KalchbrennerBlunsom_EMNLP13)]
+* Oxford [[Paper](http://www.nal.ai/papers/kalchbrennerblunsom_emnlp13)]
   * Nal Kalchbrenner and Phil Blunsom, *Recurrent Continuous Translation Models*, EMNLP 2013
 * Univ. Montreal
   * Kyunghyun Cho, Bart van Berrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio, *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation*, arXiv:1406.1078 / EMNLP 2014 [[Paper](http://arxiv.org/pdf/1406.1078)]
@@ -380,7 +380,7 @@ Recurrent Neural Networks*, arXiv:1506.03099 / NIPS 2015 [[Paper](http://arxiv.o
 * [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) in [Colah's blog](http://colah.github.io/)
 * [WildML](http://www.wildml.com/) blog's RNN tutorial [[Part1](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/)], [[Part2](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/)], [[Part3](http://www.wildml.com/2015/10/recurrent-neural-networks-tutorial-part-3-backpropagation-through-time-and-vanishing-gradients/)], [[Part4](http://www.wildml.com/2015/10/recurrent-neural-network-tutorial-part-4-implementing-a-grulstm-rnn-with-python-and-theano/)]
 * [Optimizing RNN Performance](https://svail.github.io/) from Baidu's Silicon Valley AI Lab.
-* [Character Level Language modelling using RNN](http://nbviewer.ipython.org/gist/yoavg/d76121dfde2618422139) by Yoav Goldberg
+* [Character Level Language modelling using RNN](http://nbviewer.jupyter.org/gist/yoavg/d76121dfde2618422139) by Yoav Goldberg
 * [Implement an RNN in Python](http://peterroelants.github.io/posts/rnn_implementation_part01/).
 * [LSTM Backpropogation](http://arunmallya.github.io/writeups/nn/lstm/index.html#/)
 
