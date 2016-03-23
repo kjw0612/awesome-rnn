@@ -133,6 +133,10 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Samuel R. Bowman, Christopher D. Manning, and Christopher Potts, *Tree-structured composition in neural networks without tree-structured architectures*, arXiv:1506.04834 [[Paper](http://arxiv.org/pdf/1506.04834)]
 * Grid LSTM [[Paper](http://arxiv.org/pdf/1507.01526)] [[Code](https://github.com/coreylynch/grid-lstm)]
   * Nal Kalchbrenner, Ivo Danihelka, and Alex Graves, *Grid Long Short-Term Memory*, arXiv:1507.01526
+* Segmental RNN [[Paper](http://arxiv.org/pdf/1511.06018v2.pdf)]
+  * Lingpeng Kong, Chris Dyer, Noah Smith, "Segmental Recurrent Neural Networks", ICLR 2016.
+* Seq2seq for Sets [[Paper](http://arxiv.org/pdf/1511.06391v4.pdf)]
+  * Oriol Vinyals, Samy Bengio, Manjunath Kudlur, "Order Matters: Sequence to sequence for sets", ICLR 2016.
 
 #### Memory
 
@@ -150,6 +154,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Oriol Vinyals, Meire Fortunato, and Navdeep Jaitly, *Pointer Networks*, arXiv:1506.03134 / NIPS 2015
 * Deep Attention Recurrent Q-Network [[Paper](http://arxiv.org/abs/1512.01693)]
   * Ivan Sorokin, Alexey Seleznev, Mikhail Pavlov, Aleksandr Fedorov, Anastasiia Ignateva, *Deep Attention Recurrent Q-Network* , arXiv:1512.01693
+* Dynamic Memory Networks [[Paper](http://arxiv.org/abs/1506.07285)]
+  * Ankit Kumar, Ozan Irsoy, Peter Ondruska, Mohit Iyyer, James Bradbury, Ishaan Gulrajani, Victor Zhong, Romain Paulus, Richard Socher, "Ask Me Anything: Dynamic Memory Networks for Natural Language Processing", arXiv:1506.07285
 
 ### Surveys
 * Yann LeCun, Yoshua Bengio, and Geoffrey Hinton, [Deep Learning](http://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf), Nature 2015
@@ -207,13 +213,13 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Ryan Lowe, Nissan Pow, Iulian V. Serban, and Joelle Pineau, *The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems*, arXiv:1506.08909 [[Paper](http://arxiv.org/pdf/1506.08909)]
 
 #### Question Answering
-* FAIR [[Web](https://research.facebook.com/researchers/1543934539189348)] [[Paper](http://arxiv.org/pdf/1502.05698.pdf)]
-  * Jason Weston, Antoine Bordes, Sumit Chopra, Tomas Mikolov, and Alexander M. Rush, *Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks*, arXiv:1502.05698
+* FAIR 
+  * Jason Weston, Antoine Bordes, Sumit Chopra, Tomas Mikolov, and Alexander M. Rush, *Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks*, arXiv:1502.05698 [[Web](https://research.facebook.com/researchers/1543934539189348)] [[Paper](http://arxiv.org/pdf/1502.05698.pdf)]
+  * Felix Hill, Antoine Bordes, Sumit Chopra, Jason Weston, "The Goldilocks Principle: Reading Children's Books with Explicit Memory Representations", ICLR 2016 [[Paper](http://arxiv.org/abs/1511.02301)]
 * DeepMind + Oxford [[Paper](http://arxiv.org/pdf/1506.03340.pdf)]
   * Karl M. Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom, *Teaching Machines to Read and Comprehend*, arXiv:1506.03340 / NIPS 2015
 * MetaMind [[Paper](http://arxiv.org/pdf/1506.07285.pdf)]
   * Ankit Kumar, Ozan Irsoy, Jonathan Su, James Bradbury, Robert English, Brian Pierce, Peter Ondruska, Mohit Iyyer, Ishaan Gulrajani, and Richard Socher, *Ask Me Anything: Dynamic Memory Networks for Natural Language Processing*, arXiv:1506.07285
-
 
 ### Computer Vision
 
