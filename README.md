@@ -150,6 +150,10 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Oriol Vinyals, Meire Fortunato, and Navdeep Jaitly, *Pointer Networks*, arXiv:1506.03134 / NIPS 2015
 * Deep Attention Recurrent Q-Network [[Paper](http://arxiv.org/abs/1512.01693)]
   * Ivan Sorokin, Alexey Seleznev, Mikhail Pavlov, Aleksandr Fedorov, Anastasiia Ignateva, *Deep Attention Recurrent Q-Network* , arXiv:1512.01693
+* Goldilocks Principle [[Paper](http://arxiv.org/abs/1511.02301)]
+  * Felix Hill, Antoine Bordes, Sumit Chopra, Jason Weston, "The Goldilocks Principle: Reading Children's Books with Explicit Memory Representations"
+* Dynamic Memory Networks [[Paper](http://arxiv.org/abs/1506.07285)]
+  * Ankit Kumar, Ozan Irsoy, Peter Ondruska, Mohit Iyyer, James Bradbury, Ishaan Gulrajani, Victor Zhong, Romain Paulus, Richard Socher, "Ask Me Anything: Dynamic Memory Networks for Natural Language Processing"
 
 ### Surveys
 * Yann LeCun, Yoshua Bengio, and Geoffrey Hinton, [Deep Learning](http://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf), Nature 2015
