@@ -133,6 +133,10 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Samuel R. Bowman, Christopher D. Manning, and Christopher Potts, *Tree-structured composition in neural networks without tree-structured architectures*, arXiv:1506.04834 [[Paper](http://arxiv.org/pdf/1506.04834)]
 * Grid LSTM [[Paper](http://arxiv.org/pdf/1507.01526)] [[Code](https://github.com/coreylynch/grid-lstm)]
   * Nal Kalchbrenner, Ivo Danihelka, and Alex Graves, *Grid Long Short-Term Memory*, arXiv:1507.01526
+* Segmental RNN [[Paper](http://arxiv.org/pdf/1511.06018v2.pdf)]
+  * Lingpeng Kong, Chris Dyer, Noah Smith, "Segmental Recurrent Neural Networks", ICLR 2016.
+* Seq2seq for Sets [[Paper](http://arxiv.org/pdf/1511.06391v4.pdf)]
+  * Oriol Vinyals, Samy Bengio, Manjunath Kudlur, "Order Matters: Sequence to sequence for sets", ICLR 2016.
 
 #### Memory
 
