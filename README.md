@@ -117,6 +117,9 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [Training Recurrent Neural Networks](http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf)
 * Richard Socher (2014)
   * [Recursive Deep Learning for Natural Language Processing and Computer Vision](http://nlp.stanford.edu/~socherr/thesis.pdf)
+* Ian Goodfellow, Yoshua Bengio, and Aaron Courville (2016)
+  * [The Deep Learning Book chapter 10](http://www.deeplearningbook.org/contents/rnn.html)
+
 
 ### Architecture Variants
 
