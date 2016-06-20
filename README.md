@@ -214,10 +214,14 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Lifeng Shang, Zhengdong Lu, and Hang Li, *Neural Responding Machine for Short-Text Conversation*, arXiv:1503.02364 / ACL 2015 [[Paper](http://arxiv.org/pdf/1503.02364)]
 * Oriol Vinyals and Quoc V. Le, *A Neural Conversational Model*, arXiv:1506.05869 [[Paper](http://arxiv.org/pdf/1506.05869)]
 * Ryan Lowe, Nissan Pow, Iulian V. Serban, and Joelle Pineau, *The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems*, arXiv:1506.08909 [[Paper](http://arxiv.org/pdf/1506.08909)]
+* Jesse Dodge, Andreea Gane, Xiang Zhang, Antoine Bordes, Sumit Chopra, Alexander Miller, Arthur Szlam, and Jason Weston, *Evaluating Prerequisite Qualities for Learning End-to-End Dialog Systems*, arXiv:1511.06931 [[Paper](http://arxiv.org/pdf/1511.06931)]
+* Jason Weston, *Dialog-based Language Learning*, arXiv:1604.06045, [[Paper](http://arxiv.org/pdf/1604.06045)]
+* Antoine Bordes and Jason Weston, *Learning End-to-End Goal-Oriented Dialog*, arXiv:1605.07683 [[Paper](http://arxiv.org/pdf/1605.07683)]
 
 #### Question Answering
-* FAIR 
+* FAIR
   * Jason Weston, Antoine Bordes, Sumit Chopra, Tomas Mikolov, and Alexander M. Rush, *Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks*, arXiv:1502.05698 [[Web](https://research.facebook.com/researchers/1543934539189348)] [[Paper](http://arxiv.org/pdf/1502.05698.pdf)]
+  * Antoine Bordes, Nicolas Usunier, Sumit Chopra, and Jason Weston, *Simple Question answering with Memory Networks*, arXiv:1506.02075 [[Paper](http://arxiv.org/abs/1506.02075)]
   * Felix Hill, Antoine Bordes, Sumit Chopra, Jason Weston, "The Goldilocks Principle: Reading Children's Books with Explicit Memory Representations", ICLR 2016 [[Paper](http://arxiv.org/abs/1511.02301)]
 * DeepMind + Oxford [[Paper](http://arxiv.org/pdf/1506.03340.pdf)]
   * Karl M. Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom, *Teaching Machines to Read and Comprehend*, arXiv:1506.03340 / NIPS 2015
@@ -375,11 +379,21 @@ Recurrent Neural Networks*, arXiv:1506.03099 / NIPS 2015 [[Paper](http://arxiv.o
   * [Flickr 8k](http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html)
   * [Flickr 30k](http://shannon.cs.illinois.edu/DenotationGraph/)
   * [Microsoft COCO](http://mscoco.org/home/)
+* Question Answering
+  * [The bAbI Project](http://fb.ai/babi) - Dataset for text understanding and reasoning, by Facebook AI Research. Contains:
+    * The (20) QA bAbI tasks - [[Paper](http://arxiv.org/abs/1502.05698)]
+    * The (6) dialog bAbI tasks - [[Paper](http://arxiv.org/abs/1605.07683)]
+    * The Children's Book Test - [[Paper](http://arxiv.org/abs/1511.02301)]
+    * The Movie Dialog dataset - [[Paper](http://arxiv.org/abs/1511.06931)]
+    * The MovieQA dataset - [[Data](http://www.thespermwhale.com/jaseweston/babi/movie_dialog_dataset.tgz)]
+    * The Dialog-based Language Learning dataset - [[Paper](http://arxiv.org/abs/1604.06045)]
+    * The SimpleQuestions dataset - [[Paper](http://arxiv.org/abs/1506.02075)]
+  * [SQuAD](https://stanford-qa.com/) - Stanford Question Answering Dataset :  [[Paper](http://arxiv.org/pdf/1606.05250)]
 * Image Question Answering
   * [DAQUAR](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/) - built upon [NYU Depth v2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) by N. Silberman et al.
   * [VQA](http://www.visualqa.org/) - based on [MSCOCO](http://mscoco.org/) images
   * [Image QA](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/) - based on MSCOCO images
-  * [Multilingual Image QA] - built from scratch by Baidu - in Chinese, with English translation
+  * [Multilingual Image QA](http://idl.baidu.com/FM-IQA.html) - built from scratch by Baidu - in Chinese, with English translation
 * Action Recognition
   * [THUMOS](http://www.thumos.info/home.html) : Large-scale action recognition dataset
   * [MultiTHUMOS](http://ai.stanford.edu/~syyeung/resources/multithumos.zip) : Extension of THUMOS '14 action detection dataset with dense multilabele annotation
