@@ -75,6 +75,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * [Caffe](https://github.com/BVLC/caffe) - C++ with MATLAB/Python wrappers
   * [LRCN](http://jeffdonahue.com/lrcn/) by Jeff Donahue
 * [Torch](http://torch.ch/) - Lua
+  * [torchnet](https://github.com/torchnet/torchnet) : modular framework that enables building neural network models
   * [char-rnn](https://github.com/karpathy/char-rnn) by Andrej Karpathy : multi-layer RNN/LSTM/GRU for training/sampling from character-level language models
   * [torch-rnn](https://github.com/jcjohnson/torch-rnn) by Justin Johnson : reusable RNN/LSTM modules for torch7 - much faster and memory efficient reimplementation of char-rnn
   * [neuraltalk2](https://github.com/karpathy/neuraltalk2) by Andrej Karpathy : Recurrent Neural Network captions image, much faster and better version of the original [neuraltalk](https://github.com/karpathy/neuraltalk)
