@@ -331,6 +331,11 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Hauyuan Gao, Junhua Mao, Jie Zhou, Zhiheng Huang, Lei Wang, and Wei Xu, *Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question Answering*, arXiv:1505.05612 / NIPS 2015
 * SNU + NAVER [[Paper](http://arxiv.org/abs/1606.01455)]
   * Jin-Hwa Kim, Sang-Woo Lee, Dong-Hyun Kwak, Min-Oh Heo, Jeonghee Kim, Jung-Woo Ha, Byoung-Tak Zhang, *Multimodal Residual Learning for Visual QA*, arXiv:1606:01455
+* UC Berkeley + Sony [[Paper](https://arxiv.org/pdf/1606.01847)]
+  * Akira Fukui, Dong Huk Park, Daylen Yang, Anna Rohrbach, Trevor Darrell, and Marcus Rohrbach, *Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding*, arXiv:1606.01847
+* Postech [[Paper](http://arxiv.org/pdf/1606.03647.pdf)]
+  * Hyeonwoo Noh and Bohyung Han, *Training Recurrent Answering Units with Joint Loss Minimization for VQA*, arXiv:1606.03647
+* 
 * Video QA
   * CMU + UTS [[paper](http://arxiv.org/abs/1511.04670)]
     * Linchao Zhu, Zhongwen Xu, Yi Yang, Alexander G. Hauptmann, Uncovering Temporal Context for Video Question and Answering, arXiv:1511.04670
