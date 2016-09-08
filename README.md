@@ -2,7 +2,7 @@
 
 A curated list of resources dedicated to recurrent neural networks (closely related to *deep learning*).
 
-Maintainers - [Myungsub Choi](https://github.com/myungsub), [Jiwon Kim](https://github.com/kjw0612), [Taeksoo Kim](https://github.com/jazzsaxmafia)
+Maintainers - [Myungsub Choi](https://github.com/myungsub), [Taeksoo Kim](https://github.com/jazzsaxmafia), [Jiwon Kim](https://github.com/kjw0612)
 
 We have pages for other topics: [awesome-deep-vision](http://jiwonkim.org/awesome-deep-vision/), [awesome-random-forest](http://jiwonkim.org/awesome-random-forest/)
 
