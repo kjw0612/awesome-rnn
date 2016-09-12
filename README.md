@@ -141,6 +141,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Lingpeng Kong, Chris Dyer, Noah Smith, "Segmental Recurrent Neural Networks", ICLR 2016.
 * Seq2seq for Sets [[Paper](http://arxiv.org/pdf/1511.06391v4.pdf)]
   * Oriol Vinyals, Samy Bengio, Manjunath Kudlur, "Order Matters: Sequence to sequence for sets", ICLR 2016.
+* Hierarchical Recurrent Neural Networks [[Paper](http://arxiv.org/abs/1609.01704)]
+  * Junyoung Chung, Sungjin Ahn, Yoshua Bengio, "Hierarchical Multiscale Recurrent Neural Networks", arXiv:1609.01704
 
 #### Memory
 
