@@ -424,4 +424,4 @@ Recurrent Neural Networks*, arXiv:1506.03099 / NIPS 2015 [[Paper](http://arxiv.o
 ## Online Demos
 * Alex graves, hand-writing generation [[link](http://www.cs.toronto.edu/~graves/handwriting.html)]
 * Ink Poster: Handwritten post-it notes [[link](http://www.inkposter.com/?)]
-* LSTMVis: Visual Analysis for Recurent Neural Networks [[link](http://lstm.seas.harvard.edu/)]
+* LSTMVis: Visual Analysis for Recurrent Neural Networks [[link](http://lstm.seas.harvard.edu/)]
