@@ -420,6 +420,7 @@ Recurrent Neural Networks*, arXiv:1506.03099 / NIPS 2015 [[Paper](http://arxiv.o
 * [LSTM Backpropogation](http://arunmallya.github.io/writeups/nn/lstm/index.html#/)
 * [Introduction to Recurrent Networks in TensorFlow](https://danijar.com/introduction-to-recurrent-networks-in-tensorflow/) by Danijar Hafner
 * [Variable Sequence Lengths in TensorFlow](https://danijar.com/variable-sequence-lengths-in-tensorflow/) by Danijar Hafner
+* [Written Memories: Understanding, Deriving and Extending the LSTM](http://r2rt.com/written-memories-understanding-deriving-and-extending-the-lstm.html) by Silviu Pitis
 
 ## Online Demos
 * Alex graves, hand-writing generation [[link](http://www.cs.toronto.edu/~graves/handwriting.html)]
