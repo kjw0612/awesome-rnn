@@ -8,12 +8,12 @@ We have pages for other topics: [awesome-deep-vision](https://github.com/kjw0612
 
 
 ## Contributing
-Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-vision/pulls), email Myungsub Choi (cms6539@gmail.com) or join our chats to add links.
+Please feel free to [pull requests](https://github.com/kjw0612/awesome-rnn/pulls), email Myungsub Choi (cms6539@gmail.com) or join our chats to add links.
 
 [![Join the chat at https://gitter.im/kjw0612/awesome-rnn](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kjw0612/awesome-rnn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Sharing
-+ [Share on Twitter](http://twitter.com/home?status=http://jiwonkim.org/awesome-rnn%0AResources for Recurrent Neural Networks)
++ [Share on Twitter](http://twitter.com/home?status=http://jiwonkim.org/awesome-rnn%0AResources%20for%20Recurrent%20Neural%20Networks)
 + [Share on Facebook](http://www.facebook.com/sharer/sharer.php?u=https://jiwonkim.org/awesome-rnn)
 + [Share on Google Plus](http://plus.google.com/share?url=https://jiwonkim.org/awesome-rnn)
 + [Share on LinkedIn](http://www.linkedin.com/shareArticle?mini=true&url=https://jiwonkim.org/awesome-rnn&title=Awesome%20Recurrent%20Neural&Networks&summary=&source=)
@@ -82,6 +82,10 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * [LSTM](https://github.com/wojzaremba/lstm) by Wojciech Zaremba : Long Short Term Memory Units to train a language model on word level Penn Tree Bank dataset
   * [Oxford](https://github.com/oxford-cs-ml-2015) by Nando de Freitas : Oxford Computer Science - Machine Learning 2015 Practicals
   * [rnn](https://github.com/Element-Research/rnn) by Nicholas Leonard : general library for implementing RNN, LSTM, BRNN and BLSTM (highly unit tested).
+* [PyTorch](http://pytorch.org/) - Python
+  * [Word-level RNN example](https://github.com/pytorch/examples/tree/master/word_language_model) : demonstrates PyTorch's built in RNN modules for language modeling
+  * [Practical PyTorch tutorials](https://github.com/spro/practical-pytorch) by Sean Robertson : focuses on using RNNs for Natural Language Processing
+  * [Deep Learning For NLP In PyTorch](https://github.com/rguthrie3/DeepLearningForNLPInPytorch) by Robert Guthrie : written for a Natural Language Processing class at Georgia Tech
 * [DL4J](http://deeplearning4j.org/) by [Skymind](http://www.skymind.io/) : Deep Learning library for Java, Scala & Clojure on Hadoop, Spark & GPUs
   * [Documentation](http://deeplearning4j.org/) (Also in [Chinese](http://deeplearning4j.org/zh-index.html), [Japanese](http://deeplearning4j.org/ja-index.html), [Korean](http://deeplearning4j.org/kr-index.html)) : [RNN](http://deeplearning4j.org/usingrnns.html), [LSTM](http://deeplearning4j.org/lstm.html)
   * [rnn examples](https://github.com/deeplearning4j/dl4j-examples/tree/master/dl4j-examples/src/main/java/org/deeplearning4j/examples/recurrent)
