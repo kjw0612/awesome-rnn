@@ -60,6 +60,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-rnn/pulls
   * [Scikit Flow (skflow)](https://github.com/tensorflow/skflow) - Simplified Scikit-learn like Interface for TensorFlow
   * [Keras](http://keras.io/) : (Tensorflow / Theano)-based modular deep learning library similar to Torch
   * [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorflow) by sherjilozair: char-rnn in tensorflow
+  * [tensorflow-char-rnn](https://github.com/crazydonkey200/tensorflow-char-rnn) by crazydonkey200: char-rnn in tensorflow with customizable parameters
 * [Theano](http://deeplearning.net/software/theano/) - Python
   * Simple IPython [tutorial on Theano](http://nbviewer.jupyter.org/github/craffel/theano-tutorial/blob/master/Theano%20Tutorial.ipynb)
   * [Deep Learning Tutorials](http://www.deeplearning.net/tutorial/)
