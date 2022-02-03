@@ -6,9 +6,10 @@ Maintainers - [Myungsub Choi](https://github.com/myungsub), [Taeksoo Kim](https:
 
 We have pages for other topics: [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision), [awesome-random-forest](https://github.com/kjw0612/awesome-random-forest)
 
-
 ## Contributing
 Please feel free to [pull requests](https://github.com/kjw0612/awesome-rnn/pulls), email Myungsub Choi (cms6539@gmail.com) or join our chats to add links.
+
+The project is not actively maintained.
 
 [![Join the chat at https://gitter.im/kjw0612/awesome-rnn](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kjw0612/awesome-rnn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
