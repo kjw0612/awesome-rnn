@@ -1,4 +1,4 @@
-# Awesome Recurrent Neural Networks
+# Awesome Recurrent Neural Networks (RNN)
 
 A curated list of resources dedicated to recurrent neural networks (closely related to *deep learning*).
 
@@ -14,10 +14,10 @@ The project is not actively maintained.
 [![Join the chat at https://gitter.im/kjw0612/awesome-rnn](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kjw0612/awesome-rnn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Sharing
-+ [Share on Twitter](http://twitter.com/home?status=http://jiwonkim.org/awesome-rnn%0AResources%20for%20Recurrent%20Neural%20Networks)
-+ [Share on Facebook](http://www.facebook.com/sharer/sharer.php?u=https://jiwonkim.org/awesome-rnn)
-+ [Share on Google Plus](http://plus.google.com/share?url=https://jiwonkim.org/awesome-rnn)
-+ [Share on LinkedIn](http://www.linkedin.com/shareArticle?mini=true&url=https://jiwonkim.org/awesome-rnn&title=Awesome%20Recurrent%20Neural&Networks&summary=&source=)
+- [Share on Twitter](http://twitter.com/home?status=http://jiwonkim.org/awesome-rnn%0AResources%20for%20Recurrent%20Neural%20Networks)
+- [Share on Facebook](http://www.facebook.com/sharer/sharer.php?u=https://jiwonkim.org/awesome-rnn)
+- [Share on Google Plus](http://plus.google.com/share?url=https://jiwonkim.org/awesome-rnn)
+- [Share on LinkedIn](http://www.linkedin.com/shareArticle?mini=true&url=https://jiwonkim.org/awesome-rnn&title=Awesome%20Recurrent%20Neural&Networks&summary=&source=)
 
 ## Table of Contents
 
@@ -61,6 +61,8 @@ The project is not actively maintained.
   * [Scikit Flow (skflow)](https://github.com/tensorflow/skflow) - Simplified Scikit-learn like Interface for TensorFlow
   * [Keras](http://keras.io/) : (Tensorflow / Theano)-based modular deep learning library similar to Torch
   * [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorflow) by sherjilozair: char-rnn in tensorflow
+  * [LSTMs for Human Activity Recognition](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition) : RNN code example for classification on time series in TensorFlow on cellphone sensor data, by Guillaume Chevalier
+  * [Signal prediction with a seq2seq RNN](https://github.com/guillaume-chevalier/seq2seq-signal-prediction) : Coding exercises for signal prediction with a seq2seq model, in TensorFlow, by Guillaume Chevalier
 * [Theano](http://deeplearning.net/software/theano/) - Python
   * Simple IPython [tutorial on Theano](http://nbviewer.jupyter.org/github/craffel/theano-tutorial/blob/master/Theano%20Tutorial.ipynb)
   * [Deep Learning Tutorials](http://www.deeplearning.net/tutorial/)
@@ -167,6 +169,8 @@ The project is not actively maintained.
   * Ivan Sorokin, Alexey Seleznev, Mikhail Pavlov, Aleksandr Fedorov, Anastasiia Ignateva, *Deep Attention Recurrent Q-Network* , arXiv:1512.01693
 * Dynamic Memory Networks [[Paper](http://arxiv.org/abs/1506.07285)]
   * Ankit Kumar, Ozan Irsoy, Peter Ondruska, Mohit Iyyer, James Bradbury, Ishaan Gulrajani, Victor Zhong, Romain Paulus, Richard Socher, "Ask Me Anything: Dynamic Memory Networks for Natural Language Processing", arXiv:1506.07285
+* Differentiable Neural Computer [[Paper](https://www.nature.com/articles/nature20101.epdf?author_access_token=ImTXBI8aWbYxYQ51Plys8NRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSurJ3hxupzWuRNeGvvXnoO8o4jTJcnAyhGuZzXJ1GEaD-Z7E6X_a9R-xqJ9TfJWBqz)], [[Code](https://github.com/deepmind/dnc)]
+  * Alex Graves, Greg Wayne, Malcolm Reynolds, Tim Harley, Ivo Danihelka, Agnieszka Grabska-Barwińska, Sergio Gómez Colmenarejo, Edward Grefenstette, Tiago Ramalho, John Agapiou, Adrià Puigdomènech Badia, Karl Moritz Hermann, Yori Zwols, Georg Ostrovski, Adam Cain, Helen King, Christopher Summerfield, Phil Blunsom, Koray Kavukcuoglu, Demis Hassabis, "Hybrid computing using a neural network with dynamic external memory", doi:10.1038/nature20101
 
 ### Surveys
 * Yann LeCun, Yoshua Bengio, and Geoffrey Hinton, [Deep Learning](http://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf), Nature 2015
@@ -385,6 +389,7 @@ Recurrent Neural Networks*, arXiv:1506.03099 / NIPS 2015 [[Paper](http://arxiv.o
 * Quan Gan, Qipeng Guo, Zheng Zhang, and Kyunghyun Cho, *First Step toward Model-Free, Anonymous Object Tracking with Recurrent Neural Networks*, arXiv:1511.06425 [[Paper](http://arxiv.org/pdf/1511.06425.pdf)]
 * Francesco Visin, Kyle Kastner, Aaron Courville, Yoshua Bengio, Matteo Matteucci, and Kyunghyun Cho, *ReSeg: A Recurrent Neural Network for Object Segmentation*, arXiv:1511.07053 [[Paper](http://arxiv.org/pdf/1511.07053.pdf)]
 * Juergen Schmidhuber, *On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models*, arXiv:1511.09249 [[Paper]](http://arxiv.org/pdf/1511.09249)
+* Marcin Andrychowicz, Misha Denil, Sergio Gomez, Matthew W. Hoffman, David Pfau, Tom Schaul, Brendan Shillingford, Nando de Freitas, *Learning to learn by gradient descent by gradient descent*, arXiv:1606.04474 [[Paper]](http://arxiv.org/pdf/1606.04474), [[Code](https://github.com/deepmind/learning-to-learn)]
 
 ## Datasets
 * Speech Recognition
