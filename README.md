@@ -148,7 +148,8 @@ The project is not actively maintained.
   * Oriol Vinyals, Samy Bengio, Manjunath Kudlur, "Order Matters: Sequence to sequence for sets", ICLR 2016.
 * Hierarchical Recurrent Neural Networks [[Paper](http://arxiv.org/abs/1609.01704)]
   * Junyoung Chung, Sungjin Ahn, Yoshua Bengio, "Hierarchical Multiscale Recurrent Neural Networks", arXiv:1609.01704
-
+* The Statistical Recurrent Unit [[Paper](https://arxiv.org/pdf/1703.00381.pdf)]
+  * Junier B. Oliva, Barnabas Poczos,Jeff Schneider, *The Statistical Recurrent Unit*, arxiv:1703.00381 / ICML 2017
 #### Memory
 
 * LSTM [[Paper](http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf)]
