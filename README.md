@@ -148,6 +148,10 @@ The project is not actively maintained.
   * Oriol Vinyals, Samy Bengio, Manjunath Kudlur, "Order Matters: Sequence to sequence for sets", ICLR 2016.
 * Hierarchical Recurrent Neural Networks [[Paper](http://arxiv.org/abs/1609.01704)]
   * Junyoung Chung, Sungjin Ahn, Yoshua Bengio, "Hierarchical Multiscale Recurrent Neural Networks", arXiv:1609.01704
+* Quasi-Recurrent Neural Networks [[Paper](https://arxiv.org/abs/1611.01576)]
+  * James Bradbury, Stephen Merity, Caiming Xiong, Richard Socher, "Quasi-Recurrent Neural Networks", arXiv:1611.01576
+* Minimal Gated Unit for Recurrent Neural Networks [[Paper](https://arxiv.org/abs/1603.09420)]
+  * Guo-Bing Zhou, Jianxin Wu, Chen-Lin Zhang, Zhi-Hua Zhou, "Minimal Gated Unit for Recurrent Neural Networks", arXiv:1603.09420
 
 #### Memory
 
